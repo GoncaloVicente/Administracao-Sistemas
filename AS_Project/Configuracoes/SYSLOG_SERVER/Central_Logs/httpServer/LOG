@@ -1,0 +1,1842 @@
+Apr 20 15:05:28 httpServer rsyslogd:  [origin software="rsyslogd" swVersion="8.32.0" x-pid="889" x-info="http://www.rsyslog.com"] exiting on signal 15.
+Apr 20 15:05:28 httpServer systemd[1]: Stopping System Logging Service...
+Apr 20 15:05:28 httpServer systemd[1]: Stopped System Logging Service.
+Apr 20 15:05:28 httpServer systemd[1]: Starting System Logging Service...
+Apr 20 15:05:28 httpServer systemd[1]: Started System Logging Service.
+Apr 20 15:05:28 httpServer rsyslogd: imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' (fd 3) from systemd.  [v8.32.0]
+Apr 20 15:05:28 httpServer rsyslogd: rsyslogd's groupid changed to 106
+Apr 20 15:05:28 httpServer rsyslogd: rsyslogd's userid changed to 102
+Apr 20 15:05:28 httpServer rsyslogd:  [origin software="rsyslogd" swVersion="8.32.0" x-pid="2327" x-info="http://www.rsyslog.com"] start
+Apr 20 15:08:30 httpServer systemd-networkd[786]: enp0s3: Configured
+Apr 20 15:08:30 httpServer systemd-timesyncd[693]: Network configuration changed, trying to establish connection.
+Apr 20 15:08:30 httpServer systemd-timesyncd[693]: Synchronized to time server 91.189.89.198:123 (ntp.ubuntu.com).
+Apr 20 15:13:31 httpServer systemd-timesyncd[693]: Network configuration changed, trying to establish connection.
+Apr 20 15:13:32 httpServer systemd-networkd[786]: enp0s3: Configured
+Apr 20 15:13:32 httpServer systemd-timesyncd[693]: Synchronized to time server 91.189.89.198:123 (ntp.ubuntu.com).
+Apr 20 15:17:01 httpServer CRON[2362]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr 20 15:18:28 httpServer systemd[1]: Starting Cleanup of Temporary Directories...
+Apr 20 15:18:29 httpServer systemd[1]: Started Cleanup of Temporary Directories.
+Apr 20 15:18:29 httpServer systemd-networkd[786]: enp0s3: Configured
+Apr 20 15:18:29 httpServer systemd-timesyncd[693]: Network configuration changed, trying to establish connection.
+Apr 20 15:18:30 httpServer systemd-timesyncd[693]: Synchronized to time server 91.189.89.198:123 (ntp.ubuntu.com).
+Apr 20 15:21:54 httpServer systemd[1]: Closed Load/Save RF Kill Switch Status /dev/rfkill Watch.
+Apr 20 15:21:54 httpServer systemd[1]: Stopped target Graphical Interface.
+Apr 20 15:21:54 httpServer systemd[1]: Stopped target Timers.
+Apr 20 15:21:54 httpServer systemd[1]: Stopped Discard unused blocks once a week.
+Apr 20 15:21:54 httpServer systemd[1]: Stopping Session 1 of user ubuntu.
+Apr 20 15:21:54 httpServer systemd[1]: Stopped target Cloud-init target.
+Apr 20 15:21:54 httpServer systemd[1]: Stopped Execute cloud user/final scripts.
+Apr 20 15:21:54 httpServer systemd[1]: Stopped Apply the settings specified in cloud-config.
+Apr 20 15:21:54 httpServer systemd[1]: Stopping Accounts Service...
+Apr 20 15:21:54 httpServer systemd[1]: Stopping Authorization Manager...
+Apr 20 15:21:54 httpServer systemd[1]: Stopping Availability of block devices...
+Apr 20 15:21:54 httpServer systemd[1]: Stopped target Multi-User System.
+Apr 20 15:21:54 httpServer systemd[1]: Stopping LSB: web-based administration interface for Unix systems...
+Apr 20 15:21:54 httpServer systemd[1]: Stopped target Login Prompts.
+Apr 20 15:21:54 httpServer systemd[1]: Stopping Getty on tty1...
+Apr 20 15:21:54 httpServer systemd[1]: Stopping LXD - container startup/shutdown...
+May  6 14:17:37 httpServer kernel: [    0.000000] Linux version 4.15.0-99-generic (buildd@lcy01-amd64-013) (gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04)) #100-Ubuntu SMP Wed Apr 22 20:32:56 UTC 2020 (Ubuntu 4.15.0-99.100-generic 4.15.18)
+May  6 14:17:37 httpServer kernel: [    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-4.15.0-99-generic root=UUID=36ab84de-3031-4f04-9624-8ae68d5796ce ro maybe-ubiquity
+May  6 14:17:37 httpServer kernel: [    0.000000] KERNEL supported cpus:
+May  6 14:17:37 httpServer kernel: [    0.000000]   Intel GenuineIntel
+May  6 14:17:37 httpServer kernel: [    0.000000]   AMD AuthenticAMD
+May  6 14:17:37 httpServer kernel: [    0.000000]   Centaur CentaurHauls
+May  6 14:17:37 httpServer kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+May  6 14:17:37 httpServer kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'
+May  6 14:17:37 httpServer kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x004: 'AVX registers'
+May  6 14:17:37 httpServer kernel: [    0.000000] x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256
+May  6 14:17:37 httpServer kernel: [    0.000000] x86/fpu: Enabled xstate features 0x7, context size is 832 bytes, using 'standard' format.
+May  6 14:17:37 httpServer kernel: [    0.000000] e820: BIOS-provided physical RAM map:
+May  6 14:17:37 httpServer kernel: [    0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009fbff] usable
+May  6 14:17:37 httpServer kernel: [    0.000000] BIOS-e820: [mem 0x000000000009fc00-0x000000000009ffff] reserved
+May  6 14:17:37 httpServer kernel: [    0.000000] BIOS-e820: [mem 0x00000000000f0000-0x00000000000fffff] reserved
+May  6 14:17:37 httpServer kernel: [    0.000000] BIOS-e820: [mem 0x0000000000100000-0x000000003ffeffff] usable
+May  6 14:17:37 httpServer kernel: [    0.000000] BIOS-e820: [mem 0x000000003fff0000-0x000000003fffffff] ACPI data
+May  6 14:17:37 httpServer kernel: [    0.000000] BIOS-e820: [mem 0x00000000fec00000-0x00000000fec00fff] reserved
+May  6 14:17:37 httpServer kernel: [    0.000000] BIOS-e820: [mem 0x00000000fee00000-0x00000000fee00fff] reserved
+May  6 14:17:37 httpServer kernel: [    0.000000] BIOS-e820: [mem 0x00000000fffc0000-0x00000000ffffffff] reserved
+May  6 14:17:37 httpServer kernel: [    0.000000] NX (Execute Disable) protection: active
+May  6 14:17:37 httpServer kernel: [    0.000000] SMBIOS 2.5 present.
+May  6 14:17:37 httpServer kernel: [    0.000000] DMI: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+May  6 14:17:37 httpServer kernel: [    0.000000] Hypervisor detected: KVM
+May  6 14:17:37 httpServer kernel: [    0.000000] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+May  6 14:17:37 httpServer kernel: [    0.000000] e820: remove [mem 0x000a0000-0x000fffff] usable
+May  6 14:17:37 httpServer kernel: [    0.000000] e820: last_pfn = 0x3fff0 max_arch_pfn = 0x400000000
+May  6 14:17:37 httpServer kernel: [    0.000000] MTRR default type: uncachable
+May  6 14:17:37 httpServer kernel: [    0.000000] MTRR variable ranges disabled:
+May  6 14:17:37 httpServer kernel: [    0.000000] MTRR: Disabled
+May  6 14:17:37 httpServer kernel: [    0.000000] x86/PAT: MTRRs disabled, skipping PAT initialization too.
+May  6 14:17:37 httpServer kernel: [    0.000000] CPU MTRRs all blank - virtualized system.
+May  6 14:17:37 httpServer kernel: [    0.000000] x86/PAT: Configuration [0-7]: WB  WT  UC- UC  WB  WT  UC- UC  
+May  6 14:17:37 httpServer kernel: [    0.000000] found SMP MP-table at [mem 0x0009fff0-0x0009ffff]
+May  6 14:17:37 httpServer kernel: [    0.000000] Scanning 1 areas for low memory corruption
+May  6 14:17:37 httpServer kernel: [    0.000000] BRK [0x30991000, 0x30991fff] PGTABLE
+May  6 14:17:37 httpServer kernel: [    0.000000] BRK [0x30992000, 0x30992fff] PGTABLE
+May  6 14:17:37 httpServer kernel: [    0.000000] BRK [0x30993000, 0x30993fff] PGTABLE
+May  6 14:17:37 httpServer kernel: [    0.000000] BRK [0x30994000, 0x30994fff] PGTABLE
+May  6 14:17:37 httpServer kernel: [    0.000000] BRK [0x30995000, 0x30995fff] PGTABLE
+May  6 14:17:37 httpServer kernel: [    0.000000] RAMDISK: [mem 0x31191000-0x348bffff]
+May  6 14:17:37 httpServer kernel: [    0.000000] ACPI: Early table checksum verification disabled
+May  6 14:17:37 httpServer kernel: [    0.000000] ACPI: RSDP 0x00000000000E0000 000024 (v02 VBOX  )
+May  6 14:17:37 httpServer kernel: [    0.000000] ACPI: XSDT 0x000000003FFF0030 00003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+May  6 14:17:37 httpServer kernel: [    0.000000] ACPI: FACP 0x000000003FFF00F0 0000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+May  6 14:17:37 httpServer kernel: [    0.000000] ACPI: DSDT 0x000000003FFF0470 0022EA (v02 VBOX   VBOXBIOS 00000002 INTL 20100528)
+May  6 14:17:37 httpServer kernel: [    0.000000] ACPI: FACS 0x000000003FFF0200 000040
+May  6 14:17:37 httpServer kernel: [    0.000000] ACPI: FACS 0x000000003FFF0200 000040
+May  6 14:17:37 httpServer kernel: [    0.000000] ACPI: APIC 0x000000003FFF0240 000054 (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+May  6 14:17:37 httpServer kernel: [    0.000000] ACPI: SSDT 0x000000003FFF02A0 0001CC (v01 VBOX   VBOXCPUT 00000002 INTL 20100528)
+May  6 14:17:37 httpServer kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+May  6 14:17:37 httpServer kernel: [    0.000000] No NUMA configuration found
+May  6 14:17:37 httpServer kernel: [    0.000000] Faking a node at [mem 0x0000000000000000-0x000000003ffeffff]
+May  6 14:17:37 httpServer kernel: [    0.000000] NODE_DATA(0) allocated [mem 0x3ffc5000-0x3ffeffff]
+May  6 14:17:37 httpServer kernel: [    0.000000] kvm-clock: cpu 0, msr 0:3ff44001, primary cpu clock
+May  6 14:17:37 httpServer kernel: [    0.000000] kvm-clock: Using msrs 4b564d01 and 4b564d00
+May  6 14:17:37 httpServer kernel: [    0.000000] kvm-clock: using sched offset of 5504140148 cycles
+May  6 14:17:37 httpServer kernel: [    0.000000] clocksource: kvm-clock: mask: 0xffffffffffffffff max_cycles: 0x1cd42e4dffb, max_idle_ns: 881590591483 ns
+May  6 14:17:37 httpServer kernel: [    0.000000] Zone ranges:
+May  6 14:17:37 httpServer kernel: [    0.000000]   DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+May  6 14:17:37 httpServer kernel: [    0.000000]   DMA32    [mem 0x0000000001000000-0x000000003ffeffff]
+May  6 14:17:37 httpServer kernel: [    0.000000]   Normal   empty
+May  6 14:17:37 httpServer kernel: [    0.000000]   Device   empty
+May  6 14:17:37 httpServer kernel: [    0.000000] Movable zone start for each node
+May  6 14:17:37 httpServer kernel: [    0.000000] Early memory node ranges
+May  6 14:17:37 httpServer kernel: [    0.000000]   node   0: [mem 0x0000000000001000-0x000000000009efff]
+May  6 14:17:37 httpServer kernel: [    0.000000]   node   0: [mem 0x0000000000100000-0x000000003ffeffff]
+May  6 14:17:37 httpServer kernel: [    0.000000] Reserved but unavailable: 98 pages
+May  6 14:17:37 httpServer kernel: [    0.000000] Initmem setup node 0 [mem 0x0000000000001000-0x000000003ffeffff]
+May  6 14:17:37 httpServer kernel: [    0.000000] On node 0 totalpages: 262030
+May  6 14:17:37 httpServer kernel: [    0.000000]   DMA zone: 64 pages used for memmap
+May  6 14:17:37 httpServer kernel: [    0.000000]   DMA zone: 21 pages reserved
+May  6 14:17:37 httpServer kernel: [    0.000000]   DMA zone: 3998 pages, LIFO batch:0
+May  6 14:17:37 httpServer kernel: [    0.000000]   DMA32 zone: 4032 pages used for memmap
+May  6 14:17:37 httpServer kernel: [    0.000000]   DMA32 zone: 258032 pages, LIFO batch:31
+May  6 14:17:37 httpServer kernel: [    0.000000] ACPI: PM-Timer IO Port: 0x4008
+May  6 14:17:37 httpServer kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+May  6 14:17:37 httpServer kernel: [    0.000000] IOAPIC[0]: apic_id 1, version 32, address 0xfec00000, GSI 0-23
+May  6 14:17:37 httpServer kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+May  6 14:17:37 httpServer kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 low level)
+May  6 14:17:37 httpServer kernel: [    0.000000] ACPI: IRQ0 used by override.
+May  6 14:17:37 httpServer kernel: [    0.000000] ACPI: IRQ9 used by override.
+May  6 14:17:37 httpServer kernel: [    0.000000] Using ACPI (MADT) for SMP configuration information
+May  6 14:17:37 httpServer kernel: [    0.000000] smpboot: Allowing 1 CPUs, 0 hotplug CPUs
+May  6 14:17:37 httpServer kernel: [    0.000000] PM: Registered nosave memory: [mem 0x00000000-0x00000fff]
+May  6 14:17:37 httpServer kernel: [    0.000000] PM: Registered nosave memory: [mem 0x0009f000-0x0009ffff]
+May  6 14:17:37 httpServer kernel: [    0.000000] PM: Registered nosave memory: [mem 0x000a0000-0x000effff]
+May  6 14:17:37 httpServer kernel: [    0.000000] PM: Registered nosave memory: [mem 0x000f0000-0x000fffff]
+May  6 14:17:37 httpServer kernel: [    0.000000] e820: [mem 0x40000000-0xfebfffff] available for PCI devices
+May  6 14:17:37 httpServer kernel: [    0.000000] Booting paravirtualized kernel on KVM
+May  6 14:17:37 httpServer kernel: [    0.000000] clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645519600211568 ns
+May  6 14:17:37 httpServer kernel: [    0.000000] random: get_random_bytes called from start_kernel+0x99/0x4fd with crng_init=0
+May  6 14:17:37 httpServer kernel: [    0.000000] setup_percpu: NR_CPUS:8192 nr_cpumask_bits:1 nr_cpu_ids:1 nr_node_ids:1
+May  6 14:17:37 httpServer kernel: [    0.000000] percpu: Embedded 45 pages/cpu s147456 r8192 d28672 u2097152
+May  6 14:17:37 httpServer kernel: [    0.000000] pcpu-alloc: s147456 r8192 d28672 u2097152 alloc=1*2097152
+May  6 14:17:37 httpServer kernel: [    0.000000] pcpu-alloc: [0] 0 
+May  6 14:17:37 httpServer kernel: [    0.000000] PV qspinlock hash table entries: 256 (order: 0, 4096 bytes)
+May  6 14:17:37 httpServer kernel: [    0.000000] Built 1 zonelists, mobility grouping on.  Total pages: 257913
+May  6 14:17:37 httpServer kernel: [    0.000000] Policy zone: DMA32
+May  6 14:17:37 httpServer kernel: [    0.000000] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-4.15.0-99-generic root=UUID=36ab84de-3031-4f04-9624-8ae68d5796ce ro maybe-ubiquity
+May  6 14:17:37 httpServer kernel: [    0.000000] Calgary: detecting Calgary via BIOS EBDA area
+May  6 14:17:37 httpServer kernel: [    0.000000] Calgary: Unable to locate Rio Grande table in EBDA - bailing!
+May  6 14:17:37 httpServer kernel: [    0.000000] Memory: 945940K/1048120K available (12300K kernel code, 2481K rwdata, 4268K rodata, 2432K init, 2712K bss, 102180K reserved, 0K cma-reserved)
+May  6 14:17:37 httpServer kernel: [    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+May  6 14:17:37 httpServer kernel: [    0.000000] Kernel/User page tables isolation: enabled
+May  6 14:17:37 httpServer kernel: [    0.000000] ftrace: allocating 39364 entries in 154 pages
+May  6 14:17:37 httpServer kernel: [    0.004000] Hierarchical RCU implementation.
+May  6 14:17:37 httpServer kernel: [    0.004000] #011RCU restricting CPUs from NR_CPUS=8192 to nr_cpu_ids=1.
+May  6 14:17:37 httpServer kernel: [    0.004000] #011Tasks RCU enabled.
+May  6 14:17:37 httpServer kernel: [    0.004000] RCU: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=1
+May  6 14:17:37 httpServer kernel: [    0.004000] NR_IRQS: 524544, nr_irqs: 256, preallocated irqs: 16
+May  6 14:17:37 httpServer kernel: [    0.004000] Console: colour VGA+ 80x25
+May  6 14:17:37 httpServer kernel: [    0.004000] console [tty0] enabled
+May  6 14:17:37 httpServer kernel: [    0.004000] ACPI: Core revision 20170831
+May  6 14:17:37 httpServer kernel: [    0.004000] ACPI: 2 ACPI AML tables successfully acquired and loaded
+May  6 14:17:37 httpServer kernel: [    0.004000] APIC: Switch to symmetric I/O mode setup
+May  6 14:17:37 httpServer kernel: [    0.004000] x2apic enabled
+May  6 14:17:37 httpServer kernel: [    0.004000] Switched APIC routing to physical x2apic.
+May  6 14:17:37 httpServer kernel: [    0.004000] ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+May  6 14:17:37 httpServer kernel: [    0.004000] tsc: Detected 2712.000 MHz processor
+May  6 14:17:37 httpServer kernel: [    0.004000] Calibrating delay loop (skipped) preset value.. 5424.00 BogoMIPS (lpj=10848000)
+May  6 14:17:37 httpServer kernel: [    0.004000] pid_max: default: 32768 minimum: 301
+May  6 14:17:37 httpServer kernel: [    0.004000] Security Framework initialized
+May  6 14:17:37 httpServer kernel: [    0.004000] Yama: becoming mindful.
+May  6 14:17:37 httpServer kernel: [    0.004000] AppArmor: AppArmor initialized
+May  6 14:17:37 httpServer kernel: [    0.004151] Dentry cache hash table entries: 131072 (order: 8, 1048576 bytes)
+May  6 14:17:37 httpServer kernel: [    0.004532] Inode-cache hash table entries: 65536 (order: 7, 524288 bytes)
+May  6 14:17:37 httpServer kernel: [    0.004997] Mount-cache hash table entries: 2048 (order: 2, 16384 bytes)
+May  6 14:17:37 httpServer kernel: [    0.005466] Mountpoint-cache hash table entries: 2048 (order: 2, 16384 bytes)
+May  6 14:17:37 httpServer kernel: [    0.006728] process: using mwait in idle threads
+May  6 14:17:37 httpServer kernel: [    0.006974] Last level iTLB entries: 4KB 64, 2MB 8, 4MB 8
+May  6 14:17:37 httpServer kernel: [    0.007281] Last level dTLB entries: 4KB 64, 2MB 0, 4MB 0, 1GB 4
+May  6 14:17:37 httpServer kernel: [    0.007759] Spectre V1 : Mitigation: usercopy/swapgs barriers and __user pointer sanitization
+May  6 14:17:37 httpServer kernel: [    0.008005] Spectre V2 : Mitigation: Full generic retpoline
+May  6 14:17:37 httpServer kernel: [    0.008272] Spectre V2 : Spectre v2 / SpectreRSB mitigation: Filling RSB on context switch
+May  6 14:17:37 httpServer kernel: [    0.008691] Speculative Store Bypass: Vulnerable
+May  6 14:17:37 httpServer kernel: [    0.008981] MDS: Vulnerable: Clear CPU buffers attempted, no microcode
+May  6 14:17:37 httpServer kernel: [    0.027246] Freeing SMP alternatives memory: 36K
+May  6 14:17:37 httpServer kernel: [    0.137283] smpboot: CPU0: Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz (family: 0x6, model: 0x8e, stepping: 0x9)
+May  6 14:17:37 httpServer kernel: [    0.138032] Performance Events: unsupported p6 CPU model 142 no PMU driver, software events only.
+May  6 14:17:37 httpServer kernel: [    0.138689] Hierarchical SRCU implementation.
+May  6 14:17:37 httpServer kernel: [    0.139814] NMI watchdog: Perf event create on CPU 0 failed with -2
+May  6 14:17:37 httpServer kernel: [    0.140000] NMI watchdog: Perf NMI watchdog permanently disabled
+May  6 14:17:37 httpServer kernel: [    0.140000] smp: Bringing up secondary CPUs ...
+May  6 14:17:37 httpServer kernel: [    0.140000] smp: Brought up 1 node, 1 CPU
+May  6 14:17:37 httpServer kernel: [    0.140000] smpboot: Max logical packages: 1
+May  6 14:17:37 httpServer kernel: [    0.140000] smpboot: Total of 1 processors activated (5424.00 BogoMIPS)
+May  6 14:17:37 httpServer kernel: [    0.140000] devtmpfs: initialized
+May  6 14:17:37 httpServer kernel: [    0.140060] x86/mm: Memory block size: 128MB
+May  6 14:17:37 httpServer kernel: [    0.140456] evm: security.selinux
+May  6 14:17:37 httpServer kernel: [    0.140655] evm: security.SMACK64
+May  6 14:17:37 httpServer kernel: [    0.140850] evm: security.SMACK64EXEC
+May  6 14:17:37 httpServer kernel: [    0.141056] evm: security.SMACK64TRANSMUTE
+May  6 14:17:37 httpServer kernel: [    0.141275] evm: security.SMACK64MMAP
+May  6 14:17:37 httpServer kernel: [    0.141526] evm: security.apparmor
+May  6 14:17:37 httpServer kernel: [    0.141726] evm: security.ima
+May  6 14:17:37 httpServer kernel: [    0.141911] evm: security.capability
+May  6 14:17:37 httpServer kernel: [    0.142230] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+May  6 14:17:37 httpServer kernel: [    0.142748] futex hash table entries: 256 (order: 2, 16384 bytes)
+May  6 14:17:37 httpServer kernel: [    0.143068] pinctrl core: initialized pinctrl subsystem
+May  6 14:17:37 httpServer kernel: [    0.144026] RTC time: 14:17:14, date: 05/06/20
+May  6 14:17:37 httpServer kernel: [    0.144599] NET: Registered protocol family 16
+May  6 14:17:37 httpServer kernel: [    0.145065] audit: initializing netlink subsys (disabled)
+May  6 14:17:37 httpServer kernel: [    0.145518] cpuidle: using governor ladder
+May  6 14:17:37 httpServer kernel: [    0.145872] cpuidle: using governor menu
+May  6 14:17:37 httpServer kernel: [    0.146194] ACPI: bus type PCI registered
+May  6 14:17:37 httpServer kernel: [    0.146490] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+May  6 14:17:37 httpServer kernel: [    0.146961] PCI: Using configuration type 1 for base access
+May  6 14:17:37 httpServer kernel: [    0.147336] audit: type=2000 audit(1588774642.138:1): state=initialized audit_enabled=0 res=1
+May  6 14:17:37 httpServer kernel: [    0.149346] HugeTLB registered 2.00 MiB page size, pre-allocated 0 pages
+May  6 14:17:37 httpServer kernel: [    0.152525] ACPI: Added _OSI(Module Device)
+May  6 14:17:37 httpServer kernel: [    0.152887] ACPI: Added _OSI(Processor Device)
+May  6 14:17:37 httpServer kernel: [    0.153452] ACPI: Added _OSI(3.0 _SCP Extensions)
+May  6 14:17:37 httpServer kernel: [    0.153698] ACPI: Added _OSI(Processor Aggregator Device)
+May  6 14:17:37 httpServer kernel: [    0.153958] ACPI: Added _OSI(Linux-Dell-Video)
+May  6 14:17:37 httpServer kernel: [    0.154208] ACPI: Added _OSI(Linux-Lenovo-NV-HDMI-Audio)
+May  6 14:17:37 httpServer kernel: [    0.154508] ACPI: Added _OSI(Linux-HPI-Hybrid-Graphics)
+May  6 14:17:37 httpServer kernel: [    0.156705] ACPI: Executed 1 blocks of module-level executable AML code
+May  6 14:17:37 httpServer kernel: [    0.162626] ACPI: Interpreter enabled
+May  6 14:17:37 httpServer kernel: [    0.162849] ACPI: (supports S0 S5)
+May  6 14:17:37 httpServer kernel: [    0.163087] ACPI: Using IOAPIC for interrupt routing
+May  6 14:17:37 httpServer kernel: [    0.164158] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+May  6 14:17:37 httpServer kernel: [    0.164900] ACPI: Enabled 2 GPEs in block 00 to 07
+May  6 14:17:37 httpServer kernel: [    0.174640] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+May  6 14:17:37 httpServer kernel: [    0.174941] acpi PNP0A03:00: _OSC: OS supports [ASPM ClockPM Segments MSI]
+May  6 14:17:37 httpServer kernel: [    0.176149] acpi PNP0A03:00: _OSC: not requesting OS control; OS requires [ExtendedConfig ASPM ClockPM MSI]
+May  6 14:17:37 httpServer kernel: [    0.176788] acpi PNP0A03:00: fail to add MMCONFIG information, can't access extended PCI configuration space under this bridge.
+May  6 14:17:37 httpServer kernel: [    0.177918] PCI host bridge to bus 0000:00
+May  6 14:17:37 httpServer kernel: [    0.178142] pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+May  6 14:17:37 httpServer kernel: [    0.178444] pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+May  6 14:17:37 httpServer kernel: [    0.178745] pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
+May  6 14:17:37 httpServer kernel: [    0.179114] pci_bus 0000:00: root bus resource [mem 0x40000000-0xfdffffff window]
+May  6 14:17:37 httpServer kernel: [    0.179496] pci_bus 0000:00: root bus resource [bus 00-ff]
+May  6 14:17:37 httpServer kernel: [    0.179802] pci 0000:00:00.0: [8086:1237] type 00 class 0x060000
+May  6 14:17:37 httpServer kernel: [    0.180568] pci 0000:00:01.0: [8086:7000] type 00 class 0x060100
+May  6 14:17:37 httpServer kernel: [    0.181376] pci 0000:00:01.1: [8086:7111] type 00 class 0x01018a
+May  6 14:17:37 httpServer kernel: [    0.181845] pci 0000:00:01.1: reg 0x20: [io  0xd000-0xd00f]
+May  6 14:17:37 httpServer kernel: [    0.182034] pci 0000:00:01.1: legacy IDE quirk: reg 0x10: [io  0x01f0-0x01f7]
+May  6 14:17:37 httpServer kernel: [    0.182354] pci 0000:00:01.1: legacy IDE quirk: reg 0x14: [io  0x03f6]
+May  6 14:17:37 httpServer kernel: [    0.182647] pci 0000:00:01.1: legacy IDE quirk: reg 0x18: [io  0x0170-0x0177]
+May  6 14:17:37 httpServer kernel: [    0.182957] pci 0000:00:01.1: legacy IDE quirk: reg 0x1c: [io  0x0376]
+May  6 14:17:37 httpServer kernel: [    0.183511] pci 0000:00:02.0: [15ad:0405] type 00 class 0x030000
+May  6 14:17:37 httpServer kernel: [    0.184368] pci 0000:00:02.0: reg 0x10: [io  0xd010-0xd01f]
+May  6 14:17:37 httpServer kernel: [    0.185345] pci 0000:00:02.0: reg 0x14: [mem 0xf0000000-0xf0ffffff]
+May  6 14:17:37 httpServer kernel: [    0.186548] pci 0000:00:02.0: reg 0x18: [mem 0xf1000000-0xf11fffff]
+May  6 14:17:37 httpServer kernel: [    0.191148] pci 0000:00:03.0: [8086:100e] type 00 class 0x020000
+May  6 14:17:37 httpServer kernel: [    0.191741] pci 0000:00:03.0: reg 0x10: [mem 0xf1200000-0xf121ffff]
+May  6 14:17:37 httpServer kernel: [    0.192913] pci 0000:00:03.0: reg 0x18: [io  0xd020-0xd027]
+May  6 14:17:37 httpServer kernel: [    0.196364] pci 0000:00:04.0: [80ee:cafe] type 00 class 0x088000
+May  6 14:17:37 httpServer kernel: [    0.197018] pci 0000:00:04.0: reg 0x10: [io  0xd040-0xd05f]
+May  6 14:17:37 httpServer kernel: [    0.197540] pci 0000:00:04.0: reg 0x14: [mem 0xf1400000-0xf17fffff]
+May  6 14:17:37 httpServer kernel: [    0.198070] pci 0000:00:04.0: reg 0x18: [mem 0xf1800000-0xf1803fff pref]
+May  6 14:17:37 httpServer kernel: [    0.200372] pci 0000:00:05.0: [8086:2415] type 00 class 0x040100
+May  6 14:17:37 httpServer kernel: [    0.200540] pci 0000:00:05.0: reg 0x10: [io  0xd100-0xd1ff]
+May  6 14:17:37 httpServer kernel: [    0.200632] pci 0000:00:05.0: reg 0x14: [io  0xd200-0xd23f]
+May  6 14:17:37 httpServer kernel: [    0.201352] pci 0000:00:06.0: [106b:003f] type 00 class 0x0c0310
+May  6 14:17:37 httpServer kernel: [    0.201951] pci 0000:00:06.0: reg 0x10: [mem 0xf1804000-0xf1804fff]
+May  6 14:17:37 httpServer kernel: [    0.208276] pci 0000:00:07.0: [8086:7113] type 00 class 0x068000
+May  6 14:17:37 httpServer kernel: [    0.209076] pci 0000:00:07.0: quirk: [io  0x4000-0x403f] claimed by PIIX4 ACPI
+May  6 14:17:37 httpServer kernel: [    0.210201] pci 0000:00:07.0: quirk: [io  0x4100-0x410f] claimed by PIIX4 SMB
+May  6 14:17:37 httpServer kernel: [    0.210890] pci 0000:00:0d.0: [8086:2829] type 00 class 0x010601
+May  6 14:17:37 httpServer kernel: [    0.211534] pci 0000:00:0d.0: reg 0x10: [io  0xd240-0xd247]
+May  6 14:17:37 httpServer kernel: [    0.212098] pci 0000:00:0d.0: reg 0x14: [io  0xd248-0xd24b]
+May  6 14:17:37 httpServer kernel: [    0.212588] pci 0000:00:0d.0: reg 0x18: [io  0xd250-0xd257]
+May  6 14:17:37 httpServer kernel: [    0.213096] pci 0000:00:0d.0: reg 0x1c: [io  0xd258-0xd25b]
+May  6 14:17:37 httpServer kernel: [    0.213577] pci 0000:00:0d.0: reg 0x20: [io  0xd260-0xd26f]
+May  6 14:17:37 httpServer kernel: [    0.214674] pci 0000:00:0d.0: reg 0x24: [mem 0xf1806000-0xf1807fff]
+May  6 14:17:37 httpServer kernel: [    0.217504] ACPI: PCI Interrupt Link [LNKA] (IRQs 5 9 10 *11)
+May  6 14:17:37 httpServer kernel: [    0.218382] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 9 *10 11)
+May  6 14:17:37 httpServer kernel: [    0.218817] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 *9 10 11)
+May  6 14:17:37 httpServer kernel: [    0.219234] ACPI: PCI Interrupt Link [LNKD] (IRQs 5 9 10 *11)
+May  6 14:17:37 httpServer kernel: [    0.220137] SCSI subsystem initialized
+May  6 14:17:37 httpServer kernel: [    0.220495] libata version 3.00 loaded.
+May  6 14:17:37 httpServer kernel: [    0.220590] pci 0000:00:02.0: vgaarb: setting as boot VGA device
+May  6 14:17:37 httpServer kernel: [    0.220890] pci 0000:00:02.0: vgaarb: VGA device added: decodes=io+mem,owns=io+mem,locks=none
+May  6 14:17:37 httpServer kernel: [    0.221294] pci 0000:00:02.0: vgaarb: bridge control possible
+May  6 14:17:37 httpServer kernel: [    0.221563] vgaarb: loaded
+May  6 14:17:37 httpServer kernel: [    0.221792] ACPI: bus type USB registered
+May  6 14:17:37 httpServer kernel: [    0.222029] usbcore: registered new interface driver usbfs
+May  6 14:17:37 httpServer kernel: [    0.222297] usbcore: registered new interface driver hub
+May  6 14:17:37 httpServer kernel: [    0.222569] usbcore: registered new device driver usb
+May  6 14:17:37 httpServer kernel: [    0.222994] EDAC MC: Ver: 3.0.0
+May  6 14:17:37 httpServer kernel: [    0.223754] PCI: Using ACPI for IRQ routing
+May  6 14:17:37 httpServer kernel: [    0.224004] PCI: pci_cache_line_size set to 64 bytes
+May  6 14:17:37 httpServer kernel: [    0.224216] e820: reserve RAM buffer [mem 0x0009fc00-0x0009ffff]
+May  6 14:17:37 httpServer kernel: [    0.224220] e820: reserve RAM buffer [mem 0x3fff0000-0x3fffffff]
+May  6 14:17:37 httpServer kernel: [    0.224332] NetLabel: Initializing
+May  6 14:17:37 httpServer kernel: [    0.224537] NetLabel:  domain hash size = 128
+May  6 14:17:37 httpServer kernel: [    0.224764] NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
+May  6 14:17:37 httpServer kernel: [    0.225866] NetLabel:  unlabeled traffic allowed by default
+May  6 14:17:37 httpServer kernel: [    0.227092] clocksource: Switched to clocksource kvm-clock
+May  6 14:17:37 httpServer kernel: [    0.245518] VFS: Disk quotas dquot_6.6.0
+May  6 14:17:37 httpServer kernel: [    0.245774] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+May  6 14:17:37 httpServer kernel: [    0.246186] AppArmor: AppArmor Filesystem Enabled
+May  6 14:17:37 httpServer kernel: [    0.246575] pnp: PnP ACPI init
+May  6 14:17:37 httpServer kernel: [    0.246838] pnp 00:00: Plug and Play ACPI device, IDs PNP0303 (active)
+May  6 14:17:37 httpServer kernel: [    0.247163] pnp 00:01: Plug and Play ACPI device, IDs PNP0f03 (active)
+May  6 14:17:37 httpServer kernel: [    0.247623] pnp 00:02: Plug and Play ACPI device, IDs PNP0501 (active)
+May  6 14:17:37 httpServer kernel: [    0.248407] pnp: PnP ACPI: found 3 devices
+May  6 14:17:37 httpServer kernel: [    0.254761] clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+May  6 14:17:37 httpServer kernel: [    0.255206] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+May  6 14:17:37 httpServer kernel: [    0.255207] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+May  6 14:17:37 httpServer kernel: [    0.255209] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+May  6 14:17:37 httpServer kernel: [    0.255210] pci_bus 0000:00: resource 7 [mem 0x40000000-0xfdffffff window]
+May  6 14:17:37 httpServer kernel: [    0.255268] NET: Registered protocol family 2
+May  6 14:17:37 httpServer kernel: [    0.258766] TCP established hash table entries: 8192 (order: 4, 65536 bytes)
+May  6 14:17:37 httpServer kernel: [    0.259121] TCP bind hash table entries: 8192 (order: 5, 131072 bytes)
+May  6 14:17:37 httpServer kernel: [    0.259424] TCP: Hash tables configured (established 8192 bind 8192)
+May  6 14:17:37 httpServer kernel: [    0.259737] UDP hash table entries: 512 (order: 2, 16384 bytes)
+May  6 14:17:37 httpServer kernel: [    0.260097] UDP-Lite hash table entries: 512 (order: 2, 16384 bytes)
+May  6 14:17:37 httpServer kernel: [    0.260422] NET: Registered protocol family 1
+May  6 14:17:37 httpServer kernel: [    0.260666] pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+May  6 14:17:37 httpServer kernel: [    0.261272] pci 0000:00:01.0: Activating ISA DMA hang workarounds
+May  6 14:17:37 httpServer kernel: [    0.261613] pci 0000:00:02.0: Video device with shadowed ROM at [mem 0x000c0000-0x000dffff]
+May  6 14:17:37 httpServer kernel: [    0.263753] PCI: CLS 0 bytes, default 64
+May  6 14:17:37 httpServer kernel: [    0.263816] Unpacking initramfs...
+May  6 14:17:37 httpServer kernel: [    1.408610] Freeing initrd memory: 56508K
+May  6 14:17:37 httpServer kernel: [    1.408925] clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x2717868ea45, max_idle_ns: 440795316085 ns
+May  6 14:17:37 httpServer kernel: [    1.409561] platform rtc_cmos: registered platform RTC device (no PNP device found)
+May  6 14:17:37 httpServer kernel: [    1.409958] Scanning for low memory corruption every 60 seconds
+May  6 14:17:37 httpServer kernel: [    1.410931] Initialise system trusted keyrings
+May  6 14:17:37 httpServer kernel: [    1.411336] Key type blacklist registered
+May  6 14:17:37 httpServer kernel: [    1.411615] workingset: timestamp_bits=36 max_order=18 bucket_order=0
+May  6 14:17:37 httpServer kernel: [    1.414038] zbud: loaded
+May  6 14:17:37 httpServer kernel: [    1.414788] squashfs: version 4.0 (2009/01/31) Phillip Lougher
+May  6 14:17:37 httpServer kernel: [    1.415392] fuse init (API version 7.26)
+May  6 14:17:37 httpServer kernel: [    1.417491] Key type asymmetric registered
+May  6 14:17:37 httpServer kernel: [    1.418046] Asymmetric key parser 'x509' registered
+May  6 14:17:37 httpServer kernel: [    1.418424] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 246)
+May  6 14:17:37 httpServer kernel: [    1.418891] io scheduler noop registered
+May  6 14:17:37 httpServer kernel: [    1.419202] io scheduler deadline registered
+May  6 14:17:37 httpServer kernel: [    1.419488] io scheduler cfq registered (default)
+May  6 14:17:37 httpServer kernel: [    1.420314] ACPI: AC Adapter [AC] (on-line)
+May  6 14:17:37 httpServer kernel: [    1.420855] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
+May  6 14:17:37 httpServer kernel: [    1.421272] ACPI: Power Button [PWRF]
+May  6 14:17:37 httpServer kernel: [    1.421572] input: Sleep Button as /devices/LNXSYSTM:00/LNXSLPBN:00/input/input1
+May  6 14:17:37 httpServer kernel: [    1.422140] ACPI: Sleep Button [SLPF]
+May  6 14:17:37 httpServer kernel: [    1.423886] ACPI: Battery Slot [BAT0] (battery present)
+May  6 14:17:37 httpServer kernel: [    1.424488] Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+May  6 14:17:37 httpServer kernel: [    1.447472] 00:02: ttyS0 at I/O 0x3f8 (irq = 4, base_baud = 115200) is a 16550A
+May  6 14:17:37 httpServer kernel: [    1.450372] Linux agpgart interface v0.103
+May  6 14:17:37 httpServer kernel: [    1.453486] loop: module loaded
+May  6 14:17:37 httpServer kernel: [    1.453812] ata_piix 0000:00:01.1: version 2.13
+May  6 14:17:37 httpServer kernel: [    1.454383] scsi host0: ata_piix
+May  6 14:17:37 httpServer kernel: [    1.454658] scsi host1: ata_piix
+May  6 14:17:37 httpServer kernel: [    1.454961] ata1: PATA max UDMA/33 cmd 0x1f0 ctl 0x3f6 bmdma 0xd000 irq 14
+May  6 14:17:37 httpServer kernel: [    1.455453] ata2: PATA max UDMA/33 cmd 0x170 ctl 0x376 bmdma 0xd008 irq 15
+May  6 14:17:37 httpServer kernel: [    1.456596] libphy: Fixed MDIO Bus: probed
+May  6 14:17:37 httpServer kernel: [    1.456857] tun: Universal TUN/TAP device driver, 1.6
+May  6 14:17:37 httpServer kernel: [    1.457187] PPP generic driver version 2.4.2
+May  6 14:17:37 httpServer kernel: [    1.457458] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+May  6 14:17:37 httpServer kernel: [    1.457757] ehci-pci: EHCI PCI platform driver
+May  6 14:17:37 httpServer kernel: [    1.458138] ehci-platform: EHCI generic platform driver
+May  6 14:17:37 httpServer kernel: [    1.458535] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+May  6 14:17:37 httpServer kernel: [    1.458851] ohci-pci: OHCI PCI platform driver
+May  6 14:17:37 httpServer kernel: [    1.459969] ohci-pci 0000:00:06.0: OHCI PCI host controller
+May  6 14:17:37 httpServer kernel: [    1.460053] ohci-pci 0000:00:06.0: new USB bus registered, assigned bus number 1
+May  6 14:17:37 httpServer kernel: [    1.460053] ohci-pci 0000:00:06.0: irq 22, io mem 0xf1804000
+May  6 14:17:37 httpServer kernel: [    1.521794] usb usb1: New USB device found, idVendor=1d6b, idProduct=0001
+May  6 14:17:37 httpServer kernel: [    1.522153] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+May  6 14:17:37 httpServer kernel: [    1.522721] usb usb1: Product: OHCI PCI host controller
+May  6 14:17:37 httpServer kernel: [    1.523176] usb usb1: Manufacturer: Linux 4.15.0-99-generic ohci_hcd
+May  6 14:17:37 httpServer kernel: [    1.523493] usb usb1: SerialNumber: 0000:00:06.0
+May  6 14:17:37 httpServer kernel: [    1.523854] hub 1-0:1.0: USB hub found
+May  6 14:17:37 httpServer kernel: [    1.524096] hub 1-0:1.0: 12 ports detected
+May  6 14:17:37 httpServer kernel: [    1.524796] ohci-platform: OHCI generic platform driver
+May  6 14:17:37 httpServer kernel: [    1.525071] uhci_hcd: USB Universal Host Controller Interface driver
+May  6 14:17:37 httpServer kernel: [    1.525455] i8042: PNP: PS/2 Controller [PNP0303:PS2K,PNP0f03:PS2M] at 0x60,0x64 irq 1,12
+May  6 14:17:37 httpServer kernel: [    1.526696] serio: i8042 KBD port at 0x60,0x64 irq 1
+May  6 14:17:37 httpServer kernel: [    1.527108] serio: i8042 AUX port at 0x60,0x64 irq 12
+May  6 14:17:37 httpServer kernel: [    1.527691] mousedev: PS/2 mouse device common for all mice
+May  6 14:17:37 httpServer kernel: [    1.528484] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input2
+May  6 14:17:37 httpServer kernel: [    1.529477] rtc_cmos rtc_cmos: rtc core: registered rtc_cmos as rtc0
+May  6 14:17:37 httpServer kernel: [    1.529838] rtc_cmos rtc_cmos: alarms up to one day, 114 bytes nvram
+May  6 14:17:37 httpServer kernel: [    1.530166] i2c /dev entries driver
+May  6 14:17:37 httpServer kernel: [    1.530543] device-mapper: uevent: version 1.0.3
+May  6 14:17:37 httpServer kernel: [    1.530961] device-mapper: ioctl: 4.37.0-ioctl (2017-09-20) initialised: dm-devel@redhat.com
+May  6 14:17:37 httpServer kernel: [    1.531673] ledtrig-cpu: registered to indicate activity on CPUs
+May  6 14:17:37 httpServer kernel: [    1.532667] intel_pmc_core:  initialized
+May  6 14:17:37 httpServer kernel: [    1.535239] NET: Registered protocol family 10
+May  6 14:17:37 httpServer kernel: [    1.540149] Segment Routing with IPv6
+May  6 14:17:37 httpServer kernel: [    1.541104] NET: Registered protocol family 17
+May  6 14:17:37 httpServer kernel: [    1.541546] Key type dns_resolver registered
+May  6 14:17:37 httpServer kernel: [    1.541900] mce: Using 0 MCE banks
+May  6 14:17:37 httpServer kernel: [    1.542362] RAS: Correctable Errors collector initialized.
+May  6 14:17:37 httpServer kernel: [    1.542758] sched_clock: Marking stable (1540006029, 0)->(1650969482, -110963453)
+May  6 14:17:37 httpServer kernel: [    1.543573] registered taskstats version 1
+May  6 14:17:37 httpServer kernel: [    1.543856] Loading compiled-in X.509 certificates
+May  6 14:17:37 httpServer kernel: [    1.547231] Loaded X.509 cert 'Build time autogenerated kernel key: 7480108fe56bba9284001dfb9078560125be4684'
+May  6 14:17:37 httpServer kernel: [    1.547723] zswap: loaded using pool lzo/zbud
+May  6 14:17:37 httpServer kernel: [    1.554664] Key type big_key registered
+May  6 14:17:37 httpServer kernel: [    1.555148] Key type trusted registered
+May  6 14:17:37 httpServer kernel: [    1.557628] Key type encrypted registered
+May  6 14:17:37 httpServer kernel: [    1.557893] AppArmor: AppArmor sha1 policy hashing enabled
+May  6 14:17:37 httpServer kernel: [    1.558197] ima: No TPM chip found, activating TPM-bypass! (rc=-19)
+May  6 14:17:37 httpServer kernel: [    1.558496] ima: Allocated hash algorithm: sha1
+May  6 14:17:37 httpServer kernel: [    1.558840] evm: HMAC attrs: 0x1
+May  6 14:17:37 httpServer kernel: [    1.559537]   Magic number: 4:647:282
+May  6 14:17:37 httpServer kernel: [    1.559873] tty tty19: hash matches
+May  6 14:17:37 httpServer kernel: [    1.560295] rtc_cmos rtc_cmos: setting system clock to 2020-05-06 14:17:16 UTC (1588774636)
+May  6 14:17:37 httpServer kernel: [    1.561823] BIOS EDD facility v0.16 2004-Jun-25, 0 devices found
+May  6 14:17:37 httpServer kernel: [    1.562130] EDD information not available.
+May  6 14:17:37 httpServer kernel: [    1.617110] ata2.00: ATAPI: VBOX CD-ROM, 1.0, max UDMA/133
+May  6 14:17:37 httpServer kernel: [    1.618003] ata2.00: configured for UDMA/33
+May  6 14:17:37 httpServer kernel: [    1.618869] scsi 1:0:0:0: CD-ROM            VBOX     CD-ROM           1.0  PQ: 0 ANSI: 5
+May  6 14:17:37 httpServer kernel: [    1.640906] sr 1:0:0:0: [sr0] scsi3-mmc drive: 32x/32x xa/form2 tray
+May  6 14:17:37 httpServer kernel: [    1.641421] cdrom: Uniform CD-ROM driver Revision: 3.20
+May  6 14:17:37 httpServer kernel: [    1.642694] sr 1:0:0:0: Attached scsi CD-ROM sr0
+May  6 14:17:37 httpServer kernel: [    1.642800] sr 1:0:0:0: Attached scsi generic sg0 type 5
+May  6 14:17:37 httpServer kernel: [    1.646236] Freeing unused kernel image memory: 2432K
+May  6 14:17:37 httpServer kernel: [    1.656957] Write protecting the kernel read-only data: 20480k
+May  6 14:17:37 httpServer kernel: [    1.657940] Freeing unused kernel image memory: 2008K
+May  6 14:17:37 httpServer kernel: [    1.658549] Freeing unused kernel image memory: 1876K
+May  6 14:17:37 httpServer kernel: [    1.672722] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+May  6 14:17:37 httpServer kernel: [    1.674070] x86/mm: Checking user space page tables
+May  6 14:17:37 httpServer kernel: [    1.686158] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+May  6 14:17:37 httpServer kernel: [    1.861651] ACPI: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+May  6 14:17:37 httpServer kernel: [    1.862662] input: Video Bus as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A03:00/LNXVIDEO:00/input/input4
+May  6 14:17:37 httpServer kernel: [    1.895857] e1000: Intel(R) PRO/1000 Network Driver - version 7.3.21-k8-NAPI
+May  6 14:17:37 httpServer kernel: [    1.896278] e1000: Copyright (c) 1999-2006 Intel Corporation.
+May  6 14:17:37 httpServer kernel: [    1.903787] piix4_smbus 0000:00:07.0: SMBus Host Controller at 0x4100, revision 0
+May  6 14:17:37 httpServer kernel: [    1.980201] usb 1-1: new full-speed USB device number 2 using ohci-pci
+May  6 14:17:37 httpServer kernel: [    2.037335] AVX2 version of gcm_enc/dec engaged.
+May  6 14:17:37 httpServer kernel: [    2.038587] AES CTR mode by8 optimization enabled
+May  6 14:17:37 httpServer kernel: [    2.144179] input: ImExPS/2 Generic Explorer Mouse as /devices/platform/i8042/serio1/input/input5
+May  6 14:17:37 httpServer kernel: [    2.302905] usb 1-1: New USB device found, idVendor=80ee, idProduct=0021
+May  6 14:17:37 httpServer kernel: [    2.303286] usb 1-1: New USB device strings: Mfr=1, Product=3, SerialNumber=0
+May  6 14:17:37 httpServer kernel: [    2.304656] usb 1-1: Product: USB Tablet
+May  6 14:17:37 httpServer kernel: [    2.304921] usb 1-1: Manufacturer: VirtualBox
+May  6 14:17:37 httpServer kernel: [    2.331405] hidraw: raw HID events driver (C) Jiri Kosina
+May  6 14:17:37 httpServer kernel: [    2.345374] random: fast init done
+May  6 14:17:37 httpServer kernel: [    2.357121] random: systemd-udevd: uninitialized urandom read (16 bytes read)
+May  6 14:17:37 httpServer kernel: [    2.357946] random: systemd-udevd: uninitialized urandom read (16 bytes read)
+May  6 14:17:37 httpServer kernel: [    2.358493] random: systemd-udevd: uninitialized urandom read (16 bytes read)
+May  6 14:17:37 httpServer kernel: [    2.359050] usbcore: registered new interface driver usbhid
+May  6 14:17:37 httpServer kernel: [    2.359383] usbhid: USB HID core driver
+May  6 14:17:37 httpServer kernel: [    2.370988] input: VirtualBox USB Tablet as /devices/pci0000:00/0000:00:06.0/usb1/1-1/1-1:1.0/0003:80EE:0021.0001/input/input6
+May  6 14:17:37 httpServer kernel: [    2.372517] hid-generic 0003:80EE:0021.0001: input,hidraw0: USB HID v1.10 Mouse [VirtualBox USB Tablet] on usb-0000:00:06.0-1/input0
+May  6 14:17:37 httpServer kernel: [    2.606816] e1000 0000:00:03.0 eth0: (PCI:33MHz:32-bit) 08:00:27:50:e7:e4
+May  6 14:17:37 httpServer kernel: [    2.607133] e1000 0000:00:03.0 eth0: Intel(R) PRO/1000 Network Connection
+May  6 14:17:37 httpServer kernel: [    2.607527] ahci 0000:00:0d.0: version 3.0
+May  6 14:17:37 httpServer kernel: [    2.608365] ahci 0000:00:0d.0: SSS flag set, parallel bus scan disabled
+May  6 14:17:37 httpServer kernel: [    2.608795] ahci 0000:00:0d.0: AHCI 0001.0100 32 slots 1 ports 3 Gbps 0x1 impl SATA mode
+May  6 14:17:37 httpServer kernel: [    2.609217] ahci 0000:00:0d.0: flags: 64bit ncq stag only ccc 
+May  6 14:17:37 httpServer kernel: [    2.611698] e1000 0000:00:03.0 enp0s3: renamed from eth0
+May  6 14:17:37 httpServer kernel: [    2.615064] scsi host2: ahci
+May  6 14:17:37 httpServer kernel: [    2.615403] ata3: SATA max UDMA/133 abar m8192@0xf1806000 port 0xf1806100 irq 21
+May  6 14:17:37 httpServer kernel: [    2.618039] [drm] DMA map mode: Using physical TTM page addresses.
+May  6 14:17:37 httpServer kernel: [    2.618381] [drm] Capabilities:
+May  6 14:17:37 httpServer kernel: [    2.618636] [drm]   Cursor.
+May  6 14:17:37 httpServer kernel: [    2.618827] [drm]   Cursor bypass 2.
+May  6 14:17:37 httpServer kernel: [    2.619031] [drm]   Alpha cursor.
+May  6 14:17:37 httpServer kernel: [    2.619226] [drm]   3D.
+May  6 14:17:37 httpServer kernel: [    2.619395] [drm]   Extended Fifo.
+May  6 14:17:37 httpServer kernel: [    2.619609] [drm]   Pitchlock.
+May  6 14:17:37 httpServer kernel: [    2.619803] [drm]   Irq mask.
+May  6 14:17:37 httpServer kernel: [    2.620012] [drm]   GMR.
+May  6 14:17:37 httpServer kernel: [    2.620576] [drm]   Traces.
+May  6 14:17:37 httpServer kernel: [    2.620813] [drm]   GMR2.
+May  6 14:17:37 httpServer kernel: [    2.621020] [drm]   Screen Object 2.
+May  6 14:17:37 httpServer kernel: [    2.621319] [drm] Max GMR ids is 8192
+May  6 14:17:37 httpServer kernel: [    2.621964] [drm] Max number of GMR pages is 1048576
+May  6 14:17:37 httpServer kernel: [    2.622332] [drm] Max dedicated hypervisor surface memory is 507904 kiB
+May  6 14:17:37 httpServer kernel: [    2.622871] [drm] Maximum display memory size is 16384 kiB
+May  6 14:17:37 httpServer kernel: [    2.623135] [drm] VRAM at 0xf0000000 size is 16384 kiB
+May  6 14:17:37 httpServer kernel: [    2.623458] [drm] MMIO at 0xf1000000 size is 2048 kiB
+May  6 14:17:37 httpServer kernel: [    2.624375] [drm] global init.
+May  6 14:17:37 httpServer kernel: [    2.624703] [TTM] Zone  kernel: Available graphics memory: 504400 kiB
+May  6 14:17:37 httpServer kernel: [    2.625019] [TTM] Initializing pool allocator
+May  6 14:17:37 httpServer kernel: [    2.625401] [TTM] Initializing DMA pool allocator
+May  6 14:17:37 httpServer kernel: [    2.625817] [drm] Supports vblank timestamp caching Rev 2 (21.10.2013).
+May  6 14:17:37 httpServer kernel: [    2.626117] [drm] No driver support for vblank timestamp query.
+May  6 14:17:37 httpServer kernel: [    2.627404] [drm] Screen Objects Display Unit initialized
+May  6 14:17:37 httpServer kernel: [    2.627723] [drm] width 720
+May  6 14:17:37 httpServer kernel: [    2.627934] [drm] height 400
+May  6 14:17:37 httpServer kernel: [    2.628158] [drm] bpp 32
+May  6 14:17:37 httpServer kernel: [    2.628512] [drm] Fifo max 0x00200000 min 0x00001000 cap 0x00000355
+May  6 14:17:37 httpServer kernel: [    2.630266] [drm] DX: no.
+May  6 14:17:37 httpServer kernel: [    2.631929] [drm] Atomic: yes
+May  6 14:17:37 httpServer kernel: [    2.634478] [drm:vmw_host_log [vmwgfx]] *ERROR* Failed to send log
+May  6 14:17:37 httpServer kernel: [    2.636010] [drm:vmw_host_log [vmwgfx]] *ERROR* Failed to send log
+May  6 14:17:37 httpServer kernel: [    2.639699] fbcon: svgadrmfb (fb0) is primary device
+May  6 14:17:37 httpServer kernel: [    2.643043] Console: switching to colour frame buffer device 100x37
+May  6 14:17:37 httpServer kernel: [    2.644166] [drm] Initialized vmwgfx 2.14.0 20170612 for 0000:00:02.0 on minor 0
+May  6 14:17:37 httpServer kernel: [    2.931521] ata3: SATA link up 3.0 Gbps (SStatus 123 SControl 300)
+May  6 14:17:37 httpServer kernel: [    2.931655] ata3.00: ATA-6: VBOX HARDDISK, 1.0, max UDMA/133
+May  6 14:17:37 httpServer kernel: [    2.931680] ata3.00: 41943040 sectors, multi 128: LBA48 NCQ (depth 31/32)
+May  6 14:17:37 httpServer kernel: [    2.931848] ata3.00: configured for UDMA/133
+May  6 14:17:37 httpServer kernel: [    2.932113] scsi 2:0:0:0: Direct-Access     ATA      VBOX HARDDISK    1.0  PQ: 0 ANSI: 5
+May  6 14:17:37 httpServer kernel: [    2.932353] sd 2:0:0:0: [sda] 41943040 512-byte logical blocks: (21.5 GB/20.0 GiB)
+May  6 14:17:37 httpServer kernel: [    2.932385] sd 2:0:0:0: [sda] Write Protect is off
+May  6 14:17:37 httpServer kernel: [    2.932402] sd 2:0:0:0: [sda] Mode Sense: 00 3a 00 00
+May  6 14:17:37 httpServer kernel: [    2.932416] sd 2:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+May  6 14:17:37 httpServer kernel: [    2.932953] sd 2:0:0:0: Attached scsi generic sg1 type 0
+May  6 14:17:37 httpServer kernel: [    2.938680]  sda: sda1 sda2 sda3 sda4 sda5 sda6 sda7
+May  6 14:17:37 httpServer kernel: [    2.939580] sd 2:0:0:0: [sda] Attached SCSI disk
+May  6 14:17:37 httpServer kernel: [    3.452195] raid6: sse2x1   gen()  9431 MB/s
+May  6 14:17:37 httpServer kernel: [    3.500076] raid6: sse2x1   xor()  6684 MB/s
+May  6 14:17:37 httpServer kernel: [    3.548027] raid6: sse2x2   gen() 11482 MB/s
+May  6 14:17:37 httpServer kernel: [    3.596241] raid6: sse2x2   xor()  7918 MB/s
+May  6 14:17:37 httpServer kernel: [    3.644201] raid6: sse2x4   gen() 11763 MB/s
+May  6 14:17:37 httpServer kernel: [    3.692136] raid6: sse2x4   xor()  7476 MB/s
+May  6 14:17:37 httpServer kernel: [    3.740357] raid6: avx2x1   gen() 16800 MB/s
+May  6 14:17:37 httpServer kernel: [    3.788363] raid6: avx2x1   xor() 13395 MB/s
+May  6 14:17:37 httpServer kernel: [    3.836231] raid6: avx2x2   gen() 21259 MB/s
+May  6 14:17:37 httpServer kernel: [    3.884079] raid6: avx2x2   xor() 13220 MB/s
+May  6 14:17:37 httpServer kernel: [    3.932515] raid6: avx2x4   gen() 19310 MB/s
+May  6 14:17:37 httpServer kernel: [    3.980628] raid6: avx2x4   xor() 13597 MB/s
+May  6 14:17:37 httpServer kernel: [    3.980999] raid6: using algorithm avx2x2 gen() 21259 MB/s
+May  6 14:17:37 httpServer kernel: [    3.981342] raid6: .... xor() 13220 MB/s, rmw enabled
+May  6 14:17:37 httpServer kernel: [    3.981668] raid6: using avx2x2 recovery algorithm
+May  6 14:17:37 httpServer kernel: [    3.985153] xor: automatically using best checksumming function   avx       
+May  6 14:17:37 httpServer kernel: [    3.987356] async_tx: api initialized (async)
+May  6 14:17:37 httpServer kernel: [    4.065133] Btrfs loaded, crc32c=crc32c-intel
+May  6 14:17:37 httpServer kernel: [    4.255427] EXT4-fs (sda2): mounted filesystem with ordered data mode. Opts: (null)
+May  6 14:17:37 httpServer kernel: [    5.590459] ip_tables: (C) 2000-2006 Netfilter Core Team
+May  6 14:17:37 httpServer kernel: [    5.616762] systemd[1]: systemd 237 running in system mode. (+PAM +AUDIT +SELINUX +IMA +APPARMOR +SMACK +SYSVINIT +UTMP +LIBCRYPTSETUP +GCRYPT +GNUTLS +ACL +XZ +LZ4 +SECCOMP +BLKID +ELFUTILS +KMOD -IDN2 +IDN -PCRE2 default-hierarchy=hybrid)
+May  6 14:17:37 httpServer kernel: [    5.618271] systemd[1]: Detected virtualization oracle.
+May  6 14:17:37 httpServer kernel: [    5.618734] systemd[1]: Detected architecture x86-64.
+May  6 14:17:37 httpServer kernel: [    5.757211] systemd[1]: Set hostname to <httpServer>.
+May  6 14:17:37 httpServer kernel: [    6.080521] random: crng init done
+May  6 14:17:37 httpServer kernel: [    6.081476] random: 7 urandom warning(s) missed due to ratelimiting
+May  6 14:17:37 httpServer kernel: [    7.652174] systemd[1]: Started Forward Password Requests to Wall Directory Watch.
+May  6 14:17:37 httpServer kernel: [    7.654691] systemd[1]: Created slice User and Session Slice.
+May  6 14:17:37 httpServer kernel: [    7.656454] systemd[1]: Reached target User and Group Name Lookups.
+May  6 14:17:37 httpServer kernel: [    7.657978] systemd[1]: Set up automount Arbitrary Executable File Formats File System Automount Point.
+May  6 14:17:37 httpServer kernel: [    7.660947] systemd[1]: Created slice System Slice.
+May  6 14:17:37 httpServer kernel: [    7.662793] systemd[1]: Reached target Slices.
+May  6 14:17:37 httpServer kernel: [    7.900947] EXT4-fs (sda2): re-mounted. Opts: (null)
+May  6 14:17:37 httpServer kernel: [    8.343248] Loading iSCSI transport class v2.0-870.
+May  6 14:17:37 httpServer kernel: [    8.370082] iscsi: registered transport (tcp)
+May  6 14:17:37 httpServer kernel: [    8.636716] iscsi: registered transport (iser)
+May  6 14:17:37 httpServer kernel: [    9.225730] vgdrvHeartbeatInit: Setting up heartbeat to trigger every 2000 milliseconds
+May  6 14:17:37 httpServer kernel: [    9.225848] input: Unspecified device as /devices/pci0000:00/0000:00:04.0/input/input7
+May  6 14:17:37 httpServer kernel: [    9.225986] vboxguest: misc device minor 56, IRQ 20, I/O port d040, MMIO at 00000000f1400000 (size 0x400000)
+May  6 14:17:37 httpServer kernel: [    9.225987] vboxguest: Successfully loaded version 5.2.8_KernelUbuntu (interface 0x00010004)
+May  6 14:17:37 httpServer kernel: [    9.406986] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 10737418240 ms ovfl timer
+May  6 14:17:37 httpServer kernel: [    9.406987] RAPL PMU: hw unit of domain pp0-core 2^-0 Joules
+May  6 14:17:37 httpServer kernel: [    9.406988] RAPL PMU: hw unit of domain package 2^-0 Joules
+May  6 14:17:37 httpServer kernel: [    9.406988] RAPL PMU: hw unit of domain dram 2^-0 Joules
+May  6 14:17:37 httpServer kernel: [    9.406989] RAPL PMU: hw unit of domain pp1-gpu 2^-0 Joules
+May  6 14:17:37 httpServer kernel: [    9.406989] RAPL PMU: hw unit of domain psys 2^-0 Joules
+May  6 14:17:37 httpServer kernel: [   11.541026] snd_intel8x0 0000:00:05.0: white list rate for 1028:0177 is 48000
+May  6 14:17:37 httpServer kernel: [   11.865735] EXT4-fs (sda6): mounted filesystem with ordered data mode. Opts: (null)
+May  6 14:17:37 httpServer kernel: [   11.957898] EXT4-fs (sda4): mounted filesystem with ordered data mode. Opts: (null)
+May  6 14:17:37 httpServer kernel: [   12.064801] EXT4-fs (sda5): mounted filesystem with ordered data mode. Opts: (null)
+May  6 14:17:37 httpServer kernel: [   12.081306] EXT4-fs (sda3): mounted filesystem with ordered data mode. Opts: (null)
+May  6 14:17:37 httpServer kernel: [   12.115711] Adding 4191228k swap on /dev/sda7.  Priority:-2 extents:1 across:4191228k FS
+May  6 14:17:37 httpServer kernel: [   12.430884] systemd-journald[399]: Received request to flush runtime journal from PID 1
+May  6 14:17:37 httpServer kernel: [   13.677599] audit: type=1400 audit(1588774648.612:2): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default" pid=756 comm="apparmor_parser"
+May  6 14:17:37 httpServer kernel: [   13.677602] audit: type=1400 audit(1588774648.612:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default-cgns" pid=756 comm="apparmor_parser"
+May  6 14:17:37 httpServer kernel: [   13.677604] audit: type=1400 audit(1588774648.612:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default-with-mounting" pid=756 comm="apparmor_parser"
+May  6 14:17:37 httpServer kernel: [   13.677605] audit: type=1400 audit(1588774648.612:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default-with-nesting" pid=756 comm="apparmor_parser"
+May  6 14:17:37 httpServer kernel: [   13.736213] audit: type=1400 audit(1588774648.672:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/sbin/dhclient" pid=761 comm="apparmor_parser"
+May  6 14:17:37 httpServer kernel: [   13.736221] audit: type=1400 audit(1588774648.672:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=761 comm="apparmor_parser"
+May  6 14:17:37 httpServer kernel: [   13.736223] audit: type=1400 audit(1588774648.672:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-helper" pid=761 comm="apparmor_parser"
+May  6 14:17:37 httpServer kernel: [   13.736226] audit: type=1400 audit(1588774648.672:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=761 comm="apparmor_parser"
+May  6 14:17:37 httpServer kernel: [   13.774276] audit: type=1400 audit(1588774648.708:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/lxc-start" pid=771 comm="apparmor_parser"
+May  6 14:17:37 httpServer kernel: [   13.778235] audit: type=1400 audit(1588774648.716:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/man" pid=772 comm="apparmor_parser"
+May  6 14:17:37 httpServer kernel: [   18.325136] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+May  6 14:17:37 httpServer kernel: [   18.334031] IPv6: ADDRCONF(NETDEV_UP): enp0s3: link is not ready
+May  6 14:17:37 httpServer kernel: [   18.334058] IPv6: ADDRCONF(NETDEV_CHANGE): enp0s3: link becomes ready
+May  6 14:17:37 httpServer kernel: [   22.263045] new mount options do not match the existing superblock, will be ignored
+May  6 14:17:37 httpServer systemd[1]: Started Create Static Device Nodes in /dev.
+May  6 14:17:37 httpServer systemd[1]: Starting udev Kernel Device Manager...
+May  6 14:17:37 httpServer systemd[1]: Started Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling.
+May  6 14:17:37 httpServer systemd-modules-load[395]: Inserted module 'iscsi_tcp'
+May  6 14:17:37 httpServer systemd[1]: Started udev Kernel Device Manager.
+May  6 14:17:37 httpServer systemd-modules-load[395]: Inserted module 'ib_iser'
+May  6 14:17:37 httpServer systemd[1]: Started Load Kernel Modules.
+May  6 14:17:37 httpServer systemd[1]: Starting Apply Kernel Variables...
+May  6 14:17:37 httpServer systemd[1]: Mounting FUSE Control File System...
+May  6 14:17:37 httpServer systemd[1]: Mounting Kernel Configuration File System...
+May  6 14:17:37 httpServer systemd[1]: Mounted Kernel Configuration File System.
+May  6 14:17:37 httpServer systemd[1]: Mounted FUSE Control File System.
+May  6 14:17:37 httpServer systemd[1]: Started Set the console keyboard layout.
+May  6 14:17:37 httpServer systemd[1]: Started Dispatch Password Requests to Console Directory Watch.
+May  6 14:17:37 httpServer systemd[1]: Reached target Local Encrypted Volumes.
+May  6 14:17:37 httpServer systemd[1]: Reached target Local File Systems (Pre).
+May  6 14:17:37 httpServer systemd[1]: Started Apply Kernel Variables.
+May  6 14:17:37 httpServer systemd-udevd[420]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+May  6 14:17:37 httpServer systemd-udevd[424]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+May  6 14:17:37 httpServer systemd[1]: Listening on Load/Save RF Kill Switch Status /dev/rfkill Watch.
+May  6 14:17:37 httpServer systemd[1]: Reached target Sound Card.
+May  6 14:17:37 httpServer systemd[1]: Found device VBOX_HARDDISK 6.
+May  6 14:17:37 httpServer systemd[1]: Mounting /work...
+May  6 14:17:37 httpServer systemd[1]: Found device VBOX_HARDDISK 4.
+May  6 14:17:37 httpServer systemd[1]: Mounting /tmp...
+May  6 14:17:37 httpServer systemd[1]: Mounted /work.
+May  6 14:17:37 httpServer systemd[1]: Found device VBOX_HARDDISK 5.
+May  6 14:17:37 httpServer systemd[1]: Mounting /home...
+May  6 14:17:37 httpServer systemd[1]: Mounted /tmp.
+May  6 14:17:37 httpServer systemd[1]: Found device VBOX_HARDDISK 3.
+May  6 14:17:37 httpServer systemd[1]: Mounting /var...
+May  6 14:17:37 httpServer systemd[1]: Found device VBOX_HARDDISK 7.
+May  6 14:17:37 httpServer systemd[1]: Activating swap /dev/disk/by-uuid/f22cb97c-507d-4983-9bc8-f786086555ae...
+May  6 14:17:37 httpServer systemd[1]: Mounted /home.
+May  6 14:17:37 httpServer systemd[1]: Mounted /var.
+May  6 14:17:37 httpServer systemd[1]: Mounting Mount unit for core, revision 9066...
+May  6 14:17:37 httpServer systemd[1]: Mounting Mount unit for core, revision 8935...
+May  6 14:17:37 httpServer systemd[1]: Reached target Local File Systems.
+May  6 14:17:37 httpServer systemd[1]: Starting Set console font and keymap...
+May  6 14:17:37 httpServer systemd[1]: Starting ebtables ruleset management...
+May  6 14:17:37 httpServer systemd[1]: Starting AppArmor initialization...
+May  6 14:17:37 httpServer systemd[1]: Starting Tell Plymouth To Write Out Runtime Data...
+May  6 14:17:37 httpServer systemd[1]: Starting Load/Save Random Seed...
+May  6 14:17:37 httpServer systemd[1]: Starting Flush Journal to Persistent Storage...
+May  6 14:17:37 httpServer systemd[1]: Activated swap /dev/disk/by-uuid/f22cb97c-507d-4983-9bc8-f786086555ae.
+May  6 14:17:37 httpServer systemd[1]: Started Set console font and keymap.
+May  6 14:17:37 httpServer systemd[1]: Reached target Swap.
+May  6 14:17:37 httpServer systemd[1]: Mounted Mount unit for core, revision 9066.
+May  6 14:17:37 httpServer systemd[1]: Started Tell Plymouth To Write Out Runtime Data.
+May  6 14:17:37 httpServer systemd[1]: Started Load/Save Random Seed.
+May  6 14:17:37 httpServer apparmor[618]:  * Starting AppArmor profiles
+May  6 14:17:37 httpServer systemd[1]: Mounted Mount unit for core, revision 8935.
+May  6 14:17:37 httpServer systemd[1]: Started Flush Journal to Persistent Storage.
+May  6 14:17:37 httpServer systemd[1]: Starting Create Volatile Files and Directories...
+May  6 14:17:37 httpServer systemd[1]: Started ebtables ruleset management.
+May  6 14:17:37 httpServer systemd[1]: Started Create Volatile Files and Directories.
+May  6 14:17:37 httpServer systemd[1]: Starting Network Time Synchronization...
+May  6 14:17:37 httpServer systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+May  6 14:17:37 httpServer systemd[1]: Started Update UTMP about System Boot/Shutdown.
+May  6 14:17:37 httpServer systemd[1]: Started Network Time Synchronization.
+May  6 14:17:37 httpServer systemd[1]: Reached target System Time Synchronized.
+May  6 14:17:37 httpServer apparmor[618]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+May  6 14:17:37 httpServer apparmor[618]:    ...done.
+May  6 14:17:37 httpServer systemd[1]: Started AppArmor initialization.
+May  6 14:17:37 httpServer systemd[1]: Starting Initial cloud-init job (pre-networking)...
+May  6 14:17:37 httpServer cloud-init[792]: Cloud-init v. 19.4-33-gbb4131a2-0ubuntu1~18.04.1 running 'init-local' at Wed, 06 May 2020 14:17:32 +0000. Up 17.70 seconds.
+May  6 14:17:37 httpServer systemd[1]: Started Initial cloud-init job (pre-networking).
+May  6 14:17:37 httpServer systemd[1]: Reached target Network (Pre).
+May  6 14:17:37 httpServer systemd[1]: Starting Network Service...
+May  6 14:17:37 httpServer systemd-networkd[827]: Enumeration completed
+May  6 14:17:37 httpServer systemd[1]: Started Network Service.
+May  6 14:17:37 httpServer systemd-networkd[827]: enp0s3: IPv6 successfully enabled
+May  6 14:17:37 httpServer systemd-networkd[827]: lo: Link is not managed by us
+May  6 14:17:37 httpServer systemd[1]: Starting Network Name Resolution...
+May  6 14:17:37 httpServer systemd[1]: Starting Wait for Network to be Configured...
+May  6 14:17:37 httpServer systemd-networkd[827]: enp0s3: Link UP
+May  6 14:17:37 httpServer systemd-networkd[827]: enp0s3: Gained carrier
+May  6 14:17:37 httpServer systemd-networkd[827]: enp0s3: DHCPv4 address 10.10.20.30/24 via 10.10.20.254
+May  6 14:17:37 httpServer systemd-timesyncd[720]: Network configuration changed, trying to establish connection.
+May  6 14:17:37 httpServer systemd-networkd-wait-online[852 ignoring: lo
+May  6 14:17:37 httpServer systemd-resolved[851]: Positive Trust Anchors:
+May  6 14:17:37 httpServer systemd-resolved[851]: . IN DS 19036 8 2 49aac11d7b6f6446702e54a1607371607a1a41855200fd2ce1cdde32f24e8fb5
+May  6 14:17:37 httpServer systemd-resolved[851]: . IN DS 20326 8 2 e06d44b80b8f1d39a95c0b0d7c65d08458e880409bbc683457104237c7f8ec8d
+May  6 14:17:37 httpServer systemd-resolved[851]: Negative trust anchors: 10.in-addr.arpa 16.172.in-addr.arpa 17.172.in-addr.arpa 18.172.in-addr.arpa 19.172.in-addr.arpa 20.172.in-addr.arpa 21.172.in-addr.arpa 22.172.in-addr.arpa 23.172.in-addr.arpa 24.172.in-addr.arpa 25.172.in-addr.arpa 26.172.in-addr.arpa 27.172.in-addr.arpa 28.172.in-addr.arpa 29.172.in-addr.arpa 30.172.in-addr.arpa 31.172.in-addr.arpa 168.192.in-addr.arpa d.f.ip6.arpa corp home internal intranet lan local private test
+May  6 14:17:37 httpServer systemd-resolved[851]: Using system hostname 'httpServer'.
+May  6 14:17:37 httpServer systemd[1]: Started Network Name Resolution.
+May  6 14:17:37 httpServer systemd[1]: Reached target Network.
+May  6 14:17:37 httpServer systemd[1]: Reached target Host and Network Name Lookups.
+May  6 14:17:37 httpServer systemd-networkd[827]: enp0s3: Gained IPv6LL
+May  6 14:17:37 httpServer systemd-networkd[827]: enp0s3: Configured
+May  6 14:17:37 httpServer systemd-timesyncd[720]: Network configuration changed, trying to establish connection.
+May  6 14:17:37 httpServer systemd-networkd-wait-online[852 ignoring: lo
+May  6 14:17:37 httpServer systemd-networkd-wait-online[852 managing: enp0s3
+May  6 14:17:37 httpServer systemd[1]: Started Wait for Network to be Configured.
+May  6 14:17:37 httpServer systemd[1]: Starting Initial cloud-init job (metadata service crawler)...
+May  6 14:17:37 httpServer cloud-init[882]: Cloud-init v. 19.4-33-gbb4131a2-0ubuntu1~18.04.1 running 'init' at Wed, 06 May 2020 14:17:35 +0000. Up 20.66 seconds.
+May  6 14:17:37 httpServer cloud-init[882]: ci-info: ++++++++++++++++++++++++++++++++++++++Net device info+++++++++++++++++++++++++++++++++++++++
+May  6 14:17:37 httpServer cloud-init[882]: ci-info: +--------+------+-----------------------------+---------------+--------+-------------------+
+May  6 14:17:37 httpServer cloud-init[882]: ci-info: | Device |  Up  |           Address           |      Mask     | Scope  |     Hw-Address    |
+May  6 14:17:37 httpServer cloud-init[882]: ci-info: +--------+------+-----------------------------+---------------+--------+-------------------+
+May  6 14:17:37 httpServer cloud-init[882]: ci-info: | enp0s3 | True |         10.10.20.30         | 255.255.255.0 | global | 08:00:27:50:e7:e4 |
+May  6 14:17:37 httpServer cloud-init[882]: ci-info: | enp0s3 | True | fe80::a00:27ff:fe50:e7e4/64 |       .       |  link  | 08:00:27:50:e7:e4 |
+May  6 14:17:37 httpServer cloud-init[882]: ci-info: |   lo   | True |          127.0.0.1          |   255.0.0.0   |  host  |         .         |
+May  6 14:17:37 httpServer cloud-init[882]: ci-info: |   lo   | True |           ::1/128           |       .       |  host  |         .         |
+May  6 14:17:37 httpServer cloud-init[882]: ci-info: +--------+------+-----------------------------+---------------+--------+-------------------+
+May  6 14:17:37 httpServer cloud-init[882]: ci-info: +++++++++++++++++++++++++++++++Route IPv4 info+++++++++++++++++++++++++++++++
+May  6 14:17:37 httpServer cloud-init[882]: ci-info: +-------+--------------+--------------+-----------------+-----------+-------+
+May  6 14:17:37 httpServer cloud-init[882]: ci-info: | Route | Destination  |   Gateway    |     Genmask     | Interface | Flags |
+May  6 14:17:37 httpServer cloud-init[882]: ci-info: +-------+--------------+--------------+-----------------+-----------+-------+
+May  6 14:17:37 httpServer cloud-init[882]: ci-info: |   0   |   0.0.0.0    | 10.10.20.254 |     0.0.0.0     |   enp0s3  |   UG  |
+May  6 14:17:37 httpServer cloud-init[882]: ci-info: |   1   |  10.10.20.0  |   0.0.0.0    |  255.255.255.0  |   enp0s3  |   U   |
+May  6 14:17:37 httpServer cloud-init[882]: ci-info: |   2   | 10.10.20.254 |   0.0.0.0    | 255.255.255.255 |   enp0s3  |   UH  |
+May  6 14:17:37 httpServer cloud-init[882]: ci-info: +-------+--------------+--------------+-----------------+-----------+-------+
+May  6 14:17:37 httpServer cloud-init[882]: ci-info: +++++++++++++++++++Route IPv6 info+++++++++++++++++++
+May  6 14:17:37 httpServer cloud-init[882]: ci-info: +-------+-------------+---------+-----------+-------+
+May  6 14:17:37 httpServer cloud-init[882]: ci-info: | Route | Destination | Gateway | Interface | Flags |
+May  6 14:17:37 httpServer cloud-init[882]: ci-info: +-------+-------------+---------+-----------+-------+
+May  6 14:17:37 httpServer cloud-init[882]: ci-info: |   1   |  fe80::/64  |    ::   |   enp0s3  |   U   |
+May  6 14:17:37 httpServer cloud-init[882]: ci-info: |   3   |    local    |    ::   |   enp0s3  |   U   |
+May  6 14:17:37 httpServer cloud-init[882]: ci-info: |   4   |   ff00::/8  |    ::   |   enp0s3  |   U   |
+May  6 14:17:37 httpServer cloud-init[882]: ci-info: +-------+-------------+---------+-----------+-------+
+May  6 14:17:37 httpServer systemd[1]: Started Initial cloud-init job (metadata service crawler).
+May  6 14:17:37 httpServer systemd[1]: Reached target System Initialization.
+May  6 14:17:37 httpServer systemd[1]: Started Discard unused blocks once a week.
+May  6 14:17:37 httpServer systemd[1]: Starting LXD - unix socket.
+May  6 14:17:37 httpServer systemd[1]: Listening on UUID daemon activation socket.
+May  6 14:17:37 httpServer systemd[1]: Started Daily Cleanup of Temporary Directories.
+May  6 14:17:37 httpServer systemd[1]: Listening on Open-iSCSI iscsid Socket.
+May  6 14:17:37 httpServer systemd[1]: Starting Socket activation for snappy daemon.
+May  6 14:17:37 httpServer systemd[1]: Started ACPI Events Check.
+May  6 14:17:37 httpServer systemd[1]: Reached target Paths.
+May  6 14:17:37 httpServer systemd[1]: Listening on D-Bus System Message Bus Socket.
+May  6 14:17:37 httpServer systemd[1]: Listening on ACPID Listen Socket.
+May  6 14:17:37 httpServer systemd[1]: Started Message of the Day.
+May  6 14:17:37 httpServer systemd[1]: Started Daily apt download activities.
+May  6 14:17:37 httpServer systemd[1]: Started Daily apt upgrade and clean activities.
+May  6 14:17:37 httpServer systemd[1]: Reached target Timers.
+May  6 14:17:37 httpServer systemd[1]: Reached target Network is Online.
+May  6 14:17:37 httpServer systemd[1]: Reached target Remote File Systems (Pre).
+May  6 14:17:37 httpServer systemd[1]: Reached target Remote File Systems.
+May  6 14:17:37 httpServer systemd[1]: Starting Availability of block devices...
+May  6 14:17:37 httpServer systemd[1]: Reached target Cloud-config availability.
+May  6 14:17:37 httpServer systemd[1]: Listening on LXD - unix socket.
+May  6 14:17:37 httpServer systemd[1]: Listening on Socket activation for snappy daemon.
+May  6 14:17:37 httpServer systemd[1]: Reached target Sockets.
+May  6 14:17:37 httpServer systemd[1]: Reached target Basic System.
+May  6 14:17:37 httpServer systemd[1]: Starting LSB: Record successful boot for GRUB...
+May  6 14:17:37 httpServer systemd[1]: Starting LSB: web-based administration interface for Unix systems...
+May  6 14:17:37 httpServer systemd[1]: Starting The Apache HTTP Server...
+May  6 14:17:37 httpServer systemd[1]: Starting LSB: automatic crash report generation...
+May  6 14:17:37 httpServer systemd[1]: Started FUSE filesystem for LXC.
+May  6 14:17:37 httpServer systemd[1]: Starting Snappy daemon...
+May  6 14:17:37 httpServer systemd[1]: Starting System Logging Service...
+May  6 14:17:37 httpServer systemd[1]: Starting Accounts Service...
+May  6 14:17:37 httpServer systemd[1]: Started D-Bus System Message Bus.
+May  6 14:17:37 httpServer lxcfs[935]: mount namespace: 5
+May  6 14:17:37 httpServer lxcfs[935]: hierarchies:
+May  6 14:17:37 httpServer lxcfs[935]:   0: fd:   6: cpuset
+May  6 14:17:37 httpServer lxcfs[935]:   1: fd:   7: rdma
+May  6 14:17:37 httpServer lxcfs[935]:   2: fd:   8: hugetlb
+May  6 14:17:37 httpServer lxcfs[935]:   3: fd:   9: freezer
+May  6 14:17:37 httpServer lxcfs[935]:   4: fd:  10: pids
+May  6 14:17:37 httpServer lxcfs[935]:   5: fd:  11: memory
+May  6 14:17:37 httpServer lxcfs[935]:   6: fd:  12: net_cls,net_prio
+May  6 14:17:37 httpServer lxcfs[935]:   7: fd:  13: perf_event
+May  6 14:17:37 httpServer lxcfs[935]:   8: fd:  14: cpu,cpuacct
+May  6 14:17:37 httpServer lxcfs[935]:   9: fd:  15: devices
+May  6 14:17:37 httpServer lxcfs[935]:  10: fd:  16: blkio
+May  6 14:17:37 httpServer lxcfs[935]:  11: fd:  17: name=systemd
+May  6 14:17:37 httpServer lxcfs[935]:  12: fd:  18: unified
+May  6 14:17:37 httpServer rsyslogd: imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' (fd 3) from systemd.  [v8.32.0]
+May  6 14:17:37 httpServer rsyslogd: rsyslogd's groupid changed to 106
+May  6 14:17:37 httpServer rsyslogd: rsyslogd's userid changed to 102
+May  6 14:17:37 httpServer rsyslogd:  [origin software="rsyslogd" swVersion="8.32.0" x-pid="937" x-info="http://www.rsyslog.com"] start
+May  6 14:17:38 httpServer dbus-daemon[941]: dbus[941]: Unknown group "power" in message bus configuration file
+May  6 14:17:38 httpServer dbus-daemon[941]: [system] AppArmor D-Bus mediation is enabled
+May  6 14:17:39 httpServer systemd[1]: Started Deferred execution scheduler.
+May  6 14:17:39 httpServer systemd[1]: Starting Login Service...
+May  6 14:17:39 httpServer snapd[936]: AppArmor status: apparmor is enabled and all features are available
+May  6 14:17:39 httpServer systemd[1]: Started irqbalance daemon.
+May  6 14:17:39 httpServer systemd[1]: Starting Thermal Daemon Service...
+May  6 14:17:39 httpServer /usr/sbin/irqbalance: Balancing is ineffective on systems with a single cpu.  Shutting down
+May  6 14:17:39 httpServer systemd[1]: Starting OpenBSD Secure Shell server...
+May  6 14:17:39 httpServer systemd[1]: Starting Dispatcher daemon for systemd-networkd...
+May  6 14:17:39 httpServer systemd[1]: Starting Permit User Sessions...
+May  6 14:17:39 httpServer systemd[1]: Starting Message of the Day...
+May  6 14:17:39 httpServer dbus-daemon[941]: [system] Activating via systemd: service name='org.freedesktop.PolicyKit1' unit='polkit.service' requested by ':1.3' (uid=0 pid=939 comm="/usr/lib/accountsservice/accounts-daemon " label="unconfined")
+May  6 14:17:39 httpServer systemd[1]: Started Regular background program processing daemon.
+May  6 14:17:39 httpServer systemd[1]: Starting LXD - container startup/shutdown...
+May  6 14:17:39 httpServer systemd[1]: Started System Logging Service.
+May  6 14:17:39 httpServer systemd[1]: Started Availability of block devices.
+May  6 14:17:39 httpServer systemd[1]: Started Permit User Sessions.
+May  6 14:17:39 httpServer systemd[1]: Started Login Service.
+May  6 14:17:40 httpServer grub-common[931]:  * Recording successful boot for GRUB
+May  6 14:17:40 httpServer apport[934]:  * Starting automatic crash report generation: apport
+May  6 14:17:40 httpServer cron[1084]: (CRON) INFO (pidfile fd = 3)
+May  6 14:17:40 httpServer cron[1084]: (CRON) INFO (Running @reboot jobs)
+May  6 14:17:40 httpServer systemd[1]: Starting Authorization Manager...
+May  6 14:17:40 httpServer systemd[1]: Started Unattended Upgrades Shutdown.
+May  6 14:17:40 httpServer systemd[1]: Starting Terminate Plymouth Boot Screen...
+May  6 14:17:40 httpServer systemd[1]: Starting Hold until boot process finishes up...
+May  6 14:17:40 httpServer systemd[1]: Started Hold until boot process finishes up.
+May  6 14:17:40 httpServer systemd[1]: Starting Set console scheme...
+May  6 14:17:40 httpServer systemd[1]: Started Terminate Plymouth Boot Screen.
+May  6 14:17:40 httpServer systemd[1]: Started Set console scheme.
+May  6 14:17:40 httpServer systemd[1]: Created slice system-getty.slice.
+May  6 14:17:40 httpServer systemd[1]: Started Getty on tty1.
+May  6 14:17:40 httpServer systemd[1]: Reached target Login Prompts.
+May  6 14:17:40 httpServer apport[934]:    ...done.
+May  6 14:17:40 httpServer systemd[1]: Started LSB: automatic crash report generation.
+May  6 14:17:40 httpServer grub-common[931]:    ...done.
+May  6 14:17:40 httpServer systemd[1]: Started LSB: Record successful boot for GRUB.
+May  6 14:17:41 httpServer polkitd[1106]: started daemon version 0.105 using authority implementation `local' version `0.105'
+May  6 14:17:41 httpServer dbus-daemon[941]: [system] Successfully activated service 'org.freedesktop.PolicyKit1'
+May  6 14:17:41 httpServer systemd[1]: Started Authorization Manager.
+May  6 14:17:41 httpServer accounts-daemon[939]: started daemon version 0.6.45
+May  6 14:17:41 httpServer systemd[1]: Started Accounts Service.
+May  6 14:17:41 httpServer systemd[1]: Started Thermal Daemon Service.
+May  6 14:17:41 httpServer thermald[1023]: NO RAPL sysfs present
+May  6 14:17:41 httpServer thermald[1023]: 22 CPUID levels; family:model:stepping 0x6:8e:9 (6:142:9)
+May  6 14:17:41 httpServer thermald[1023]: Polling mode is enabled: 4
+May  6 14:17:41 httpServer thermald[1023]: Thermal DTS: No coretemp sysfs found
+May  6 14:17:42 httpServer systemd[1]: Started OpenBSD Secure Shell server.
+May  6 14:17:42 httpServer apachectl[933]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+May  6 14:17:42 httpServer networkd-dispatcher[1058]: No valid path found for iwconfig
+May  6 14:17:42 httpServer thermald[1023]: Thermal DTS or hwmon: No Zones present Need to configure manually
+May  6 14:17:42 httpServer thermald[1023]: No thermal sensors found
+May  6 14:17:42 httpServer thermald[1023]: THD engine start failed
+May  6 14:17:42 httpServer systemd[1]: Started The Apache HTTP Server.
+May  6 14:17:42 httpServer systemd[1]: Started Dispatcher daemon for systemd-networkd.
+May  6 14:17:43 httpServer snapd[936]: AppArmor status: apparmor is enabled and all features are available
+May  6 14:17:43 httpServer systemd[1]: Started LXD - container startup/shutdown.
+May  6 14:17:43 httpServer snapd[936]: daemon.go:343: started snapd/2.44.3 (series 16; classic) ubuntu/18.04 (amd64) linux/4.15.0-99-generic.
+May  6 14:17:43 httpServer snapd[936]: daemon.go:436: adjusting startup timeout by 35s (pessimistic estimate of 30s plus 5s per snap)
+May  6 14:17:44 httpServer systemd[1]: Started Snappy daemon.
+May  6 14:17:44 httpServer systemd[1]: Starting Wait until snapd is fully seeded...
+May  6 14:17:44 httpServer 50-motd-news[1064]:  * Ubuntu 20.04 LTS is out, raising the bar on performance, security,
+May  6 14:17:44 httpServer 50-motd-news[1064]:    and optimisation for Intel, AMD, Nvidia, ARM64 and Z15 as well as
+May  6 14:17:44 httpServer 50-motd-news[1064]:    AWS, Azure and Google Cloud.
+May  6 14:17:44 httpServer 50-motd-news[1064]:      https://ubuntu.com/blog/ubuntu-20-04-lts-arrives
+May  6 14:17:44 httpServer systemd[1]: Started Message of the Day.
+May  6 14:17:45 httpServer systemd[1]: Started Wait until snapd is fully seeded.
+May  6 14:17:45 httpServer systemd[1]: Starting Apply the settings specified in cloud-config...
+May  6 14:17:46 httpServer snapd[936]: storehelpers.go:438: cannot refresh snap "core": snap has no updates available
+May  6 14:17:46 httpServer snapd[936]: autorefresh.go:397: auto-refresh: all snaps are up-to-date
+May  6 14:17:47 httpServer cloud-init[1375]: Cloud-init v. 19.4-33-gbb4131a2-0ubuntu1~18.04.1 running 'modules:config' at Wed, 06 May 2020 14:17:46 +0000. Up 31.89 seconds.
+May  6 14:17:48 httpServer systemd[1]: Started Apply the settings specified in cloud-config.
+May  6 14:17:48 httpServer systemd[1]: Started LSB: web-based administration interface for Unix systems.
+May  6 14:17:48 httpServer systemd[1]: Reached target Multi-User System.
+May  6 14:17:48 httpServer systemd[1]: Starting Execute cloud user/final scripts...
+May  6 14:17:48 httpServer systemd[1]: Reached target Graphical Interface.
+May  6 14:17:48 httpServer systemd[1]: Starting Update UTMP about System Runlevel Changes...
+May  6 14:17:48 httpServer systemd[1]: Started Update UTMP about System Runlevel Changes.
+May  6 14:17:50 httpServer cloud-init[1420]: Cloud-init v. 19.4-33-gbb4131a2-0ubuntu1~18.04.1 running 'modules:final' at Wed, 06 May 2020 14:17:50 +0000. Up 35.37 seconds.
+May  6 14:17:50 httpServer cloud-init[1420]: Cloud-init v. 19.4-33-gbb4131a2-0ubuntu1~18.04.1 finished at Wed, 06 May 2020 14:17:50 +0000. Datasource DataSourceNoCloud [seed=/var/lib/cloud/seed/nocloud-net][dsmode=net].  Up 35.73 seconds
+May  6 14:17:50 httpServer systemd[1]: Started Execute cloud user/final scripts.
+May  6 14:17:50 httpServer systemd[1]: Starting Daily apt download activities...
+May  6 14:17:50 httpServer systemd[1]: Reached target Cloud-init target.
+May  6 14:17:51 httpServer systemd-resolved[851]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+May  6 14:17:51 httpServer systemd-resolved[851]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+May  6 14:18:06 httpServer systemd-timesyncd[720]: Synchronized to time server 91.189.89.199:123 (ntp.ubuntu.com).
+May  6 14:18:13 httpServer systemd[1]: Started Daily apt download activities.
+May  6 14:18:13 httpServer systemd[1]: Starting Daily apt upgrade and clean activities...
+May  6 14:18:23 httpServer systemd[1]: Started Daily apt upgrade and clean activities.
+May  6 14:18:23 httpServer systemd[1]: Startup finished in 5.125s (kernel) + 1min 1.383s (userspace) = 1min 6.508s.
+May  6 14:21:03 httpServer systemd[1]: Created slice User Slice of ubuntu.
+May  6 14:21:03 httpServer systemd[1]: Starting User Manager for UID 1000...
+May  6 14:21:03 httpServer systemd[1]: Started Session 1 of user ubuntu.
+May  6 14:21:03 httpServer systemd[2239]: Listening on GnuPG network certificate management daemon.
+May  6 14:21:03 httpServer systemd[2239]: Reached target Paths.
+May  6 14:21:03 httpServer systemd[2239]: Reached target Timers.
+May  6 14:21:03 httpServer systemd[2239]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+May  6 14:21:03 httpServer systemd[2239]: Listening on REST API socket for snapd user session agent.
+May  6 14:21:03 httpServer systemd[2239]: Listening on GnuPG cryptographic agent and passphrase cache.
+May  6 14:21:03 httpServer systemd[2239]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+May  6 14:21:03 httpServer systemd[2239]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+May  6 14:21:03 httpServer systemd[2239]: Reached target Sockets.
+May  6 14:21:03 httpServer systemd[2239]: Reached target Basic System.
+May  6 14:21:03 httpServer systemd[1]: Started User Manager for UID 1000.
+May  6 14:21:03 httpServer systemd[2239]: Reached target Default.
+May  6 14:21:03 httpServer systemd[2239]: Startup finished in 190ms.
+May  6 14:22:33 httpServer systemd-timesyncd[720]: Network configuration changed, trying to establish connection.
+May  6 14:22:33 httpServer systemd-networkd[827]: enp0s3: Configured
+May  6 14:22:33 httpServer systemd-timesyncd[720]: Synchronized to time server 91.189.89.199:123 (ntp.ubuntu.com).
+May  6 14:27:32 httpServer systemd-networkd[827]: enp0s3: Configured
+May  6 14:27:32 httpServer systemd-timesyncd[720]: Network configuration changed, trying to establish connection.
+May  6 14:27:32 httpServer systemd-timesyncd[720]: Synchronized to time server 91.189.89.199:123 (ntp.ubuntu.com).
+May  6 14:31:31 httpServer systemd[1]: Stopping The Apache HTTP Server...
+May  6 14:31:31 httpServer apachectl[2370]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+May  6 14:31:31 httpServer systemd[1]: Stopped The Apache HTTP Server.
+May  6 14:31:31 httpServer systemd[1]: Starting The Apache HTTP Server...
+May  6 14:31:31 httpServer apachectl[2376]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+May  6 14:31:31 httpServer systemd[1]: Started The Apache HTTP Server.
+May  6 14:32:20 httpServer systemd[1]: Starting Cleanup of Temporary Directories...
+May  6 14:32:21 httpServer systemd[1]: Started Cleanup of Temporary Directories.
+May  6 14:32:31 httpServer systemd-networkd[827]: enp0s3: Configured
+May  6 14:32:31 httpServer systemd-timesyncd[720]: Network configuration changed, trying to establish connection.
+May  6 14:32:31 httpServer systemd-timesyncd[720]: Synchronized to time server 91.189.89.199:123 (ntp.ubuntu.com).
+May  6 14:37:30 httpServer systemd-timesyncd[720]: Network configuration changed, trying to establish connection.
+May  6 14:37:30 httpServer systemd-networkd[827]: enp0s3: Configured
+May  6 14:37:30 httpServer systemd-timesyncd[720]: Synchronized to time server 91.189.89.199:123 (ntp.ubuntu.com).
+May  6 14:42:29 httpServer systemd-timesyncd[720]: Network configuration changed, trying to establish connection.
+May  6 14:42:29 httpServer systemd-networkd[827]: enp0s3: Configured
+May  6 14:42:29 httpServer systemd-timesyncd[720]: Synchronized to time server 91.189.89.199:123 (ntp.ubuntu.com).
+May  6 14:42:36 httpServer systemd[1]: Stopping The Apache HTTP Server...
+May  6 14:42:37 httpServer apachectl[2633]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+May  6 14:42:37 httpServer systemd[1]: Stopped The Apache HTTP Server.
+May  6 14:42:37 httpServer systemd[1]: Starting The Apache HTTP Server...
+May  6 14:42:37 httpServer apachectl[2639]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+May  6 14:42:37 httpServer systemd[1]: Started The Apache HTTP Server.
+May  6 14:47:29 httpServer systemd-timesyncd[720]: Network configuration changed, trying to establish connection.
+May  6 14:47:29 httpServer systemd-networkd[827]: enp0s3: Configured
+May  6 14:47:29 httpServer systemd-timesyncd[720]: Synchronized to time server 91.189.89.199:123 (ntp.ubuntu.com).
+May  6 14:52:29 httpServer systemd-networkd[827]: enp0s3: Configured
+May  6 14:52:29 httpServer systemd-timesyncd[720]: Network configuration changed, trying to establish connection.
+May  6 14:52:29 httpServer systemd-timesyncd[720]: Synchronized to time server 91.189.89.199:123 (ntp.ubuntu.com).
+May  6 14:55:50 httpServer systemd[1]: Started Session 3 of user ubuntu.
+May  6 14:57:29 httpServer systemd-timesyncd[720]: Network configuration changed, trying to establish connection.
+May  6 14:57:29 httpServer systemd-networkd[827]: enp0s3: Configured
+May  6 14:57:29 httpServer systemd-timesyncd[720]: Synchronized to time server 91.189.89.199:123 (ntp.ubuntu.com).
+May  6 15:01:26 httpServer systemd[1]: Stopping The Apache HTTP Server...
+May  6 15:01:26 httpServer apachectl[2997]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+May  6 15:01:26 httpServer systemd[1]: Stopped The Apache HTTP Server.
+May  6 15:01:26 httpServer systemd[1]: Starting The Apache HTTP Server...
+May  6 15:01:26 httpServer apachectl[3002]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+May  6 15:01:26 httpServer systemd[1]: Started The Apache HTTP Server.
+May  6 15:02:28 httpServer systemd-networkd[827]: enp0s3: Configured
+May  6 15:02:28 httpServer systemd-timesyncd[720]: Network configuration changed, trying to establish connection.
+May  6 15:02:28 httpServer systemd-timesyncd[720]: Synchronized to time server 91.189.89.199:123 (ntp.ubuntu.com).
+May  6 15:06:16 httpServer systemd[1]: Stopping The Apache HTTP Server...
+May  6 15:06:16 httpServer apachectl[3221]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+May  6 15:06:16 httpServer systemd[1]: Stopped The Apache HTTP Server.
+May  6 15:06:16 httpServer systemd[1]: Starting The Apache HTTP Server...
+May  6 15:06:16 httpServer apachectl[3226]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+May  6 15:06:16 httpServer systemd[1]: Started The Apache HTTP Server.
+May  6 15:07:28 httpServer systemd-timesyncd[720]: Network configuration changed, trying to establish connection.
+May  6 15:07:28 httpServer systemd-networkd[827]: enp0s3: Configured
+May  6 15:07:28 httpServer systemd-timesyncd[720]: Synchronized to time server 91.189.89.199:123 (ntp.ubuntu.com).
+May  6 15:08:44 httpServer kernel: [ 3087.875481] nf_conntrack version 0.5.0 (8192 buckets, 32768 max)
+May  6 15:08:44 httpServer kernel: [ 3088.046052] ip6_tables: (C) 2000-2006 Netfilter Core Team
+May  6 15:12:27 httpServer systemd-timesyncd[720]: Network configuration changed, trying to establish connection.
+May  6 15:12:27 httpServer systemd-networkd[827]: enp0s3: Configured
+May  6 15:12:27 httpServer systemd-timesyncd[720]: Synchronized to time server 91.189.89.199:123 (ntp.ubuntu.com).
+May  6 15:17:01 httpServer CRON[3626]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May  6 15:17:26 httpServer systemd-networkd[827]: enp0s3: Configured
+May  6 15:17:26 httpServer systemd-timesyncd[720]: Network configuration changed, trying to establish connection.
+May  6 15:17:26 httpServer systemd-timesyncd[720]: Synchronized to time server 91.189.89.199:123 (ntp.ubuntu.com).
+May  6 15:18:02 httpServer kernel: [ 3645.973593] [UFW BLOCK] IN=enp0s3 OUT= MAC=08:00:27:50:e7:e4:cc:01:56:8c:00:01:08:00 SRC=10.10.10.1 DST=10.10.20.30 LEN=104 TOS=0x00 PREC=0x00 TTL=126 ID=26083 DF PROTO=TCP SPT=51592 DPT=2221 WINDOW=16337 RES=0x00 ACK PSH URGP=0 
+May  6 15:18:02 httpServer kernel: [ 3646.133641] [UFW BLOCK] IN=enp0s3 OUT= MAC=08:00:27:50:e7:e4:cc:01:56:8c:00:01:08:00 SRC=10.10.10.1 DST=10.10.20.30 LEN=104 TOS=0x00 PREC=0x00 TTL=126 ID=26084 DF PROTO=TCP SPT=51592 DPT=2221 WINDOW=16337 RES=0x00 ACK PSH URGP=0 
+May  6 15:18:02 httpServer kernel: [ 3646.291519] [UFW BLOCK] IN=enp0s3 OUT= MAC=08:00:27:50:e7:e4:cc:01:56:8c:00:01:08:00 SRC=10.10.10.1 DST=10.10.20.30 LEN=168 TOS=0x00 PREC=0x00 TTL=126 ID=26085 DF PROTO=TCP SPT=51592 DPT=2221 WINDOW=16337 RES=0x00 ACK PSH URGP=0 
+May  6 15:18:02 httpServer kernel: [ 3646.344760] [UFW BLOCK] IN=enp0s3 OUT= MAC=08:00:27:50:e7:e4:cc:01:56:8c:00:01:08:00 SRC=10.10.10.1 DST=10.10.20.30 LEN=104 TOS=0x00 PREC=0x00 TTL=126 ID=26086 DF PROTO=TCP SPT=51592 DPT=2221 WINDOW=16337 RES=0x00 ACK PSH URGP=0 
+May  6 15:18:03 httpServer kernel: [ 3646.694028] [UFW BLOCK] IN=enp0s3 OUT= MAC=08:00:27:50:e7:e4:cc:01:56:8c:00:01:08:00 SRC=10.10.10.1 DST=10.10.20.30 LEN=104 TOS=0x00 PREC=0x00 TTL=126 ID=26087 DF PROTO=TCP SPT=51592 DPT=2221 WINDOW=16337 RES=0x00 ACK PSH URGP=0 
+May  6 15:18:03 httpServer kernel: [ 3646.895849] [UFW BLOCK] IN=enp0s3 OUT= MAC=08:00:27:50:e7:e4:cc:01:56:8c:00:01:08:00 SRC=10.10.10.1 DST=10.10.20.30 LEN=296 TOS=0x00 PREC=0x00 TTL=126 ID=26088 DF PROTO=TCP SPT=51592 DPT=2221 WINDOW=16337 RES=0x00 ACK PSH URGP=0 
+May  6 15:18:04 httpServer kernel: [ 3647.532430] [UFW BLOCK] IN=enp0s3 OUT= MAC=08:00:27:50:e7:e4:cc:01:56:8c:00:01:08:00 SRC=10.10.10.1 DST=10.10.20.30 LEN=104 TOS=0x00 PREC=0x00 TTL=126 ID=26090 PROTO=TCP SPT=51592 DPT=2221 WINDOW=16337 RES=0x00 ACK PSH URGP=0 
+May  6 15:18:04 httpServer kernel: [ 3647.648517] [UFW BLOCK] IN=enp0s3 OUT= MAC=08:00:27:50:e7:e4:cc:01:56:8c:00:01:08:00 SRC=10.10.10.1 DST=10.10.20.30 LEN=104 TOS=0x00 PREC=0x00 TTL=126 ID=26091 PROTO=TCP SPT=51592 DPT=2221 WINDOW=16337 RES=0x00 ACK PSH URGP=0 
+May  6 15:18:04 httpServer kernel: [ 3647.787040] [UFW BLOCK] IN=enp0s3 OUT= MAC=08:00:27:50:e7:e4:cc:01:56:8c:00:01:08:00 SRC=10.10.10.1 DST=10.10.20.30 LEN=104 TOS=0x00 PREC=0x00 TTL=126 ID=26092 PROTO=TCP SPT=51592 DPT=2221 WINDOW=16337 RES=0x00 ACK PSH URGP=0 
+May  6 15:18:04 httpServer kernel: [ 3648.011454] [UFW BLOCK] IN=enp0s3 OUT= MAC=08:00:27:50:e7:e4:cc:01:56:8c:00:01:08:00 SRC=10.10.10.1 DST=10.10.20.30 LEN=104 TOS=0x00 PREC=0x00 TTL=126 ID=26093 PROTO=TCP SPT=51592 DPT=2221 WINDOW=16337 RES=0x00 ACK PSH URGP=0 
+May  6 15:18:57 httpServer systemd[1]: Started Session 5 of user ubuntu.
+May  6 15:20:22 httpServer systemd-resolved[851]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+May  6 15:20:22 httpServer systemd-resolved[851]: message repeated 2 times: [ Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.]
+May  6 15:21:32 httpServer systemd[1]: Reloading.
+May  6 15:21:33 httpServer systemd[1]: Reloading.
+May  6 15:21:33 httpServer systemd[1]: Started Run certbot twice daily.
+May  6 15:22:25 httpServer systemd-networkd[827]: enp0s3: Configured
+May  6 15:22:25 httpServer systemd-timesyncd[720]: Network configuration changed, trying to establish connection.
+May  6 15:22:25 httpServer systemd-timesyncd[720]: Synchronized to time server 91.189.89.199:123 (ntp.ubuntu.com).
+May  6 15:27:26 httpServer systemd-timesyncd[720]: Network configuration changed, trying to establish connection.
+May  6 15:27:26 httpServer systemd-networkd[827]: enp0s3: Configured
+May  6 15:27:26 httpServer systemd-timesyncd[720]: Synchronized to time server 91.189.89.199:123 (ntp.ubuntu.com).
+May  6 15:32:26 httpServer systemd-networkd[827]: enp0s3: Configured
+May  6 15:32:27 httpServer systemd-timesyncd[720]: Network configuration changed, trying to establish connection.
+May  6 15:32:27 httpServer systemd-timesyncd[720]: Synchronized to time server 91.189.89.199:123 (ntp.ubuntu.com).
+May  6 15:34:51 httpServer systemd[1]: Stopping The Apache HTTP Server...
+May  6 15:34:51 httpServer apachectl[5861]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+May  6 15:34:51 httpServer systemd[1]: Stopped The Apache HTTP Server.
+May  6 15:34:51 httpServer systemd[1]: Starting The Apache HTTP Server...
+May  6 15:34:52 httpServer apachectl[5866]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+May  6 15:34:52 httpServer systemd[1]: Started The Apache HTTP Server.
+May  6 15:36:43 httpServer systemd[1]: Stopping The Apache HTTP Server...
+May  6 15:36:43 httpServer apachectl[5954]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+May  6 15:36:43 httpServer systemd[1]: Stopped The Apache HTTP Server.
+May  6 15:36:43 httpServer systemd[1]: Starting The Apache HTTP Server...
+May  6 15:36:43 httpServer apachectl[5959]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+May  6 15:36:43 httpServer systemd[1]: Started The Apache HTTP Server.
+May  6 15:37:27 httpServer systemd-networkd[827]: enp0s3: Configured
+May  6 15:37:27 httpServer systemd-timesyncd[720]: Network configuration changed, trying to establish connection.
+May  6 15:37:27 httpServer systemd-timesyncd[720]: Synchronized to time server 91.189.89.199:123 (ntp.ubuntu.com).
+May  6 15:40:48 httpServer systemd[1]: Stopping The Apache HTTP Server...
+May  6 15:40:48 httpServer apachectl[6150]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+May  6 15:40:48 httpServer systemd[1]: Stopped The Apache HTTP Server.
+May  6 15:40:48 httpServer systemd[1]: Starting The Apache HTTP Server...
+May  6 15:40:48 httpServer apachectl[6155]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+May  6 15:40:48 httpServer systemd[1]: Started The Apache HTTP Server.
+May  6 15:42:27 httpServer systemd-networkd[827]: enp0s3: Configured
+May  6 15:42:27 httpServer systemd-timesyncd[720]: Network configuration changed, trying to establish connection.
+May  6 15:42:27 httpServer systemd-timesyncd[720]: Synchronized to time server 91.189.89.199:123 (ntp.ubuntu.com).
+May  6 15:42:53 httpServer systemd[1]: Stopping The Apache HTTP Server...
+May  6 15:42:53 httpServer apachectl[6255]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+May  6 15:42:53 httpServer systemd[1]: Stopped The Apache HTTP Server.
+May  6 15:42:53 httpServer systemd[1]: Starting The Apache HTTP Server...
+May  6 15:42:53 httpServer apachectl[6260]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+May  6 15:42:53 httpServer systemd[1]: Started The Apache HTTP Server.
+May  6 15:47:28 httpServer systemd-timesyncd[720]: Network configuration changed, trying to establish connection.
+May  6 15:47:28 httpServer systemd-networkd[827]: enp0s3: Configured
+May  6 15:47:28 httpServer systemd-timesyncd[720]: Synchronized to time server 91.189.89.199:123 (ntp.ubuntu.com).
+May  6 15:52:26 httpServer systemd-timesyncd[720]: Network configuration changed, trying to establish connection.
+May  6 15:52:26 httpServer systemd-networkd[827]: enp0s3: Configured
+May  6 15:52:26 httpServer systemd-timesyncd[720]: Synchronized to time server 91.189.89.199:123 (ntp.ubuntu.com).
+May  6 15:57:25 httpServer systemd-networkd[827]: enp0s3: Configured
+May  6 15:57:25 httpServer systemd-timesyncd[720]: Network configuration changed, trying to establish connection.
+May  6 15:57:25 httpServer systemd-timesyncd[720]: Synchronized to time server 91.189.89.199:123 (ntp.ubuntu.com).
+May  6 16:02:25 httpServer systemd-timesyncd[720]: Network configuration changed, trying to establish connection.
+May  6 16:02:25 httpServer systemd-networkd[827]: enp0s3: Configured
+May  6 16:02:25 httpServer systemd-timesyncd[720]: Synchronized to time server 91.189.89.199:123 (ntp.ubuntu.com).
+May  6 16:07:23 httpServer systemd-timesyncd[720]: Synchronized to time server 91.189.89.199:123 (ntp.ubuntu.com).
+May  6 16:07:23 httpServer rsyslogd: omfwd: TCPSendBuf error -2027, destruct TCP Connection to 10.10.10.20:514 [v8.32.0 try http://www.rsyslog.com/e/2027 ]
+May  6 16:07:23 httpServer rsyslogd: action 'action 4' suspended (module 'builtin:omfwd'), retry 0. There should be messages before this one giving the reason for suspension. [v8.32.0 try http://www.rsyslog.com/e/2007 ]
+May  6 16:07:23 httpServer rsyslogd: action 'action 4' resumed (module 'builtin:omfwd') [v8.32.0 try http://www.rsyslog.com/e/2359 ]
+May  6 16:12:23 httpServer systemd-timesyncd[720]: Network configuration changed, trying to establish connection.
+May  6 16:12:23 httpServer systemd-networkd[827]: enp0s3: Configured
+May  6 16:12:23 httpServer systemd-timesyncd[720]: Synchronized to time server 91.189.89.199:123 (ntp.ubuntu.com).
+May  6 16:17:01 httpServer CRON[6356]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May  6 16:17:22 httpServer systemd-timesyncd[720]: Network configuration changed, trying to establish connection.
+May  6 16:17:22 httpServer systemd-networkd[827]: enp0s3: Configured
+May  6 16:17:22 httpServer systemd-timesyncd[720]: Synchronized to time server 91.189.89.199:123 (ntp.ubuntu.com).
+May  6 16:22:23 httpServer systemd-timesyncd[720]: Network configuration changed, trying to establish connection.
+May  6 16:22:23 httpServer systemd-networkd[827]: enp0s3: Configured
+May  6 16:22:33 httpServer systemd-timesyncd[720]: Timed out waiting for reply from 91.189.89.199:123 (ntp.ubuntu.com).
+May  6 16:22:33 httpServer systemd-timesyncd[720]: Synchronized to time server 91.189.89.198:123 (ntp.ubuntu.com).
+May  6 16:27:21 httpServer systemd-networkd[827]: enp0s3: Configured
+May  6 16:27:21 httpServer systemd-timesyncd[720]: Network configuration changed, trying to establish connection.
+May  6 16:27:21 httpServer systemd-timesyncd[720]: Synchronized to time server 91.189.89.198:123 (ntp.ubuntu.com).
+May  6 16:32:20 httpServer systemd-networkd[827]: enp0s3: Configured
+May  6 16:32:21 httpServer systemd-timesyncd[720]: Network configuration changed, trying to establish connection.
+May  6 16:32:21 httpServer systemd-timesyncd[720]: Synchronized to time server 91.189.89.198:123 (ntp.ubuntu.com).
+May  6 16:37:20 httpServer systemd-timesyncd[720]: Network configuration changed, trying to establish connection.
+May  6 16:37:20 httpServer systemd-networkd[827]: enp0s3: Configured
+May  6 16:37:20 httpServer systemd-timesyncd[720]: Synchronized to time server 91.189.89.198:123 (ntp.ubuntu.com).
+Jun  4 15:00:05 httpServer kernel: [    0.000000] Linux version 4.15.0-101-generic (buildd@lgw01-amd64-003) (gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04)) #102-Ubuntu SMP Mon May 11 10:07:26 UTC 2020 (Ubuntu 4.15.0-101.102-generic 4.15.18)
+Jun  4 15:00:05 httpServer kernel: [    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-4.15.0-101-generic root=UUID=36ab84de-3031-4f04-9624-8ae68d5796ce ro maybe-ubiquity
+Jun  4 15:00:05 httpServer kernel: [    0.000000] KERNEL supported cpus:
+Jun  4 15:00:05 httpServer kernel: [    0.000000]   Intel GenuineIntel
+Jun  4 15:00:05 httpServer kernel: [    0.000000]   AMD AuthenticAMD
+Jun  4 15:00:05 httpServer kernel: [    0.000000]   Centaur CentaurHauls
+Jun  4 15:00:05 httpServer kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+Jun  4 15:00:05 httpServer kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'
+Jun  4 15:00:05 httpServer kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x004: 'AVX registers'
+Jun  4 15:00:05 httpServer kernel: [    0.000000] x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256
+Jun  4 15:00:05 httpServer kernel: [    0.000000] x86/fpu: Enabled xstate features 0x7, context size is 832 bytes, using 'standard' format.
+Jun  4 15:00:05 httpServer kernel: [    0.000000] e820: BIOS-provided physical RAM map:
+Jun  4 15:00:05 httpServer kernel: [    0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009fbff] usable
+Jun  4 15:00:05 httpServer kernel: [    0.000000] BIOS-e820: [mem 0x000000000009fc00-0x000000000009ffff] reserved
+Jun  4 15:00:05 httpServer kernel: [    0.000000] BIOS-e820: [mem 0x00000000000f0000-0x00000000000fffff] reserved
+Jun  4 15:00:05 httpServer kernel: [    0.000000] BIOS-e820: [mem 0x0000000000100000-0x000000003ffeffff] usable
+Jun  4 15:00:05 httpServer kernel: [    0.000000] BIOS-e820: [mem 0x000000003fff0000-0x000000003fffffff] ACPI data
+Jun  4 15:00:05 httpServer kernel: [    0.000000] BIOS-e820: [mem 0x00000000fec00000-0x00000000fec00fff] reserved
+Jun  4 15:00:05 httpServer kernel: [    0.000000] BIOS-e820: [mem 0x00000000fee00000-0x00000000fee00fff] reserved
+Jun  4 15:00:05 httpServer kernel: [    0.000000] BIOS-e820: [mem 0x00000000fffc0000-0x00000000ffffffff] reserved
+Jun  4 15:00:05 httpServer kernel: [    0.000000] NX (Execute Disable) protection: active
+Jun  4 15:00:05 httpServer kernel: [    0.000000] SMBIOS 2.5 present.
+Jun  4 15:00:05 httpServer kernel: [    0.000000] DMI: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+Jun  4 15:00:05 httpServer kernel: [    0.000000] Hypervisor detected: KVM
+Jun  4 15:00:05 httpServer kernel: [    0.000000] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+Jun  4 15:00:05 httpServer kernel: [    0.000000] e820: remove [mem 0x000a0000-0x000fffff] usable
+Jun  4 15:00:05 httpServer kernel: [    0.000000] e820: last_pfn = 0x3fff0 max_arch_pfn = 0x400000000
+Jun  4 15:00:05 httpServer kernel: [    0.000000] MTRR default type: uncachable
+Jun  4 15:00:05 httpServer kernel: [    0.000000] MTRR variable ranges disabled:
+Jun  4 15:00:05 httpServer kernel: [    0.000000] MTRR: Disabled
+Jun  4 15:00:05 httpServer kernel: [    0.000000] x86/PAT: MTRRs disabled, skipping PAT initialization too.
+Jun  4 15:00:05 httpServer kernel: [    0.000000] CPU MTRRs all blank - virtualized system.
+Jun  4 15:00:05 httpServer kernel: [    0.000000] x86/PAT: Configuration [0-7]: WB  WT  UC- UC  WB  WT  UC- UC  
+Jun  4 15:00:05 httpServer kernel: [    0.000000] found SMP MP-table at [mem 0x0009fff0-0x0009ffff]
+Jun  4 15:00:05 httpServer kernel: [    0.000000] Scanning 1 areas for low memory corruption
+Jun  4 15:00:05 httpServer kernel: [    0.000000] BRK [0x22191000, 0x22191fff] PGTABLE
+Jun  4 15:00:05 httpServer kernel: [    0.000000] BRK [0x22192000, 0x22192fff] PGTABLE
+Jun  4 15:00:05 httpServer kernel: [    0.000000] BRK [0x22193000, 0x22193fff] PGTABLE
+Jun  4 15:00:05 httpServer kernel: [    0.000000] BRK [0x22194000, 0x22194fff] PGTABLE
+Jun  4 15:00:05 httpServer kernel: [    0.000000] BRK [0x22195000, 0x22195fff] PGTABLE
+Jun  4 15:00:05 httpServer kernel: [    0.000000] RAMDISK: [mem 0x31187000-0x348bafff]
+Jun  4 15:00:05 httpServer kernel: [    0.000000] ACPI: Early table checksum verification disabled
+Jun  4 15:00:05 httpServer kernel: [    0.000000] ACPI: RSDP 0x00000000000E0000 000024 (v02 VBOX  )
+Jun  4 15:00:05 httpServer kernel: [    0.000000] ACPI: XSDT 0x000000003FFF0030 00003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+Jun  4 15:00:05 httpServer kernel: [    0.000000] ACPI: FACP 0x000000003FFF00F0 0000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+Jun  4 15:00:05 httpServer kernel: [    0.000000] ACPI: DSDT 0x000000003FFF0470 0022EA (v02 VBOX   VBOXBIOS 00000002 INTL 20100528)
+Jun  4 15:00:05 httpServer kernel: [    0.000000] ACPI: FACS 0x000000003FFF0200 000040
+Jun  4 15:00:05 httpServer kernel: [    0.000000] ACPI: FACS 0x000000003FFF0200 000040
+Jun  4 15:00:05 httpServer kernel: [    0.000000] ACPI: APIC 0x000000003FFF0240 000054 (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+Jun  4 15:00:05 httpServer kernel: [    0.000000] ACPI: SSDT 0x000000003FFF02A0 0001CC (v01 VBOX   VBOXCPUT 00000002 INTL 20100528)
+Jun  4 15:00:05 httpServer kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Jun  4 15:00:05 httpServer kernel: [    0.000000] No NUMA configuration found
+Jun  4 15:00:05 httpServer kernel: [    0.000000] Faking a node at [mem 0x0000000000000000-0x000000003ffeffff]
+Jun  4 15:00:05 httpServer kernel: [    0.000000] NODE_DATA(0) allocated [mem 0x3ffc5000-0x3ffeffff]
+Jun  4 15:00:05 httpServer kernel: [    0.000000] kvm-clock: cpu 0, msr 0:3ff44001, primary cpu clock
+Jun  4 15:00:05 httpServer kernel: [    0.000000] kvm-clock: Using msrs 4b564d01 and 4b564d00
+Jun  4 15:00:05 httpServer kernel: [    0.000000] kvm-clock: using sched offset of 13765426595 cycles
+Jun  4 15:00:05 httpServer kernel: [    0.000000] clocksource: kvm-clock: mask: 0xffffffffffffffff max_cycles: 0x1cd42e4dffb, max_idle_ns: 881590591483 ns
+Jun  4 15:00:05 httpServer kernel: [    0.000000] Zone ranges:
+Jun  4 15:00:05 httpServer kernel: [    0.000000]   DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+Jun  4 15:00:05 httpServer kernel: [    0.000000]   DMA32    [mem 0x0000000001000000-0x000000003ffeffff]
+Jun  4 15:00:05 httpServer kernel: [    0.000000]   Normal   empty
+Jun  4 15:00:05 httpServer kernel: [    0.000000]   Device   empty
+Jun  4 15:00:05 httpServer kernel: [    0.000000] Movable zone start for each node
+Jun  4 15:00:05 httpServer kernel: [    0.000000] Early memory node ranges
+Jun  4 15:00:05 httpServer kernel: [    0.000000]   node   0: [mem 0x0000000000001000-0x000000000009efff]
+Jun  4 15:00:05 httpServer kernel: [    0.000000]   node   0: [mem 0x0000000000100000-0x000000003ffeffff]
+Jun  4 15:00:05 httpServer kernel: [    0.000000] Reserved but unavailable: 98 pages
+Jun  4 15:00:05 httpServer kernel: [    0.000000] Initmem setup node 0 [mem 0x0000000000001000-0x000000003ffeffff]
+Jun  4 15:00:05 httpServer kernel: [    0.000000] On node 0 totalpages: 262030
+Jun  4 15:00:05 httpServer kernel: [    0.000000]   DMA zone: 64 pages used for memmap
+Jun  4 15:00:05 httpServer kernel: [    0.000000]   DMA zone: 21 pages reserved
+Jun  4 15:00:05 httpServer kernel: [    0.000000]   DMA zone: 3998 pages, LIFO batch:0
+Jun  4 15:00:05 httpServer kernel: [    0.000000]   DMA32 zone: 4032 pages used for memmap
+Jun  4 15:00:05 httpServer kernel: [    0.000000]   DMA32 zone: 258032 pages, LIFO batch:31
+Jun  4 15:00:05 httpServer kernel: [    0.000000] ACPI: PM-Timer IO Port: 0x4008
+Jun  4 15:00:05 httpServer kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Jun  4 15:00:05 httpServer kernel: [    0.000000] IOAPIC[0]: apic_id 1, version 32, address 0xfec00000, GSI 0-23
+Jun  4 15:00:05 httpServer kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Jun  4 15:00:05 httpServer kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 low level)
+Jun  4 15:00:05 httpServer kernel: [    0.000000] ACPI: IRQ0 used by override.
+Jun  4 15:00:05 httpServer kernel: [    0.000000] ACPI: IRQ9 used by override.
+Jun  4 15:00:05 httpServer kernel: [    0.000000] Using ACPI (MADT) for SMP configuration information
+Jun  4 15:00:05 httpServer kernel: [    0.000000] smpboot: Allowing 1 CPUs, 0 hotplug CPUs
+Jun  4 15:00:05 httpServer kernel: [    0.000000] PM: Registered nosave memory: [mem 0x00000000-0x00000fff]
+Jun  4 15:00:05 httpServer kernel: [    0.000000] PM: Registered nosave memory: [mem 0x0009f000-0x0009ffff]
+Jun  4 15:00:05 httpServer kernel: [    0.000000] PM: Registered nosave memory: [mem 0x000a0000-0x000effff]
+Jun  4 15:00:05 httpServer kernel: [    0.000000] PM: Registered nosave memory: [mem 0x000f0000-0x000fffff]
+Jun  4 15:00:05 httpServer kernel: [    0.000000] e820: [mem 0x40000000-0xfebfffff] available for PCI devices
+Jun  4 15:00:05 httpServer kernel: [    0.000000] Booting paravirtualized kernel on KVM
+Jun  4 15:00:05 httpServer kernel: [    0.000000] clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645519600211568 ns
+Jun  4 15:00:05 httpServer kernel: [    0.000000] random: get_random_bytes called from start_kernel+0x99/0x4fd with crng_init=0
+Jun  4 15:00:05 httpServer kernel: [    0.000000] setup_percpu: NR_CPUS:8192 nr_cpumask_bits:1 nr_cpu_ids:1 nr_node_ids:1
+Jun  4 15:00:05 httpServer kernel: [    0.000000] percpu: Embedded 45 pages/cpu s147456 r8192 d28672 u2097152
+Jun  4 15:00:05 httpServer kernel: [    0.000000] pcpu-alloc: s147456 r8192 d28672 u2097152 alloc=1*2097152
+Jun  4 15:00:05 httpServer kernel: [    0.000000] pcpu-alloc: [0] 0 
+Jun  4 15:00:05 httpServer kernel: [    0.000000] PV qspinlock hash table entries: 256 (order: 0, 4096 bytes)
+Jun  4 15:00:05 httpServer kernel: [    0.000000] Built 1 zonelists, mobility grouping on.  Total pages: 257913
+Jun  4 15:00:05 httpServer kernel: [    0.000000] Policy zone: DMA32
+Jun  4 15:00:05 httpServer kernel: [    0.000000] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-4.15.0-101-generic root=UUID=36ab84de-3031-4f04-9624-8ae68d5796ce ro maybe-ubiquity
+Jun  4 15:00:05 httpServer kernel: [    0.000000] Calgary: detecting Calgary via BIOS EBDA area
+Jun  4 15:00:05 httpServer kernel: [    0.000000] Calgary: Unable to locate Rio Grande table in EBDA - bailing!
+Jun  4 15:00:05 httpServer kernel: [    0.000000] Memory: 945920K/1048120K available (12300K kernel code, 2481K rwdata, 4268K rodata, 2432K init, 2712K bss, 102200K reserved, 0K cma-reserved)
+Jun  4 15:00:05 httpServer kernel: [    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+Jun  4 15:00:05 httpServer kernel: [    0.000000] Kernel/User page tables isolation: enabled
+Jun  4 15:00:05 httpServer kernel: [    0.000000] ftrace: allocating 39364 entries in 154 pages
+Jun  4 15:00:05 httpServer kernel: [    0.004000] Hierarchical RCU implementation.
+Jun  4 15:00:05 httpServer kernel: [    0.004000] #011RCU restricting CPUs from NR_CPUS=8192 to nr_cpu_ids=1.
+Jun  4 15:00:05 httpServer kernel: [    0.004000] #011Tasks RCU enabled.
+Jun  4 15:00:05 httpServer kernel: [    0.004000] RCU: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=1
+Jun  4 15:00:05 httpServer kernel: [    0.004000] NR_IRQS: 524544, nr_irqs: 256, preallocated irqs: 16
+Jun  4 15:00:05 httpServer kernel: [    0.004000] Console: colour VGA+ 80x25
+Jun  4 15:00:05 httpServer kernel: [    0.004000] console [tty0] enabled
+Jun  4 15:00:05 httpServer kernel: [    0.004000] ACPI: Core revision 20170831
+Jun  4 15:00:05 httpServer kernel: [    0.004000] ACPI: 2 ACPI AML tables successfully acquired and loaded
+Jun  4 15:00:05 httpServer kernel: [    0.004000] APIC: Switch to symmetric I/O mode setup
+Jun  4 15:00:05 httpServer kernel: [    0.004000] x2apic enabled
+Jun  4 15:00:05 httpServer kernel: [    0.004000] Switched APIC routing to physical x2apic.
+Jun  4 15:00:05 httpServer kernel: [    0.004000] ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+Jun  4 15:00:05 httpServer kernel: [    0.004000] tsc: Detected 2712.000 MHz processor
+Jun  4 15:00:05 httpServer kernel: [    0.004000] Calibrating delay loop (skipped) preset value.. 5424.00 BogoMIPS (lpj=10848000)
+Jun  4 15:00:05 httpServer kernel: [    0.004000] pid_max: default: 32768 minimum: 301
+Jun  4 15:00:05 httpServer kernel: [    0.004000] Security Framework initialized
+Jun  4 15:00:05 httpServer kernel: [    0.004009] Yama: becoming mindful.
+Jun  4 15:00:05 httpServer kernel: [    0.004241] AppArmor: AppArmor initialized
+Jun  4 15:00:05 httpServer kernel: [    0.004617] Dentry cache hash table entries: 131072 (order: 8, 1048576 bytes)
+Jun  4 15:00:05 httpServer kernel: [    0.005032] Inode-cache hash table entries: 65536 (order: 7, 524288 bytes)
+Jun  4 15:00:05 httpServer kernel: [    0.005381] Mount-cache hash table entries: 2048 (order: 2, 16384 bytes)
+Jun  4 15:00:05 httpServer kernel: [    0.005686] Mountpoint-cache hash table entries: 2048 (order: 2, 16384 bytes)
+Jun  4 15:00:05 httpServer kernel: [    0.006483] process: using mwait in idle threads
+Jun  4 15:00:05 httpServer kernel: [    0.006727] Last level iTLB entries: 4KB 64, 2MB 8, 4MB 8
+Jun  4 15:00:05 httpServer kernel: [    0.008004] Last level dTLB entries: 4KB 64, 2MB 0, 4MB 0, 1GB 4
+Jun  4 15:00:05 httpServer kernel: [    0.008284] Spectre V1 : Mitigation: usercopy/swapgs barriers and __user pointer sanitization
+Jun  4 15:00:05 httpServer kernel: [    0.008688] Spectre V2 : Mitigation: Full generic retpoline
+Jun  4 15:00:05 httpServer kernel: [    0.008971] Spectre V2 : Spectre v2 / SpectreRSB mitigation: Filling RSB on context switch
+Jun  4 15:00:05 httpServer kernel: [    0.009373] Speculative Store Bypass: Vulnerable
+Jun  4 15:00:05 httpServer kernel: [    0.009709] MDS: Vulnerable: Clear CPU buffers attempted, no microcode
+Jun  4 15:00:05 httpServer kernel: [    0.029017] Freeing SMP alternatives memory: 36K
+Jun  4 15:00:05 httpServer kernel: [    0.143068] smpboot: CPU0: Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz (family: 0x6, model: 0x8e, stepping: 0x9)
+Jun  4 15:00:05 httpServer kernel: [    0.143640] Performance Events: unsupported p6 CPU model 142 no PMU driver, software events only.
+Jun  4 15:00:05 httpServer kernel: [    0.144000] Hierarchical SRCU implementation.
+Jun  4 15:00:05 httpServer kernel: [    0.144000] NMI watchdog: Perf event create on CPU 0 failed with -2
+Jun  4 15:00:05 httpServer kernel: [    0.144000] NMI watchdog: Perf NMI watchdog permanently disabled
+Jun  4 15:00:05 httpServer kernel: [    0.144000] smp: Bringing up secondary CPUs ...
+Jun  4 15:00:05 httpServer kernel: [    0.144000] smp: Brought up 1 node, 1 CPU
+Jun  4 15:00:05 httpServer kernel: [    0.144000] smpboot: Max logical packages: 1
+Jun  4 15:00:05 httpServer kernel: [    0.144000] smpboot: Total of 1 processors activated (5424.00 BogoMIPS)
+Jun  4 15:00:05 httpServer kernel: [    0.144165] devtmpfs: initialized
+Jun  4 15:00:05 httpServer kernel: [    0.144515] x86/mm: Memory block size: 128MB
+Jun  4 15:00:05 httpServer kernel: [    0.144905] evm: security.selinux
+Jun  4 15:00:05 httpServer kernel: [    0.145135] evm: security.SMACK64
+Jun  4 15:00:05 httpServer kernel: [    0.145385] evm: security.SMACK64EXEC
+Jun  4 15:00:05 httpServer kernel: [    0.145647] evm: security.SMACK64TRANSMUTE
+Jun  4 15:00:05 httpServer kernel: [    0.145931] evm: security.SMACK64MMAP
+Jun  4 15:00:05 httpServer kernel: [    0.148012] evm: security.apparmor
+Jun  4 15:00:05 httpServer kernel: [    0.148255] evm: security.ima
+Jun  4 15:00:05 httpServer kernel: [    0.148477] evm: security.capability
+Jun  4 15:00:05 httpServer kernel: [    0.148947] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+Jun  4 15:00:05 httpServer kernel: [    0.149620] futex hash table entries: 256 (order: 2, 16384 bytes)
+Jun  4 15:00:05 httpServer kernel: [    0.149966] pinctrl core: initialized pinctrl subsystem
+Jun  4 15:00:05 httpServer kernel: [    0.150326] RTC time: 14:59:30, date: 06/04/20
+Jun  4 15:00:05 httpServer kernel: [    0.150650] NET: Registered protocol family 16
+Jun  4 15:00:05 httpServer kernel: [    0.150960] audit: initializing netlink subsys (disabled)
+Jun  4 15:00:05 httpServer kernel: [    0.151369] cpuidle: using governor ladder
+Jun  4 15:00:05 httpServer kernel: [    0.151596] cpuidle: using governor menu
+Jun  4 15:00:05 httpServer kernel: [    0.151841] ACPI: bus type PCI registered
+Jun  4 15:00:05 httpServer kernel: [    0.152000] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Jun  4 15:00:05 httpServer kernel: [    0.152119] PCI: Using configuration type 1 for base access
+Jun  4 15:00:05 httpServer kernel: [    0.153940] audit: type=2000 audit(1591282785.665:1): state=initialized audit_enabled=0 res=1
+Jun  4 15:00:05 httpServer kernel: [    0.154440] HugeTLB registered 2.00 MiB page size, pre-allocated 0 pages
+Jun  4 15:00:05 httpServer kernel: [    0.156184] ACPI: Added _OSI(Module Device)
+Jun  4 15:00:05 httpServer kernel: [    0.156423] ACPI: Added _OSI(Processor Device)
+Jun  4 15:00:05 httpServer kernel: [    0.157559] ACPI: Added _OSI(3.0 _SCP Extensions)
+Jun  4 15:00:05 httpServer kernel: [    0.157835] ACPI: Added _OSI(Processor Aggregator Device)
+Jun  4 15:00:05 httpServer kernel: [    0.160029] ACPI: Added _OSI(Linux-Dell-Video)
+Jun  4 15:00:05 httpServer kernel: [    0.160313] ACPI: Added _OSI(Linux-Lenovo-NV-HDMI-Audio)
+Jun  4 15:00:05 httpServer kernel: [    0.160611] ACPI: Added _OSI(Linux-HPI-Hybrid-Graphics)
+Jun  4 15:00:05 httpServer kernel: [    0.161478] ACPI: Executed 1 blocks of module-level executable AML code
+Jun  4 15:00:05 httpServer kernel: [    0.168726] ACPI: Interpreter enabled
+Jun  4 15:00:05 httpServer kernel: [    0.169065] ACPI: (supports S0 S5)
+Jun  4 15:00:05 httpServer kernel: [    0.169404] ACPI: Using IOAPIC for interrupt routing
+Jun  4 15:00:05 httpServer kernel: [    0.170092] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Jun  4 15:00:05 httpServer kernel: [    0.170902] ACPI: Enabled 2 GPEs in block 00 to 07
+Jun  4 15:00:05 httpServer kernel: [    0.186412] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Jun  4 15:00:05 httpServer kernel: [    0.186956] acpi PNP0A03:00: _OSC: OS supports [ASPM ClockPM Segments MSI]
+Jun  4 15:00:05 httpServer kernel: [    0.188564] acpi PNP0A03:00: _OSC: not requesting OS control; OS requires [ExtendedConfig ASPM ClockPM MSI]
+Jun  4 15:00:05 httpServer kernel: [    0.189222] acpi PNP0A03:00: fail to add MMCONFIG information, can't access extended PCI configuration space under this bridge.
+Jun  4 15:00:05 httpServer kernel: [    0.190777] PCI host bridge to bus 0000:00
+Jun  4 15:00:05 httpServer kernel: [    0.191005] pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+Jun  4 15:00:05 httpServer kernel: [    0.191381] pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+Jun  4 15:00:05 httpServer kernel: [    0.191683] pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
+Jun  4 15:00:05 httpServer kernel: [    0.192000] pci_bus 0000:00: root bus resource [mem 0x40000000-0xfdffffff window]
+Jun  4 15:00:05 httpServer kernel: [    0.192012] pci_bus 0000:00: root bus resource [bus 00-ff]
+Jun  4 15:00:05 httpServer kernel: [    0.194602] pci 0000:00:00.0: [8086:1237] type 00 class 0x060000
+Jun  4 15:00:05 httpServer kernel: [    0.197621] pci 0000:00:01.0: [8086:7000] type 00 class 0x060100
+Jun  4 15:00:05 httpServer kernel: [    0.198683] pci 0000:00:01.1: [8086:7111] type 00 class 0x01018a
+Jun  4 15:00:05 httpServer kernel: [    0.199284] pci 0000:00:01.1: reg 0x20: [io  0xd000-0xd00f]
+Jun  4 15:00:05 httpServer kernel: [    0.199477] pci 0000:00:01.1: legacy IDE quirk: reg 0x10: [io  0x01f0-0x01f7]
+Jun  4 15:00:05 httpServer kernel: [    0.199804] pci 0000:00:01.1: legacy IDE quirk: reg 0x14: [io  0x03f6]
+Jun  4 15:00:05 httpServer kernel: [    0.200000] pci 0000:00:01.1: legacy IDE quirk: reg 0x18: [io  0x0170-0x0177]
+Jun  4 15:00:05 httpServer kernel: [    0.200000] pci 0000:00:01.1: legacy IDE quirk: reg 0x1c: [io  0x0376]
+Jun  4 15:00:05 httpServer kernel: [    0.200314] pci 0000:00:02.0: [15ad:0405] type 00 class 0x030000
+Jun  4 15:00:05 httpServer kernel: [    0.201344] pci 0000:00:02.0: reg 0x10: [io  0xd010-0xd01f]
+Jun  4 15:00:05 httpServer kernel: [    0.202366] pci 0000:00:02.0: reg 0x14: [mem 0xf0000000-0xf0ffffff]
+Jun  4 15:00:05 httpServer kernel: [    0.205090] pci 0000:00:02.0: reg 0x18: [mem 0xf1000000-0xf11fffff]
+Jun  4 15:00:05 httpServer kernel: [    0.210509] pci 0000:00:03.0: [8086:100e] type 00 class 0x020000
+Jun  4 15:00:05 httpServer kernel: [    0.211476] pci 0000:00:03.0: reg 0x10: [mem 0xf1200000-0xf121ffff]
+Jun  4 15:00:05 httpServer kernel: [    0.215662] pci 0000:00:03.0: reg 0x18: [io  0xd020-0xd027]
+Jun  4 15:00:05 httpServer kernel: [    0.223131] pci 0000:00:04.0: [80ee:cafe] type 00 class 0x088000
+Jun  4 15:00:05 httpServer kernel: [    0.224259] pci 0000:00:04.0: reg 0x10: [io  0xd040-0xd05f]
+Jun  4 15:00:05 httpServer kernel: [    0.225794] pci 0000:00:04.0: reg 0x14: [mem 0xf1400000-0xf17fffff]
+Jun  4 15:00:05 httpServer kernel: [    0.226596] pci 0000:00:04.0: reg 0x18: [mem 0xf1800000-0xf1803fff pref]
+Jun  4 15:00:05 httpServer kernel: [    0.230286] pci 0000:00:05.0: [8086:2415] type 00 class 0x040100
+Jun  4 15:00:05 httpServer kernel: [    0.232098] pci 0000:00:05.0: reg 0x10: [io  0xd100-0xd1ff]
+Jun  4 15:00:05 httpServer kernel: [    0.232220] pci 0000:00:05.0: reg 0x14: [io  0xd200-0xd23f]
+Jun  4 15:00:05 httpServer kernel: [    0.235527] pci 0000:00:06.0: [106b:003f] type 00 class 0x0c0310
+Jun  4 15:00:05 httpServer kernel: [    0.236185] pci 0000:00:06.0: reg 0x10: [mem 0xf1804000-0xf1804fff]
+Jun  4 15:00:05 httpServer kernel: [    0.246506] pci 0000:00:07.0: [8086:7113] type 00 class 0x068000
+Jun  4 15:00:05 httpServer kernel: [    0.248128] pci 0000:00:07.0: quirk: [io  0x4000-0x403f] claimed by PIIX4 ACPI
+Jun  4 15:00:05 httpServer kernel: [    0.249172] pci 0000:00:07.0: quirk: [io  0x4100-0x410f] claimed by PIIX4 SMB
+Jun  4 15:00:05 httpServer kernel: [    0.250336] pci 0000:00:0d.0: [8086:2829] type 00 class 0x010601
+Jun  4 15:00:05 httpServer kernel: [    0.251673] pci 0000:00:0d.0: reg 0x10: [io  0xd240-0xd247]
+Jun  4 15:00:05 httpServer kernel: [    0.252188] pci 0000:00:0d.0: reg 0x14: [io  0xd248-0xd24b]
+Jun  4 15:00:05 httpServer kernel: [    0.252962] pci 0000:00:0d.0: reg 0x18: [io  0xd250-0xd257]
+Jun  4 15:00:05 httpServer kernel: [    0.253941] pci 0000:00:0d.0: reg 0x1c: [io  0xd258-0xd25b]
+Jun  4 15:00:05 httpServer kernel: [    0.254673] pci 0000:00:0d.0: reg 0x20: [io  0xd260-0xd26f]
+Jun  4 15:00:05 httpServer kernel: [    0.256170] pci 0000:00:0d.0: reg 0x24: [mem 0xf1806000-0xf1807fff]
+Jun  4 15:00:05 httpServer kernel: [    0.263159] ACPI: PCI Interrupt Link [LNKA] (IRQs 5 9 10 *11)
+Jun  4 15:00:05 httpServer kernel: [    0.264298] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 9 *10 11)
+Jun  4 15:00:05 httpServer kernel: [    0.264825] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 *9 10 11)
+Jun  4 15:00:05 httpServer kernel: [    0.265373] ACPI: PCI Interrupt Link [LNKD] (IRQs 5 9 10 *11)
+Jun  4 15:00:05 httpServer kernel: [    0.267213] SCSI subsystem initialized
+Jun  4 15:00:05 httpServer kernel: [    0.267611] libata version 3.00 loaded.
+Jun  4 15:00:05 httpServer kernel: [    0.267694] pci 0000:00:02.0: vgaarb: setting as boot VGA device
+Jun  4 15:00:05 httpServer kernel: [    0.268000] pci 0000:00:02.0: vgaarb: VGA device added: decodes=io+mem,owns=io+mem,locks=none
+Jun  4 15:00:05 httpServer kernel: [    0.268008] pci 0000:00:02.0: vgaarb: bridge control possible
+Jun  4 15:00:05 httpServer kernel: [    0.268394] vgaarb: loaded
+Jun  4 15:00:05 httpServer kernel: [    0.268618] ACPI: bus type USB registered
+Jun  4 15:00:05 httpServer kernel: [    0.268858] usbcore: registered new interface driver usbfs
+Jun  4 15:00:05 httpServer kernel: [    0.269285] usbcore: registered new interface driver hub
+Jun  4 15:00:05 httpServer kernel: [    0.269672] usbcore: registered new device driver usb
+Jun  4 15:00:05 httpServer kernel: [    0.270062] EDAC MC: Ver: 3.0.0
+Jun  4 15:00:05 httpServer kernel: [    0.270703] PCI: Using ACPI for IRQ routing
+Jun  4 15:00:05 httpServer kernel: [    0.270990] PCI: pci_cache_line_size set to 64 bytes
+Jun  4 15:00:05 httpServer kernel: [    0.273381] e820: reserve RAM buffer [mem 0x0009fc00-0x0009ffff]
+Jun  4 15:00:05 httpServer kernel: [    0.273389] e820: reserve RAM buffer [mem 0x3fff0000-0x3fffffff]
+Jun  4 15:00:05 httpServer kernel: [    0.273669] NetLabel: Initializing
+Jun  4 15:00:05 httpServer kernel: [    0.273941] NetLabel:  domain hash size = 128
+Jun  4 15:00:05 httpServer kernel: [    0.274745] NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
+Jun  4 15:00:05 httpServer kernel: [    0.275347] NetLabel:  unlabeled traffic allowed by default
+Jun  4 15:00:05 httpServer kernel: [    0.276390] clocksource: Switched to clocksource kvm-clock
+Jun  4 15:00:05 httpServer kernel: [    0.301175] VFS: Disk quotas dquot_6.6.0
+Jun  4 15:00:05 httpServer kernel: [    0.301707] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Jun  4 15:00:05 httpServer kernel: [    0.302716] AppArmor: AppArmor Filesystem Enabled
+Jun  4 15:00:05 httpServer kernel: [    0.303169] pnp: PnP ACPI init
+Jun  4 15:00:05 httpServer kernel: [    0.304357] pnp 00:00: Plug and Play ACPI device, IDs PNP0303 (active)
+Jun  4 15:00:05 httpServer kernel: [    0.304458] pnp 00:01: Plug and Play ACPI device, IDs PNP0f03 (active)
+Jun  4 15:00:05 httpServer kernel: [    0.304929] pnp 00:02: Plug and Play ACPI device, IDs PNP0501 (active)
+Jun  4 15:00:05 httpServer kernel: [    0.306451] pnp: PnP ACPI: found 3 devices
+Jun  4 15:00:05 httpServer kernel: [    0.313185] clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+Jun  4 15:00:05 httpServer kernel: [    0.313736] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+Jun  4 15:00:05 httpServer kernel: [    0.313738] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+Jun  4 15:00:05 httpServer kernel: [    0.313773] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+Jun  4 15:00:05 httpServer kernel: [    0.313777] pci_bus 0000:00: resource 7 [mem 0x40000000-0xfdffffff window]
+Jun  4 15:00:05 httpServer kernel: [    0.313846] NET: Registered protocol family 2
+Jun  4 15:00:05 httpServer kernel: [    0.317825] TCP established hash table entries: 8192 (order: 4, 65536 bytes)
+Jun  4 15:00:05 httpServer kernel: [    0.318183] TCP bind hash table entries: 8192 (order: 5, 131072 bytes)
+Jun  4 15:00:05 httpServer kernel: [    0.318487] TCP: Hash tables configured (established 8192 bind 8192)
+Jun  4 15:00:05 httpServer kernel: [    0.318918] UDP hash table entries: 512 (order: 2, 16384 bytes)
+Jun  4 15:00:05 httpServer kernel: [    0.319202] UDP-Lite hash table entries: 512 (order: 2, 16384 bytes)
+Jun  4 15:00:05 httpServer kernel: [    0.319523] NET: Registered protocol family 1
+Jun  4 15:00:05 httpServer kernel: [    0.319895] pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+Jun  4 15:00:05 httpServer kernel: [    0.320331] pci 0000:00:01.0: Activating ISA DMA hang workarounds
+Jun  4 15:00:05 httpServer kernel: [    0.320837] pci 0000:00:02.0: Video device with shadowed ROM at [mem 0x000c0000-0x000dffff]
+Jun  4 15:00:05 httpServer kernel: [    0.325269] PCI: CLS 0 bytes, default 64
+Jun  4 15:00:05 httpServer kernel: [    0.325312] Unpacking initramfs...
+Jun  4 15:00:05 httpServer kernel: [    1.797099] Freeing initrd memory: 56528K
+Jun  4 15:00:05 httpServer kernel: [    1.797519] clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x2717868ea45, max_idle_ns: 440795316085 ns
+Jun  4 15:00:05 httpServer kernel: [    1.798183] platform rtc_cmos: registered platform RTC device (no PNP device found)
+Jun  4 15:00:05 httpServer kernel: [    1.798816] Scanning for low memory corruption every 60 seconds
+Jun  4 15:00:05 httpServer kernel: [    1.799871] Initialise system trusted keyrings
+Jun  4 15:00:05 httpServer kernel: [    1.800126] Key type blacklist registered
+Jun  4 15:00:05 httpServer kernel: [    1.800697] workingset: timestamp_bits=36 max_order=18 bucket_order=0
+Jun  4 15:00:05 httpServer kernel: [    1.802885] zbud: loaded
+Jun  4 15:00:05 httpServer kernel: [    1.806825] squashfs: version 4.0 (2009/01/31) Phillip Lougher
+Jun  4 15:00:05 httpServer kernel: [    1.807829] fuse init (API version 7.26)
+Jun  4 15:00:05 httpServer kernel: [    1.809013] Key type asymmetric registered
+Jun  4 15:00:05 httpServer kernel: [    1.809451] Asymmetric key parser 'x509' registered
+Jun  4 15:00:05 httpServer kernel: [    1.809844] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 246)
+Jun  4 15:00:05 httpServer kernel: [    1.810424] io scheduler noop registered
+Jun  4 15:00:05 httpServer kernel: [    1.810703] io scheduler deadline registered
+Jun  4 15:00:05 httpServer kernel: [    1.811062] io scheduler cfq registered (default)
+Jun  4 15:00:05 httpServer kernel: [    1.811801] ACPI: AC Adapter [AC] (on-line)
+Jun  4 15:00:05 httpServer kernel: [    1.812413] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
+Jun  4 15:00:05 httpServer kernel: [    1.813082] ACPI: Power Button [PWRF]
+Jun  4 15:00:05 httpServer kernel: [    1.813635] input: Sleep Button as /devices/LNXSYSTM:00/LNXSLPBN:00/input/input1
+Jun  4 15:00:05 httpServer kernel: [    1.814147] ACPI: Sleep Button [SLPF]
+Jun  4 15:00:05 httpServer kernel: [    1.817305] Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+Jun  4 15:00:05 httpServer kernel: [    1.858735] ACPI: Battery Slot [BAT0] (battery present)
+Jun  4 15:00:05 httpServer kernel: [    1.860798] 00:02: ttyS0 at I/O 0x3f8 (irq = 4, base_baud = 115200) is a 16550A
+Jun  4 15:00:05 httpServer kernel: [    1.866710] Linux agpgart interface v0.103
+Jun  4 15:00:05 httpServer kernel: [    1.868714] loop: module loaded
+Jun  4 15:00:05 httpServer kernel: [    1.869183] ata_piix 0000:00:01.1: version 2.13
+Jun  4 15:00:05 httpServer kernel: [    1.869738] scsi host0: ata_piix
+Jun  4 15:00:05 httpServer kernel: [    1.870105] scsi host1: ata_piix
+Jun  4 15:00:05 httpServer kernel: [    1.870416] ata1: PATA max UDMA/33 cmd 0x1f0 ctl 0x3f6 bmdma 0xd000 irq 14
+Jun  4 15:00:05 httpServer kernel: [    1.870985] ata2: PATA max UDMA/33 cmd 0x170 ctl 0x376 bmdma 0xd008 irq 15
+Jun  4 15:00:05 httpServer kernel: [    1.872918] libphy: Fixed MDIO Bus: probed
+Jun  4 15:00:05 httpServer kernel: [    1.873516] tun: Universal TUN/TAP device driver, 1.6
+Jun  4 15:00:05 httpServer kernel: [    1.874752] PPP generic driver version 2.4.2
+Jun  4 15:00:05 httpServer kernel: [    1.875419] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Jun  4 15:00:05 httpServer kernel: [    1.876022] ehci-pci: EHCI PCI platform driver
+Jun  4 15:00:05 httpServer kernel: [    1.877396] ehci-platform: EHCI generic platform driver
+Jun  4 15:00:05 httpServer kernel: [    1.877876] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+Jun  4 15:00:05 httpServer kernel: [    1.878267] ohci-pci: OHCI PCI platform driver
+Jun  4 15:00:05 httpServer kernel: [    1.879770] ohci-pci 0000:00:06.0: OHCI PCI host controller
+Jun  4 15:00:05 httpServer kernel: [    1.880224] ohci-pci 0000:00:06.0: new USB bus registered, assigned bus number 1
+Jun  4 15:00:05 httpServer kernel: [    1.880829] ohci-pci 0000:00:06.0: irq 22, io mem 0xf1804000
+Jun  4 15:00:05 httpServer kernel: [    1.941859] usb usb1: New USB device found, idVendor=1d6b, idProduct=0001
+Jun  4 15:00:05 httpServer kernel: [    1.942387] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Jun  4 15:00:05 httpServer kernel: [    1.942977] usb usb1: Product: OHCI PCI host controller
+Jun  4 15:00:05 httpServer kernel: [    1.943961] usb usb1: Manufacturer: Linux 4.15.0-101-generic ohci_hcd
+Jun  4 15:00:05 httpServer kernel: [    1.944052] usb usb1: SerialNumber: 0000:00:06.0
+Jun  4 15:00:05 httpServer kernel: [    1.944052] hub 1-0:1.0: USB hub found
+Jun  4 15:00:05 httpServer kernel: [    1.946510] hub 1-0:1.0: 12 ports detected
+Jun  4 15:00:05 httpServer kernel: [    1.947399] ohci-platform: OHCI generic platform driver
+Jun  4 15:00:05 httpServer kernel: [    1.947773] uhci_hcd: USB Universal Host Controller Interface driver
+Jun  4 15:00:05 httpServer kernel: [    1.948174] i8042: PNP: PS/2 Controller [PNP0303:PS2K,PNP0f03:PS2M] at 0x60,0x64 irq 1,12
+Jun  4 15:00:05 httpServer kernel: [    1.949601] serio: i8042 KBD port at 0x60,0x64 irq 1
+Jun  4 15:00:05 httpServer kernel: [    1.950085] serio: i8042 AUX port at 0x60,0x64 irq 12
+Jun  4 15:00:05 httpServer kernel: [    1.950554] mousedev: PS/2 mouse device common for all mice
+Jun  4 15:00:05 httpServer kernel: [    1.951418] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input2
+Jun  4 15:00:05 httpServer kernel: [    1.952650] rtc_cmos rtc_cmos: rtc core: registered rtc_cmos as rtc0
+Jun  4 15:00:05 httpServer kernel: [    1.953882] rtc_cmos rtc_cmos: alarms up to one day, 114 bytes nvram
+Jun  4 15:00:05 httpServer kernel: [    1.954360] i2c /dev entries driver
+Jun  4 15:00:05 httpServer kernel: [    1.955539] device-mapper: uevent: version 1.0.3
+Jun  4 15:00:05 httpServer kernel: [    1.956227] device-mapper: ioctl: 4.37.0-ioctl (2017-09-20) initialised: dm-devel@redhat.com
+Jun  4 15:00:05 httpServer kernel: [    1.957096] ledtrig-cpu: registered to indicate activity on CPUs
+Jun  4 15:00:05 httpServer kernel: [    1.957709] intel_pmc_core:  initialized
+Jun  4 15:00:05 httpServer kernel: [    1.958256] NET: Registered protocol family 10
+Jun  4 15:00:05 httpServer kernel: [    1.964835] Segment Routing with IPv6
+Jun  4 15:00:05 httpServer kernel: [    1.965238] NET: Registered protocol family 17
+Jun  4 15:00:05 httpServer kernel: [    1.965627] Key type dns_resolver registered
+Jun  4 15:00:05 httpServer kernel: [    1.966133] mce: Using 0 MCE banks
+Jun  4 15:00:05 httpServer kernel: [    1.966417] RAS: Correctable Errors collector initialized.
+Jun  4 15:00:05 httpServer kernel: [    1.966790] sched_clock: Marking stable (1964462836, 0)->(2085004465, -120541629)
+Jun  4 15:00:05 httpServer kernel: [    1.967525] registered taskstats version 1
+Jun  4 15:00:05 httpServer kernel: [    1.967883] Loading compiled-in X.509 certificates
+Jun  4 15:00:05 httpServer kernel: [    1.977689] Loaded X.509 cert 'Build time autogenerated kernel key: 81757e40860ca54b8a45e323b66799c03c91a344'
+Jun  4 15:00:05 httpServer kernel: [    1.978712] zswap: loaded using pool lzo/zbud
+Jun  4 15:00:05 httpServer kernel: [    1.989045] Key type big_key registered
+Jun  4 15:00:05 httpServer kernel: [    1.989571] Key type trusted registered
+Jun  4 15:00:05 httpServer kernel: [    1.997212] Key type encrypted registered
+Jun  4 15:00:05 httpServer kernel: [    1.997556] AppArmor: AppArmor sha1 policy hashing enabled
+Jun  4 15:00:05 httpServer kernel: [    1.997976] ima: No TPM chip found, activating TPM-bypass! (rc=-19)
+Jun  4 15:00:05 httpServer kernel: [    1.998385] ima: Allocated hash algorithm: sha1
+Jun  4 15:00:05 httpServer kernel: [    1.998714] evm: HMAC attrs: 0x1
+Jun  4 15:00:05 httpServer kernel: [    1.999516]   Magic number: 8:227:990
+Jun  4 15:00:05 httpServer kernel: [    2.000063] rtc_cmos rtc_cmos: setting system clock to 2020-06-04 14:59:31 UTC (1591282771)
+Jun  4 15:00:05 httpServer kernel: [    2.001116] BIOS EDD facility v0.16 2004-Jun-25, 0 devices found
+Jun  4 15:00:05 httpServer kernel: [    2.001533] EDD information not available.
+Jun  4 15:00:05 httpServer kernel: [    2.037164] ata2.00: ATAPI: VBOX CD-ROM, 1.0, max UDMA/133
+Jun  4 15:00:05 httpServer kernel: [    2.039010] ata2.00: configured for UDMA/33
+Jun  4 15:00:05 httpServer kernel: [    2.040603] scsi 1:0:0:0: CD-ROM            VBOX     CD-ROM           1.0  PQ: 0 ANSI: 5
+Jun  4 15:00:05 httpServer kernel: [    2.064644] sr 1:0:0:0: [sr0] scsi3-mmc drive: 32x/32x xa/form2 tray
+Jun  4 15:00:05 httpServer kernel: [    2.065147] cdrom: Uniform CD-ROM driver Revision: 3.20
+Jun  4 15:00:05 httpServer kernel: [    2.065757] sr 1:0:0:0: Attached scsi CD-ROM sr0
+Jun  4 15:00:05 httpServer kernel: [    2.065922] sr 1:0:0:0: Attached scsi generic sg0 type 5
+Jun  4 15:00:05 httpServer kernel: [    2.070438] Freeing unused kernel image memory: 2432K
+Jun  4 15:00:05 httpServer kernel: [    2.076760] Write protecting the kernel read-only data: 20480k
+Jun  4 15:00:05 httpServer kernel: [    2.078143] Freeing unused kernel image memory: 2008K
+Jun  4 15:00:05 httpServer kernel: [    2.078896] Freeing unused kernel image memory: 1876K
+Jun  4 15:00:05 httpServer kernel: [    2.097224] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+Jun  4 15:00:05 httpServer kernel: [    2.097639] x86/mm: Checking user space page tables
+Jun  4 15:00:05 httpServer kernel: [    2.118433] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+Jun  4 15:00:05 httpServer kernel: [    2.408179] usb 1-1: new full-speed USB device number 2 using ohci-pci
+Jun  4 15:00:05 httpServer kernel: [    2.483235] ACPI: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+Jun  4 15:00:05 httpServer kernel: [    2.510104] input: Video Bus as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A03:00/LNXVIDEO:00/input/input4
+Jun  4 15:00:05 httpServer kernel: [    2.545412] piix4_smbus 0000:00:07.0: SMBus Host Controller at 0x4100, revision 0
+Jun  4 15:00:05 httpServer kernel: [    2.565483] ahci 0000:00:0d.0: version 3.0
+Jun  4 15:00:05 httpServer kernel: [    2.566569] ahci 0000:00:0d.0: SSS flag set, parallel bus scan disabled
+Jun  4 15:00:05 httpServer kernel: [    2.567231] ahci 0000:00:0d.0: AHCI 0001.0100 32 slots 1 ports 3 Gbps 0x1 impl SATA mode
+Jun  4 15:00:05 httpServer kernel: [    2.567996] ahci 0000:00:0d.0: flags: 64bit ncq stag only ccc 
+Jun  4 15:00:05 httpServer kernel: [    2.601056] e1000: Intel(R) PRO/1000 Network Driver - version 7.3.21-k8-NAPI
+Jun  4 15:00:05 httpServer kernel: [    2.601516] e1000: Copyright (c) 1999-2006 Intel Corporation.
+Jun  4 15:00:05 httpServer kernel: [    2.604543] scsi host2: ahci
+Jun  4 15:00:05 httpServer kernel: [    2.606140] ata3: SATA max UDMA/133 abar m8192@0xf1806000 port 0xf1806100 irq 21
+Jun  4 15:00:05 httpServer kernel: [    2.669512] AVX2 version of gcm_enc/dec engaged.
+Jun  4 15:00:05 httpServer kernel: [    2.669883] AES CTR mode by8 optimization enabled
+Jun  4 15:00:05 httpServer kernel: [    2.768782] usb 1-1: New USB device found, idVendor=80ee, idProduct=0021
+Jun  4 15:00:05 httpServer kernel: [    2.769200] usb 1-1: New USB device strings: Mfr=1, Product=3, SerialNumber=0
+Jun  4 15:00:05 httpServer kernel: [    2.769543] usb 1-1: Product: USB Tablet
+Jun  4 15:00:05 httpServer kernel: [    2.769955] usb 1-1: Manufacturer: VirtualBox
+Jun  4 15:00:05 httpServer kernel: [    2.779545] random: fast init done
+Jun  4 15:00:05 httpServer kernel: [    2.779803] input: ImExPS/2 Generic Explorer Mouse as /devices/platform/i8042/serio1/input/input5
+Jun  4 15:00:05 httpServer kernel: [    2.782869] random: systemd-udevd: uninitialized urandom read (16 bytes read)
+Jun  4 15:00:05 httpServer kernel: [    2.794802] random: systemd-udevd: uninitialized urandom read (16 bytes read)
+Jun  4 15:00:05 httpServer kernel: [    2.795362] random: systemd-udevd: uninitialized urandom read (16 bytes read)
+Jun  4 15:00:05 httpServer kernel: [    2.862102] hidraw: raw HID events driver (C) Jiri Kosina
+Jun  4 15:00:05 httpServer kernel: [    2.882457] usbcore: registered new interface driver usbhid
+Jun  4 15:00:05 httpServer kernel: [    2.882884] usbhid: USB HID core driver
+Jun  4 15:00:05 httpServer kernel: [    2.895974] input: VirtualBox USB Tablet as /devices/pci0000:00/0000:00:06.0/usb1/1-1/1-1:1.0/0003:80EE:0021.0001/input/input6
+Jun  4 15:00:05 httpServer kernel: [    2.897415] hid-generic 0003:80EE:0021.0001: input,hidraw0: USB HID v1.10 Mouse [VirtualBox USB Tablet] on usb-0000:00:06.0-1/input0
+Jun  4 15:00:05 httpServer kernel: [    2.921083] ata3: SATA link up 3.0 Gbps (SStatus 123 SControl 300)
+Jun  4 15:00:05 httpServer kernel: [    2.922926] ata3.00: ATA-6: VBOX HARDDISK, 1.0, max UDMA/133
+Jun  4 15:00:05 httpServer kernel: [    2.923964] ata3.00: 41943040 sectors, multi 128: LBA48 NCQ (depth 31/32)
+Jun  4 15:00:05 httpServer kernel: [    2.931171] ata3.00: configured for UDMA/133
+Jun  4 15:00:05 httpServer kernel: [    2.931739] scsi 2:0:0:0: Direct-Access     ATA      VBOX HARDDISK    1.0  PQ: 0 ANSI: 5
+Jun  4 15:00:05 httpServer kernel: [    2.933912] sd 2:0:0:0: [sda] 41943040 512-byte logical blocks: (21.5 GB/20.0 GiB)
+Jun  4 15:00:05 httpServer kernel: [    2.934675] sd 2:0:0:0: [sda] Write Protect is off
+Jun  4 15:00:05 httpServer kernel: [    2.935040] sd 2:0:0:0: [sda] Mode Sense: 00 3a 00 00
+Jun  4 15:00:05 httpServer kernel: [    2.935072] sd 2:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Jun  4 15:00:05 httpServer kernel: [    2.937661] sd 2:0:0:0: Attached scsi generic sg1 type 0
+Jun  4 15:00:05 httpServer kernel: [    3.165353]  sda: sda1 sda2 sda3 sda4 sda5 sda6 sda7
+Jun  4 15:00:05 httpServer kernel: [    3.166025] sd 2:0:0:0: [sda] Attached SCSI disk
+Jun  4 15:00:05 httpServer kernel: [    3.386641] e1000 0000:00:03.0 eth0: (PCI:33MHz:32-bit) 08:00:27:50:e7:e4
+Jun  4 15:00:05 httpServer kernel: [    3.386957] e1000 0000:00:03.0 eth0: Intel(R) PRO/1000 Network Connection
+Jun  4 15:00:05 httpServer kernel: [    3.389157] [drm] DMA map mode: Using physical TTM page addresses.
+Jun  4 15:00:05 httpServer kernel: [    3.389540] [drm] Capabilities:
+Jun  4 15:00:05 httpServer kernel: [    3.389733] [drm]   Cursor.
+Jun  4 15:00:05 httpServer kernel: [    3.389914] [drm]   Cursor bypass 2.
+Jun  4 15:00:05 httpServer kernel: [    3.390183] [drm]   Alpha cursor.
+Jun  4 15:00:05 httpServer kernel: [    3.390431] [drm]   3D.
+Jun  4 15:00:05 httpServer kernel: [    3.390637] [drm]   Extended Fifo.
+Jun  4 15:00:05 httpServer kernel: [    3.390838] [drm]   Pitchlock.
+Jun  4 15:00:05 httpServer kernel: [    3.391120] [drm]   Irq mask.
+Jun  4 15:00:05 httpServer kernel: [    3.391330] [drm]   GMR.
+Jun  4 15:00:05 httpServer kernel: [    3.391502] [drm]   Traces.
+Jun  4 15:00:05 httpServer kernel: [    3.391700] [drm]   GMR2.
+Jun  4 15:00:05 httpServer kernel: [    3.391876] [drm]   Screen Object 2.
+Jun  4 15:00:05 httpServer kernel: [    3.392344] [drm] Max GMR ids is 8192
+Jun  4 15:00:05 httpServer kernel: [    3.392622] [drm] Max number of GMR pages is 1048576
+Jun  4 15:00:05 httpServer kernel: [    3.394099] [drm] Max dedicated hypervisor surface memory is 507904 kiB
+Jun  4 15:00:05 httpServer kernel: [    3.394401] [drm] Maximum display memory size is 16384 kiB
+Jun  4 15:00:05 httpServer kernel: [    3.394663] [drm] VRAM at 0xf0000000 size is 16384 kiB
+Jun  4 15:00:05 httpServer kernel: [    3.394965] [drm] MMIO at 0xf1000000 size is 2048 kiB
+Jun  4 15:00:05 httpServer kernel: [    3.396446] e1000 0000:00:03.0 enp0s3: renamed from eth0
+Jun  4 15:00:05 httpServer kernel: [    3.398290] [drm] global init.
+Jun  4 15:00:05 httpServer kernel: [    3.398541] [TTM] Zone  kernel: Available graphics memory: 504400 kiB
+Jun  4 15:00:05 httpServer kernel: [    3.399095] [TTM] Initializing pool allocator
+Jun  4 15:00:05 httpServer kernel: [    3.399332] [TTM] Initializing DMA pool allocator
+Jun  4 15:00:05 httpServer kernel: [    3.399694] [drm] Supports vblank timestamp caching Rev 2 (21.10.2013).
+Jun  4 15:00:05 httpServer kernel: [    3.400063] [drm] No driver support for vblank timestamp query.
+Jun  4 15:00:05 httpServer kernel: [    3.403806] [drm] Screen Objects Display Unit initialized
+Jun  4 15:00:05 httpServer kernel: [    3.404171] [drm] width 720
+Jun  4 15:00:05 httpServer kernel: [    3.404466] [drm] height 400
+Jun  4 15:00:05 httpServer kernel: [    3.404903] [drm] bpp 32
+Jun  4 15:00:05 httpServer kernel: [    3.405497] [drm] Fifo max 0x00200000 min 0x00001000 cap 0x00000355
+Jun  4 15:00:05 httpServer kernel: [    3.408501] [drm] DX: no.
+Jun  4 15:00:05 httpServer kernel: [    3.410885] [drm] Atomic: yes
+Jun  4 15:00:05 httpServer kernel: [    3.415910] [drm:vmw_host_log [vmwgfx]] *ERROR* Failed to send log
+Jun  4 15:00:05 httpServer kernel: [    3.421642] [drm:vmw_host_log [vmwgfx]] *ERROR* Failed to send log
+Jun  4 15:00:05 httpServer kernel: [    3.428827] fbcon: svgadrmfb (fb0) is primary device
+Jun  4 15:00:05 httpServer kernel: [    3.433975] Console: switching to colour frame buffer device 100x37
+Jun  4 15:00:05 httpServer kernel: [    3.436511] [drm] Initialized vmwgfx 2.14.0 20170612 for 0000:00:02.0 on minor 0
+Jun  4 15:00:05 httpServer kernel: [    4.328512] raid6: sse2x1   gen()  7986 MB/s
+Jun  4 15:00:05 httpServer kernel: [    4.377013] raid6: sse2x1   xor()  4584 MB/s
+Jun  4 15:00:05 httpServer kernel: [    4.424103] raid6: sse2x2   gen() 10038 MB/s
+Jun  4 15:00:05 httpServer kernel: [    4.472042] raid6: sse2x2   xor()  6904 MB/s
+Jun  4 15:00:05 httpServer kernel: [    4.520276] raid6: sse2x4   gen()  9874 MB/s
+Jun  4 15:00:05 httpServer kernel: [    4.568197] raid6: sse2x4   xor()  6306 MB/s
+Jun  4 15:00:05 httpServer kernel: [    4.616510] raid6: avx2x1   gen() 12382 MB/s
+Jun  4 15:00:05 httpServer kernel: [    4.664553] raid6: avx2x1   xor()  8648 MB/s
+Jun  4 15:00:05 httpServer kernel: [    4.712115] raid6: avx2x2   gen() 16174 MB/s
+Jun  4 15:00:05 httpServer kernel: [    4.760402] raid6: avx2x2   xor() 11018 MB/s
+Jun  4 15:00:05 httpServer kernel: [    4.808023] raid6: avx2x4   gen() 21087 MB/s
+Jun  4 15:00:05 httpServer kernel: [    4.856479] raid6: avx2x4   xor() 13050 MB/s
+Jun  4 15:00:05 httpServer kernel: [    4.856852] raid6: using algorithm avx2x4 gen() 21087 MB/s
+Jun  4 15:00:05 httpServer kernel: [    4.857322] raid6: .... xor() 13050 MB/s, rmw enabled
+Jun  4 15:00:05 httpServer kernel: [    4.857857] raid6: using avx2x2 recovery algorithm
+Jun  4 15:00:05 httpServer kernel: [    4.860949] xor: automatically using best checksumming function   avx       
+Jun  4 15:00:05 httpServer kernel: [    4.863001] async_tx: api initialized (async)
+Jun  4 15:00:05 httpServer kernel: [    4.942110] Btrfs loaded, crc32c=crc32c-intel
+Jun  4 15:00:05 httpServer kernel: [    5.602275] EXT4-fs (sda2): mounted filesystem with ordered data mode. Opts: (null)
+Jun  4 15:00:05 httpServer kernel: [    6.506399] random: crng init done
+Jun  4 15:00:05 httpServer kernel: [    6.506829] random: 7 urandom warning(s) missed due to ratelimiting
+Jun  4 15:00:05 httpServer kernel: [    8.600413] ip_tables: (C) 2000-2006 Netfilter Core Team
+Jun  4 15:00:05 httpServer kernel: [    8.678701] systemd[1]: systemd 237 running in system mode. (+PAM +AUDIT +SELINUX +IMA +APPARMOR +SMACK +SYSVINIT +UTMP +LIBCRYPTSETUP +GCRYPT +GNUTLS +ACL +XZ +LZ4 +SECCOMP +BLKID +ELFUTILS +KMOD -IDN2 +IDN -PCRE2 default-hierarchy=hybrid)
+Jun  4 15:00:05 httpServer kernel: [    8.680575] systemd[1]: Detected virtualization oracle.
+Jun  4 15:00:05 httpServer kernel: [    8.681090] systemd[1]: Detected architecture x86-64.
+Jun  4 15:00:05 httpServer kernel: [    8.874184] systemd[1]: Set hostname to <httpServer>.
+Jun  4 15:00:05 httpServer kernel: [   12.840315] systemd[1]: Started Forward Password Requests to Wall Directory Watch.
+Jun  4 15:00:05 httpServer kernel: [   12.841419] systemd[1]: Set up automount Arbitrary Executable File Formats File System Automount Point.
+Jun  4 15:00:05 httpServer kernel: [   12.844702] systemd[1]: Created slice System Slice.
+Jun  4 15:00:05 httpServer kernel: [   12.846549] systemd[1]: Listening on Network Service Netlink Socket.
+Jun  4 15:00:05 httpServer kernel: [   12.848671] systemd[1]: Listening on udev Control Socket.
+Jun  4 15:00:05 httpServer kernel: [   12.851034] systemd[1]: Listening on Syslog Socket.
+Jun  4 15:00:05 httpServer kernel: [   13.225609] EXT4-fs (sda2): re-mounted. Opts: (null)
+Jun  4 15:00:05 httpServer kernel: [   13.385539] Loading iSCSI transport class v2.0-870.
+Jun  4 15:00:05 httpServer kernel: [   13.778465] iscsi: registered transport (tcp)
+Jun  4 15:00:05 httpServer kernel: [   13.934920] systemd[1]: Started Journal Service.
+Jun  4 15:00:05 httpServer kernel: [   14.338789] iscsi: registered transport (iser)
+Jun  4 15:00:05 httpServer kernel: [   15.643657] vgdrvHeartbeatInit: Setting up heartbeat to trigger every 2000 milliseconds
+Jun  4 15:00:05 httpServer kernel: [   15.643841] input: Unspecified device as /devices/pci0000:00/0000:00:04.0/input/input7
+Jun  4 15:00:05 httpServer kernel: [   15.665107] vboxguest: misc device minor 56, IRQ 20, I/O port d040, MMIO at 00000000f1400000 (size 0x400000)
+Jun  4 15:00:05 httpServer kernel: [   15.665110] vboxguest: Successfully loaded version 5.2.8_KernelUbuntu (interface 0x00010004)
+Jun  4 15:00:05 httpServer kernel: [   15.944468] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 10737418240 ms ovfl timer
+Jun  4 15:00:05 httpServer kernel: [   15.944470] RAPL PMU: hw unit of domain pp0-core 2^-0 Joules
+Jun  4 15:00:05 httpServer kernel: [   15.944471] RAPL PMU: hw unit of domain package 2^-0 Joules
+Jun  4 15:00:05 httpServer kernel: [   15.944472] RAPL PMU: hw unit of domain dram 2^-0 Joules
+Jun  4 15:00:05 httpServer kernel: [   15.944472] RAPL PMU: hw unit of domain pp1-gpu 2^-0 Joules
+Jun  4 15:00:05 httpServer kernel: [   15.944473] RAPL PMU: hw unit of domain psys 2^-0 Joules
+Jun  4 15:00:05 httpServer kernel: [   17.902038] snd_intel8x0 0000:00:05.0: white list rate for 1028:0177 is 48000
+Jun  4 15:00:05 httpServer kernel: [   18.491888] EXT4-fs (sda5): mounted filesystem with ordered data mode. Opts: (null)
+Jun  4 15:00:05 httpServer kernel: [   18.619217] EXT4-fs (sda4): mounted filesystem with ordered data mode. Opts: (null)
+Jun  4 15:00:05 httpServer kernel: [   18.731890] EXT4-fs (sda6): mounted filesystem with ordered data mode. Opts: (null)
+Jun  4 15:00:05 httpServer kernel: [   18.904922] EXT4-fs (sda3): mounted filesystem with ordered data mode. Opts: (null)
+Jun  4 15:00:05 httpServer kernel: [   19.079275] Adding 4191228k swap on /dev/sda7.  Priority:-2 extents:1 across:4191228k FS
+Jun  4 15:00:05 httpServer kernel: [   19.726079] systemd-journald[397]: Received request to flush runtime journal from PID 1
+Jun  4 15:00:05 httpServer kernel: [   21.400973] audit: type=1400 audit(1591282790.900:2): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default" pid=750 comm="apparmor_parser"
+Jun  4 15:00:05 httpServer kernel: [   21.400977] audit: type=1400 audit(1591282790.900:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default-cgns" pid=750 comm="apparmor_parser"
+Jun  4 15:00:05 httpServer kernel: [   21.400980] audit: type=1400 audit(1591282790.900:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default-with-mounting" pid=750 comm="apparmor_parser"
+Jun  4 15:00:05 httpServer kernel: [   21.400982] audit: type=1400 audit(1591282790.900:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default-with-nesting" pid=750 comm="apparmor_parser"
+Jun  4 15:00:05 httpServer kernel: [   21.466700] audit: type=1400 audit(1591282790.964:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/sbin/dhclient" pid=771 comm="apparmor_parser"
+Jun  4 15:00:05 httpServer kernel: [   21.466704] audit: type=1400 audit(1591282790.964:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=771 comm="apparmor_parser"
+Jun  4 15:00:05 httpServer kernel: [   21.466706] audit: type=1400 audit(1591282790.964:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-helper" pid=771 comm="apparmor_parser"
+Jun  4 15:00:05 httpServer kernel: [   21.466708] audit: type=1400 audit(1591282790.964:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=771 comm="apparmor_parser"
+Jun  4 15:00:05 httpServer kernel: [   21.479692] audit: type=1400 audit(1591282790.976:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/lxc-start" pid=781 comm="apparmor_parser"
+Jun  4 15:00:05 httpServer kernel: [   21.487884] audit: type=1400 audit(1591282790.984:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/man" pid=782 comm="apparmor_parser"
+Jun  4 15:00:05 httpServer kernel: [   29.862785] IPv6: ADDRCONF(NETDEV_UP): enp0s3: link is not ready
+Jun  4 15:00:05 httpServer kernel: [   29.892387] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Jun  4 15:00:05 httpServer kernel: [   29.893149] IPv6: ADDRCONF(NETDEV_CHANGE): enp0s3: link becomes ready
+Jun  4 15:00:05 httpServer systemd-modules-load[390]: Inserted module 'iscsi_tcp'
+Jun  4 15:00:05 httpServer systemd[1]: Started Set the console keyboard layout.
+Jun  4 15:00:05 httpServer systemd[1]: Started Create Static Device Nodes in /dev.
+Jun  4 15:00:05 httpServer systemd[1]: Starting udev Kernel Device Manager...
+Jun  4 15:00:05 httpServer systemd-modules-load[390]: Inserted module 'ib_iser'
+Jun  4 15:00:05 httpServer systemd[1]: Started Load Kernel Modules.
+Jun  4 15:00:05 httpServer systemd[1]: Starting Apply Kernel Variables...
+Jun  4 15:00:05 httpServer systemd[1]: Mounting FUSE Control File System...
+Jun  4 15:00:05 httpServer systemd[1]: Mounting Kernel Configuration File System...
+Jun  4 15:00:05 httpServer systemd[1]: Mounted FUSE Control File System.
+Jun  4 15:00:05 httpServer systemd[1]: Mounted Kernel Configuration File System.
+Jun  4 15:00:05 httpServer systemd[1]: Started LVM2 metadata daemon.
+Jun  4 15:00:05 httpServer systemd[1]: Started Apply Kernel Variables.
+Jun  4 15:00:05 httpServer systemd[1]: Started udev Kernel Device Manager.
+Jun  4 15:00:05 httpServer systemd[1]: Started Dispatch Password Requests to Console Directory Watch.
+Jun  4 15:00:05 httpServer systemd[1]: Reached target Local Encrypted Volumes.
+Jun  4 15:00:05 httpServer systemd[1]: Started Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling.
+Jun  4 15:00:05 httpServer systemd[1]: Reached target Local File Systems (Pre).
+Jun  4 15:00:05 httpServer systemd-udevd[441]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jun  4 15:00:05 httpServer systemd-udevd[442]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jun  4 15:00:05 httpServer systemd[1]: Listening on Load/Save RF Kill Switch Status /dev/rfkill Watch.
+Jun  4 15:00:05 httpServer systemd[1]: Reached target Sound Card.
+Jun  4 15:00:05 httpServer systemd[1]: Found device VBOX_HARDDISK 5.
+Jun  4 15:00:05 httpServer systemd[1]: Mounting /home...
+Jun  4 15:00:05 httpServer systemd[1]: Found device VBOX_HARDDISK 4.
+Jun  4 15:00:05 httpServer systemd[1]: Mounting /tmp...
+Jun  4 15:00:05 httpServer systemd[1]: Mounted /home.
+Jun  4 15:00:05 httpServer systemd[1]: Mounted /tmp.
+Jun  4 15:00:05 httpServer systemd[1]: Found device VBOX_HARDDISK 6.
+Jun  4 15:00:05 httpServer systemd[1]: Mounting /work...
+Jun  4 15:00:05 httpServer systemd[1]: Mounted /work.
+Jun  4 15:00:05 httpServer systemd[1]: Found device VBOX_HARDDISK 3.
+Jun  4 15:00:05 httpServer systemd[1]: Mounting /var...
+Jun  4 15:00:05 httpServer systemd[1]: Found device VBOX_HARDDISK 7.
+Jun  4 15:00:05 httpServer systemd[1]: Activating swap /dev/disk/by-uuid/f22cb97c-507d-4983-9bc8-f786086555ae...
+Jun  4 15:00:05 httpServer systemd[1]: Mounted /var.
+Jun  4 15:00:05 httpServer systemd[1]: Mounting Mount unit for core, revision 8935...
+Jun  4 15:00:05 httpServer systemd[1]: Starting Flush Journal to Persistent Storage...
+Jun  4 15:00:05 httpServer systemd[1]: Starting Load/Save Random Seed...
+Jun  4 15:00:05 httpServer systemd[1]: Reached target Local File Systems.
+Jun  4 15:00:05 httpServer systemd[1]: Starting Tell Plymouth To Write Out Runtime Data...
+Jun  4 15:00:05 httpServer systemd[1]: Starting AppArmor initialization...
+Jun  4 15:00:05 httpServer systemd[1]: Starting Set console font and keymap...
+Jun  4 15:00:05 httpServer systemd[1]: Starting ebtables ruleset management...
+Jun  4 15:00:05 httpServer systemd[1]: Mounting Mount unit for core, revision 9066...
+Jun  4 15:00:05 httpServer systemd[1]: Activated swap /dev/disk/by-uuid/f22cb97c-507d-4983-9bc8-f786086555ae.
+Jun  4 15:00:05 httpServer systemd[1]: Reached target Swap.
+Jun  4 15:00:05 httpServer systemd[1]: Started Tell Plymouth To Write Out Runtime Data.
+Jun  4 15:00:05 httpServer systemd[1]: Started Set console font and keymap.
+Jun  4 15:00:05 httpServer apparmor[624]:  * Starting AppArmor profiles
+Jun  4 15:00:05 httpServer systemd[1]: Started Load/Save Random Seed.
+Jun  4 15:00:05 httpServer systemd[1]: Mounted Mount unit for core, revision 8935.
+Jun  4 15:00:05 httpServer systemd[1]: Mounted Mount unit for core, revision 9066.
+Jun  4 15:00:05 httpServer systemd[1]: Started ebtables ruleset management.
+Jun  4 15:00:05 httpServer systemd[1]: Started Flush Journal to Persistent Storage.
+Jun  4 15:00:05 httpServer systemd[1]: Starting Create Volatile Files and Directories...
+Jun  4 15:00:05 httpServer systemd[1]: Started Create Volatile Files and Directories.
+Jun  4 15:00:05 httpServer systemd[1]: Starting Network Time Synchronization...
+Jun  4 15:00:05 httpServer systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+Jun  4 15:00:05 httpServer systemd[1]: Started Update UTMP about System Boot/Shutdown.
+Jun  4 15:00:05 httpServer apparmor[624]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+Jun  4 15:00:05 httpServer systemd[1]: Started Network Time Synchronization.
+Jun  4 15:00:05 httpServer systemd[1]: Reached target System Time Synchronized.
+Jun  4 15:00:05 httpServer apparmor[624]:    ...done.
+Jun  4 15:00:05 httpServer systemd[1]: Started AppArmor initialization.
+Jun  4 15:00:05 httpServer systemd[1]: Starting Initial cloud-init job (pre-networking)...
+Jun  4 15:00:05 httpServer cloud-init[815]: Cloud-init v. 19.4-33-gbb4131a2-0ubuntu1~18.04.1 running 'init-local' at Thu, 04 Jun 2020 14:59:57 +0000. Up 27.85 seconds.
+Jun  4 15:00:05 httpServer systemd[1]: Started Initial cloud-init job (pre-networking).
+Jun  4 15:00:05 httpServer systemd[1]: Reached target Network (Pre).
+Jun  4 15:00:05 httpServer systemd[1]: Starting Network Service...
+Jun  4 15:00:05 httpServer systemd-networkd[850]: Enumeration completed
+Jun  4 15:00:05 httpServer systemd[1]: Started Network Service.
+Jun  4 15:00:05 httpServer systemd-networkd[850]: enp0s3: IPv6 successfully enabled
+Jun  4 15:00:05 httpServer systemd[1]: Starting Network Name Resolution...
+Jun  4 15:00:05 httpServer systemd-networkd[850]: lo: Link is not managed by us
+Jun  4 15:00:05 httpServer systemd-networkd[850]: enp0s3: Link UP
+Jun  4 15:00:05 httpServer systemd[1]: Starting Wait for Network to be Configured...
+Jun  4 15:00:05 httpServer systemd-networkd-wait-online[877 ignoring: lo
+Jun  4 15:00:05 httpServer systemd-networkd-wait-online[877 ignoring: lo
+Jun  4 15:00:05 httpServer systemd-networkd[850]: enp0s3: Gained carrier
+Jun  4 15:00:05 httpServer systemd-networkd-wait-online[877 ignoring: lo
+Jun  4 15:00:05 httpServer systemd-networkd[850]: enp0s3: DHCPv4 address 10.10.20.30/24 via 10.10.20.254
+Jun  4 15:00:05 httpServer systemd-networkd-wait-online[877 ignoring: lo
+Jun  4 15:00:05 httpServer systemd-networkd-wait-online[877 ignoring: lo
+Jun  4 15:00:05 httpServer systemd-timesyncd[759]: Network configuration changed, trying to establish connection.
+Jun  4 15:00:05 httpServer systemd-resolved[869]: Positive Trust Anchors:
+Jun  4 15:00:05 httpServer systemd-resolved[869]: . IN DS 19036 8 2 49aac11d7b6f6446702e54a1607371607a1a41855200fd2ce1cdde32f24e8fb5
+Jun  4 15:00:05 httpServer systemd-resolved[869]: . IN DS 20326 8 2 e06d44b80b8f1d39a95c0b0d7c65d08458e880409bbc683457104237c7f8ec8d
+Jun  4 15:00:05 httpServer systemd-resolved[869]: Negative trust anchors: 10.in-addr.arpa 16.172.in-addr.arpa 17.172.in-addr.arpa 18.172.in-addr.arpa 19.172.in-addr.arpa 20.172.in-addr.arpa 21.172.in-addr.arpa 22.172.in-addr.arpa 23.172.in-addr.arpa 24.172.in-addr.arpa 25.172.in-addr.arpa 26.172.in-addr.arpa 27.172.in-addr.arpa 28.172.in-addr.arpa 29.172.in-addr.arpa 30.172.in-addr.arpa 31.172.in-addr.arpa 168.192.in-addr.arpa d.f.ip6.arpa corp home internal intranet lan local private test
+Jun  4 15:00:05 httpServer systemd-resolved[869]: Using system hostname 'httpServer'.
+Jun  4 15:00:05 httpServer systemd[1]: Started Network Name Resolution.
+Jun  4 15:00:05 httpServer systemd[1]: Reached target Host and Network Name Lookups.
+Jun  4 15:00:05 httpServer systemd[1]: Reached target Network.
+Jun  4 15:00:05 httpServer systemd-networkd[850]: enp0s3: Gained IPv6LL
+Jun  4 15:00:05 httpServer systemd-networkd[850]: enp0s3: Configured
+Jun  4 15:00:05 httpServer systemd-networkd-wait-online[877 ignoring: lo
+Jun  4 15:00:05 httpServer systemd-networkd-wait-online[877 managing: enp0s3
+Jun  4 15:00:05 httpServer systemd-timesyncd[759]: Network configuration changed, trying to establish connection.
+Jun  4 15:00:05 httpServer systemd[1]: Started Wait for Network to be Configured.
+Jun  4 15:00:05 httpServer systemd[1]: Starting Initial cloud-init job (metadata service crawler)...
+Jun  4 15:00:05 httpServer cloud-init[895]: Cloud-init v. 19.4-33-gbb4131a2-0ubuntu1~18.04.1 running 'init' at Thu, 04 Jun 2020 15:00:03 +0000. Up 33.66 seconds.
+Jun  4 15:00:05 httpServer cloud-init[895]: ci-info: ++++++++++++++++++++++++++++++++++++++Net device info+++++++++++++++++++++++++++++++++++++++
+Jun  4 15:00:05 httpServer cloud-init[895]: ci-info: +--------+------+-----------------------------+---------------+--------+-------------------+
+Jun  4 15:00:05 httpServer cloud-init[895]: ci-info: | Device |  Up  |           Address           |      Mask     | Scope  |     Hw-Address    |
+Jun  4 15:00:05 httpServer cloud-init[895]: ci-info: +--------+------+-----------------------------+---------------+--------+-------------------+
+Jun  4 15:00:05 httpServer cloud-init[895]: ci-info: | enp0s3 | True |         10.10.20.30         | 255.255.255.0 | global | 08:00:27:50:e7:e4 |
+Jun  4 15:00:05 httpServer cloud-init[895]: ci-info: | enp0s3 | True | fe80::a00:27ff:fe50:e7e4/64 |       .       |  link  | 08:00:27:50:e7:e4 |
+Jun  4 15:00:05 httpServer cloud-init[895]: ci-info: |   lo   | True |          127.0.0.1          |   255.0.0.0   |  host  |         .         |
+Jun  4 15:00:05 httpServer cloud-init[895]: ci-info: |   lo   | True |           ::1/128           |       .       |  host  |         .         |
+Jun  4 15:00:05 httpServer cloud-init[895]: ci-info: +--------+------+-----------------------------+---------------+--------+-------------------+
+Jun  4 15:00:05 httpServer cloud-init[895]: ci-info: +++++++++++++++++++++++++++++++Route IPv4 info+++++++++++++++++++++++++++++++
+Jun  4 15:00:05 httpServer cloud-init[895]: ci-info: +-------+--------------+--------------+-----------------+-----------+-------+
+Jun  4 15:00:05 httpServer cloud-init[895]: ci-info: | Route | Destination  |   Gateway    |     Genmask     | Interface | Flags |
+Jun  4 15:00:05 httpServer cloud-init[895]: ci-info: +-------+--------------+--------------+-----------------+-----------+-------+
+Jun  4 15:00:05 httpServer cloud-init[895]: ci-info: |   0   |   0.0.0.0    | 10.10.20.254 |     0.0.0.0     |   enp0s3  |   UG  |
+Jun  4 15:00:05 httpServer cloud-init[895]: ci-info: |   1   |  10.10.20.0  |   0.0.0.0    |  255.255.255.0  |   enp0s3  |   U   |
+Jun  4 15:00:05 httpServer cloud-init[895]: ci-info: |   2   | 10.10.20.254 |   0.0.0.0    | 255.255.255.255 |   enp0s3  |   UH  |
+Jun  4 15:00:05 httpServer cloud-init[895]: ci-info: +-------+--------------+--------------+-----------------+-----------+-------+
+Jun  4 15:00:05 httpServer cloud-init[895]: ci-info: +++++++++++++++++++Route IPv6 info+++++++++++++++++++
+Jun  4 15:00:05 httpServer cloud-init[895]: ci-info: +-------+-------------+---------+-----------+-------+
+Jun  4 15:00:05 httpServer cloud-init[895]: ci-info: | Route | Destination | Gateway | Interface | Flags |
+Jun  4 15:00:05 httpServer cloud-init[895]: ci-info: +-------+-------------+---------+-----------+-------+
+Jun  4 15:00:05 httpServer cloud-init[895]: ci-info: |   1   |  fe80::/64  |    ::   |   enp0s3  |   U   |
+Jun  4 15:00:05 httpServer cloud-init[895]: ci-info: |   3   |    local    |    ::   |   enp0s3  |   U   |
+Jun  4 15:00:05 httpServer cloud-init[895]: ci-info: |   4   |   ff00::/8  |    ::   |   enp0s3  |   U   |
+Jun  4 15:00:05 httpServer cloud-init[895]: ci-info: +-------+-------------+---------+-----------+-------+
+Jun  4 15:00:05 httpServer systemd[1]: Started Initial cloud-init job (metadata service crawler).
+Jun  4 15:00:05 httpServer systemd[1]: Reached target System Initialization.
+Jun  4 15:00:05 httpServer systemd[1]: Started Daily Cleanup of Temporary Directories.
+Jun  4 15:00:05 httpServer systemd[1]: Started Discard unused blocks once a week.
+Jun  4 15:00:05 httpServer systemd[1]: Listening on Open-iSCSI iscsid Socket.
+Jun  4 15:00:05 httpServer systemd[1]: Started Message of the Day.
+Jun  4 15:00:05 httpServer systemd[1]: Starting Socket activation for snappy daemon.
+Jun  4 15:00:05 httpServer systemd[1]: Started Daily apt download activities.
+Jun  4 15:00:05 httpServer systemd[1]: Started Daily apt upgrade and clean activities.
+Jun  4 15:00:05 httpServer systemd[1]: Listening on D-Bus System Message Bus Socket.
+Jun  4 15:00:05 httpServer systemd[1]: Listening on ACPID Listen Socket.
+Jun  4 15:00:05 httpServer systemd[1]: Started Run certbot twice daily.
+Jun  4 15:00:05 httpServer systemd[1]: Reached target Timers.
+Jun  4 15:00:05 httpServer systemd[1]: Started ACPI Events Check.
+Jun  4 15:00:05 httpServer systemd[1]: Listening on UUID daemon activation socket.
+Jun  4 15:00:05 httpServer systemd[1]: Starting LXD - unix socket.
+Jun  4 15:00:05 httpServer systemd[1]: Reached target Paths.
+Jun  4 15:00:05 httpServer systemd[1]: Reached target Cloud-config availability.
+Jun  4 15:00:05 httpServer systemd[1]: Reached target Network is Online.
+Jun  4 15:00:05 httpServer systemd[1]: Reached target Remote File Systems (Pre).
+Jun  4 15:00:05 httpServer systemd[1]: Reached target Remote File Systems.
+Jun  4 15:00:05 httpServer systemd[1]: Starting Availability of block devices...
+Jun  4 15:00:05 httpServer systemd[1]: Listening on Socket activation for snappy daemon.
+Jun  4 15:00:05 httpServer systemd[1]: Listening on LXD - unix socket.
+Jun  4 15:00:05 httpServer systemd[1]: Reached target Sockets.
+Jun  4 15:00:05 httpServer systemd[1]: Reached target Basic System.
+Jun  4 15:00:05 httpServer systemd[1]: Starting System Logging Service...
+Jun  4 15:00:05 httpServer systemd[1]: Started irqbalance daemon.
+Jun  4 15:00:05 httpServer systemd[1]: Starting Thermal Daemon Service...
+Jun  4 15:00:05 httpServer systemd[1]: Started D-Bus System Message Bus.
+Jun  4 15:00:05 httpServer /usr/sbin/irqbalance: Balancing is ineffective on systems with a single cpu.  Shutting down
+Jun  4 15:00:05 httpServer rsyslogd: imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' (fd 3) from systemd.  [v8.32.0]
+Jun  4 15:00:05 httpServer rsyslogd: rsyslogd's groupid changed to 106
+Jun  4 15:00:05 httpServer rsyslogd: rsyslogd's userid changed to 102
+Jun  4 15:00:05 httpServer rsyslogd:  [origin software="rsyslogd" swVersion="8.32.0" x-pid="952" x-info="http://www.rsyslog.com"] start
+Jun  4 15:00:06 httpServer dbus-daemon[955]: dbus[955]: Unknown group "power" in message bus configuration file
+Jun  4 15:00:06 httpServer dbus-daemon[955]: [system] AppArmor D-Bus mediation is enabled
+Jun  4 15:00:06 httpServer systemd[1]: Starting Permit User Sessions...
+Jun  4 15:00:06 httpServer systemd[1]: Starting Certbot...
+Jun  4 15:00:06 httpServer systemd[1]: Starting The Apache HTTP Server...
+Jun  4 15:00:06 httpServer thermald[954]: NO RAPL sysfs present
+Jun  4 15:00:06 httpServer thermald[954]: 22 CPUID levels; family:model:stepping 0x6:8e:9 (6:142:9)
+Jun  4 15:00:06 httpServer thermald[954]: Polling mode is enabled: 4
+Jun  4 15:00:06 httpServer thermald[954]: Thermal DTS: No coretemp sysfs found
+Jun  4 15:00:06 httpServer systemd[1]: Starting OpenBSD Secure Shell server...
+Jun  4 15:00:06 httpServer systemd[1]: Starting LSB: web-based administration interface for Unix systems...
+Jun  4 15:00:06 httpServer systemd[1]: Starting Message of the Day...
+Jun  4 15:00:06 httpServer systemd[1]: Started FUSE filesystem for LXC.
+Jun  4 15:00:06 httpServer thermald[954]: Thermal DTS or hwmon: No Zones present Need to configure manually
+Jun  4 15:00:06 httpServer thermald[954]: No thermal sensors found
+Jun  4 15:00:06 httpServer thermald[954]: THD engine start failed
+Jun  4 15:00:06 httpServer systemd[1]: Started Regular background program processing daemon.
+Jun  4 15:00:06 httpServer systemd[1]: Starting LSB: Record successful boot for GRUB...
+Jun  4 15:00:06 httpServer systemd[1]: Started Deferred execution scheduler.
+Jun  4 15:00:06 httpServer systemd[1]: Starting Dispatcher daemon for systemd-networkd...
+Jun  4 15:00:06 httpServer systemd[1]: Starting LXD - container startup/shutdown...
+Jun  4 15:00:06 httpServer systemd[1]: Starting Login Service...
+Jun  4 15:00:07 httpServer systemd[1]: Starting Snappy daemon...
+Jun  4 15:00:07 httpServer systemd[1]: Starting Accounts Service...
+Jun  4 15:00:07 httpServer systemd[1]: Starting LSB: automatic crash report generation...
+Jun  4 15:00:07 httpServer systemd[1]: Started System Logging Service.
+Jun  4 15:00:07 httpServer systemd[1]: Started Availability of block devices.
+Jun  4 15:00:07 httpServer systemd[1]: Started Thermal Daemon Service.
+Jun  4 15:00:07 httpServer systemd[1]: Started Permit User Sessions.
+Jun  4 15:00:07 httpServer systemd[1]: Starting Hold until boot process finishes up...
+Jun  4 15:00:07 httpServer systemd[1]: Starting Terminate Plymouth Boot Screen...
+Jun  4 15:00:07 httpServer systemd[1]: Started Hold until boot process finishes up.
+Jun  4 15:00:07 httpServer cron[1004]: (CRON) INFO (pidfile fd = 3)
+Jun  4 15:00:07 httpServer grub-common[1006]:  * Recording successful boot for GRUB
+Jun  4 15:00:07 httpServer systemd[1]: Starting Set console scheme...
+Jun  4 15:00:07 httpServer systemd[1]: Started Terminate Plymouth Boot Screen.
+Jun  4 15:00:07 httpServer kernel: [   38.080176] new mount options do not match the existing superblock, will be ignored
+Jun  4 15:00:07 httpServer lxcfs[997]: mount namespace: 5
+Jun  4 15:00:07 httpServer lxcfs[997]: hierarchies:
+Jun  4 15:00:07 httpServer lxcfs[997]:   0: fd:   6: perf_event
+Jun  4 15:00:07 httpServer lxcfs[997]:   1: fd:   7: cpuset
+Jun  4 15:00:07 httpServer lxcfs[997]:   2: fd:   8: memory
+Jun  4 15:00:07 httpServer lxcfs[997]:   3: fd:   9: pids
+Jun  4 15:00:07 httpServer lxcfs[997]:   4: fd:  10: net_cls,net_prio
+Jun  4 15:00:07 httpServer lxcfs[997]:   5: fd:  11: blkio
+Jun  4 15:00:07 httpServer lxcfs[997]:   6: fd:  12: devices
+Jun  4 15:00:07 httpServer lxcfs[997]:   7: fd:  13: rdma
+Jun  4 15:00:07 httpServer lxcfs[997]:   8: fd:  14: cpu,cpuacct
+Jun  4 15:00:07 httpServer lxcfs[997]:   9: fd:  15: hugetlb
+Jun  4 15:00:07 httpServer lxcfs[997]:  10: fd:  16: freezer
+Jun  4 15:00:07 httpServer lxcfs[997]:  11: fd:  17: name=systemd
+Jun  4 15:00:07 httpServer lxcfs[997]:  12: fd:  18: unified
+Jun  4 15:00:07 httpServer apport[1030]:  * Starting automatic crash report generation: apport
+Jun  4 15:00:07 httpServer systemd[1]: Started Set console scheme.
+Jun  4 15:00:07 httpServer systemd[1]: Created slice system-getty.slice.
+Jun  4 15:00:07 httpServer systemd[1]: Started Getty on tty1.
+Jun  4 15:00:07 httpServer systemd[1]: Reached target Login Prompts.
+Jun  4 15:00:07 httpServer systemd[1]: Started Login Service.
+Jun  4 15:00:07 httpServer systemd[1]: Started Unattended Upgrades Shutdown.
+Jun  4 15:00:08 httpServer apport[1030]:    ...done.
+Jun  4 15:00:08 httpServer systemd[1]: Started LSB: automatic crash report generation.
+Jun  4 15:00:08 httpServer grub-common[1006]:    ...done.
+Jun  4 15:00:08 httpServer systemd[1]: Started LSB: Record successful boot for GRUB.
+Jun  4 15:00:09 httpServer cron[1004]: (CRON) INFO (Running @reboot jobs)
+Jun  4 15:00:09 httpServer dbus-daemon[955]: [system] Activating via systemd: service name='org.freedesktop.PolicyKit1' unit='polkit.service' requested by ':1.5' (uid=0 pid=1029 comm="/usr/lib/accountsservice/accounts-daemon " label="unconfined")
+Jun  4 15:00:10 httpServer systemd[1]: Starting Authorization Manager...
+Jun  4 15:00:10 httpServer systemd[1]: Started OpenBSD Secure Shell server.
+Jun  4 15:00:11 httpServer polkitd[1061]: started daemon version 0.105 using authority implementation `local' version `0.105'
+Jun  4 15:00:11 httpServer dbus-daemon[955]: [system] Successfully activated service 'org.freedesktop.PolicyKit1'
+Jun  4 15:00:11 httpServer systemd[1]: Started Authorization Manager.
+Jun  4 15:00:11 httpServer accounts-daemon[1029]: started daemon version 0.6.45
+Jun  4 15:00:11 httpServer systemd[1]: Started Accounts Service.
+Jun  4 15:00:12 httpServer networkd-dispatcher[1014]: No valid path found for iwconfig
+Jun  4 15:00:13 httpServer snapd[1028]: AppArmor status: apparmor is enabled and all features are available
+Jun  4 15:00:13 httpServer systemd[1]: Started Dispatcher daemon for systemd-networkd.
+Jun  4 15:00:15 httpServer apachectl[986]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Jun  4 15:00:16 httpServer systemd[1]: Started The Apache HTTP Server.
+Jun  4 15:00:18 httpServer systemd[1]: Started LXD - container startup/shutdown.
+Jun  4 15:00:19 httpServer snapd[1028]: AppArmor status: apparmor is enabled and all features are available
+Jun  4 15:00:19 httpServer 50-motd-news[996]:  * MicroK8s gets a native Windows installer and command-line integration.
+Jun  4 15:00:19 httpServer 50-motd-news[996]:      https://ubuntu.com/blog/microk8s-installers-windows-and-macos
+Jun  4 15:00:19 httpServer systemd[1]: Started Message of the Day.
+Jun  4 15:00:20 httpServer snapd[1028]: daemon.go:343: started snapd/2.44.3 (series 16; classic) ubuntu/18.04 (amd64) linux/4.15.0-101-generic.
+Jun  4 15:00:20 httpServer snapd[1028]: daemon.go:436: adjusting startup timeout by 35s (pessimistic estimate of 30s plus 5s per snap)
+Jun  4 15:00:22 httpServer systemd[1]: Started Snappy daemon.
+Jun  4 15:00:22 httpServer systemd[1]: Starting Wait until snapd is fully seeded...
+Jun  4 15:00:26 httpServer systemd[1]: Started Wait until snapd is fully seeded.
+Jun  4 15:00:26 httpServer systemd[1]: Starting Apply the settings specified in cloud-config...
+Jun  4 15:00:29 httpServer systemd[1]: Started Certbot.
+Jun  4 15:00:34 httpServer systemd-timesyncd[759]: Synchronized to time server 91.189.89.198:123 (ntp.ubuntu.com).
+Jun  4 15:00:35 httpServer cloud-init[1314]: Cloud-init v. 19.4-33-gbb4131a2-0ubuntu1~18.04.1 running 'modules:config' at Thu, 04 Jun 2020 15:00:31 +0000. Up 61.86 seconds.
+Jun  4 15:00:35 httpServer systemd[1]: Started Apply the settings specified in cloud-config.
+Jun  4 15:00:37 httpServer systemd[1]: Started LSB: web-based administration interface for Unix systems.
+Jun  4 15:00:37 httpServer systemd[1]: Reached target Multi-User System.
+Jun  4 15:00:37 httpServer systemd[1]: Starting Execute cloud user/final scripts...
+Jun  4 15:00:37 httpServer systemd[1]: Reached target Graphical Interface.
+Jun  4 15:00:37 httpServer systemd[1]: Starting Update UTMP about System Runlevel Changes...
+Jun  4 15:00:37 httpServer systemd[1]: Started Update UTMP about System Runlevel Changes.
+Jun  4 15:00:42 httpServer cloud-init[1361]: Cloud-init v. 19.4-33-gbb4131a2-0ubuntu1~18.04.1 running 'modules:final' at Thu, 04 Jun 2020 15:00:41 +0000. Up 69.17 seconds.
+Jun  4 15:00:42 httpServer cloud-init[1361]: Cloud-init v. 19.4-33-gbb4131a2-0ubuntu1~18.04.1 finished at Thu, 04 Jun 2020 15:00:42 +0000. Datasource DataSourceNoCloud [seed=/var/lib/cloud/seed/nocloud-net][dsmode=net].  Up 70.29 seconds
+Jun  4 15:00:43 httpServer systemd[1]: Started Execute cloud user/final scripts.
+Jun  4 15:00:43 httpServer systemd[1]: Starting Daily apt download activities...
+Jun  4 15:00:43 httpServer systemd[1]: Reached target Cloud-init target.
+Jun  4 15:00:44 httpServer systemd-resolved[869]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jun  4 15:00:44 httpServer systemd-resolved[869]: message repeated 2 times: [ Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.]
+Jun  4 15:01:47 httpServer systemd[1]: Started Daily apt download activities.
+Jun  4 15:01:47 httpServer systemd[1]: Starting Daily apt upgrade and clean activities...
+Jun  4 15:01:53 httpServer systemd[1]: Reloading.
+Jun  4 15:01:55 httpServer systemd[1]: Mounting Mount unit for core, revision 9289...
+Jun  4 15:01:55 httpServer systemd[1]: Mounted Mount unit for core, revision 9289.
+Jun  4 15:02:06 httpServer kernel: [  153.911685] kauditd_printk_skb: 9 callbacks suppressed
+Jun  4 15:02:06 httpServer kernel: [  153.911690] audit: type=1400 audit(1591282926.107:21): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/snap/core/9289/usr/lib/snapd/snap-confine" pid=2125 comm="apparmor_parser"
+Jun  4 15:02:06 httpServer kernel: [  153.920465] audit: type=1400 audit(1591282926.119:22): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/snap/core/9289/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=2125 comm="apparmor_parser"
+Jun  4 15:02:07 httpServer kernel: [  155.346786] audit: type=1400 audit(1591282927.543:23): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.core.hook.configure" pid=2130 comm="apparmor_parser"
+Jun  4 15:02:07 httpServer kernel: [  155.398021] audit: type=1400 audit(1591282927.595:24): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap-update-ns.core" pid=2136 comm="apparmor_parser"
+Jun  4 15:02:08 httpServer snapd[1028]: daemon.go:539: gracefully waiting for running hooks
+Jun  4 15:02:08 httpServer snapd[1028]: daemon.go:541: done waiting for running hooks
+Jun  4 15:02:09 httpServer systemd[1]: snapd.service: Service hold-off time over, scheduling restart.
+Jun  4 15:02:09 httpServer systemd[1]: snapd.service: Scheduled restart job, restart counter is at 1.
+Jun  4 15:02:09 httpServer systemd[1]: Stopped Snappy daemon.
+Jun  4 15:02:09 httpServer systemd[1]: Starting Snappy daemon...
+Jun  4 15:02:10 httpServer snapd[2149]: AppArmor status: apparmor is enabled and all features are available
+Jun  4 15:02:11 httpServer systemd[1]: Started Daily apt upgrade and clean activities.
+Jun  4 15:02:12 httpServer snapd[2149]: AppArmor status: apparmor is enabled and all features are available
+Jun  4 15:02:12 httpServer snapd[2149]: patch.go:64: Patching system state level 6 to sublevel 1...
+Jun  4 15:02:12 httpServer snapd[2149]: patch.go:64: Patching system state level 6 to sublevel 2...
+Jun  4 15:02:12 httpServer snapd[2149]: patch.go:64: Patching system state level 6 to sublevel 3...
+Jun  4 15:02:12 httpServer snapd[2149]: daemon.go:343: started snapd/2.45 (series 16; classic) ubuntu/18.04 (amd64) linux/4.15.0-101-generic.
+Jun  4 15:02:12 httpServer snapd[2149]: daemon.go:436: adjusting startup timeout by 35s (pessimistic estimate of 30s plus 5s per snap)
+Jun  4 15:02:14 httpServer kernel: [  162.766680] audit: type=1400 audit(1591282934.963:25): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/snap/core/9289/usr/lib/snapd/snap-confine" pid=2243 comm="apparmor_parser"
+Jun  4 15:02:14 httpServer kernel: [  162.766883] audit: type=1400 audit(1591282934.963:26): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/snap/core/9289/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=2243 comm="apparmor_parser"
+Jun  4 15:02:15 httpServer kernel: [  162.858152] audit: type=1400 audit(1591282935.055:27): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap-update-ns.core" pid=2245 comm="apparmor_parser"
+Jun  4 15:02:15 httpServer kernel: [  163.434565] audit: type=1400 audit(1591282935.631:28): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.core.hook.configure" pid=2246 comm="apparmor_parser"
+Jun  4 15:02:15 httpServer systemd[1]: Started Snappy daemon.
+Jun  4 15:02:15 httpServer systemd[1]: Startup finished in 7.807s (kernel) + 2min 35.701s (userspace) = 2min 43.508s.
+Jun  4 15:02:19 httpServer rsyslogd: cannot connect to 10.10.10.20:514: Connection timed out [v8.32.0 try http://www.rsyslog.com/e/2027 ]
+Jun  4 15:02:19 httpServer rsyslogd: action 'action 4' suspended (module 'builtin:omfwd'), retry 0. There should be messages before this one giving the reason for suspension. [v8.32.0 try http://www.rsyslog.com/e/2007 ]
+Jun  4 15:02:19 httpServer rsyslogd: action 'action 4' resumed (module 'builtin:omfwd') [v8.32.0 try http://www.rsyslog.com/e/2359 ]
+Jun  4 15:02:21 httpServer systemd[1]: Reloading.
+Jun  4 15:02:23 httpServer snapd[2149]: storehelpers.go:438: cannot refresh snap "core": snap has no updates available
+Jun  4 15:03:38 httpServer systemd[1]: Created slice User Slice of ubuntu.
+Jun  4 15:03:38 httpServer systemd[1]: Starting User Manager for UID 1000...
+Jun  4 15:03:38 httpServer systemd[1]: Started Session 1 of user ubuntu.
+Jun  4 15:03:38 httpServer systemd[2491]: Listening on GnuPG network certificate management daemon.
+Jun  4 15:03:39 httpServer systemd[2491]: Reached target Paths.
+Jun  4 15:03:39 httpServer systemd[2491]: Listening on GnuPG cryptographic agent and passphrase cache.
+Jun  4 15:03:39 httpServer systemd[2491]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Jun  4 15:03:39 httpServer systemd[2491]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Jun  4 15:03:39 httpServer systemd[2491]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Jun  4 15:03:39 httpServer systemd[2491]: Listening on REST API socket for snapd user session agent.
+Jun  4 15:03:39 httpServer systemd[2491]: Reached target Timers.
+Jun  4 15:03:39 httpServer systemd[2491]: Reached target Sockets.
+Jun  4 15:03:39 httpServer systemd[2491]: Reached target Basic System.
+Jun  4 15:03:39 httpServer systemd[1]: Started User Manager for UID 1000.
+Jun  4 15:03:39 httpServer systemd[2491]: Reached target Default.
+Jun  4 15:03:39 httpServer systemd[2491]: Startup finished in 382ms.
+Jun  4 15:05:02 httpServer systemd-timesyncd[759]: Network configuration changed, trying to establish connection.
+Jun  4 15:05:02 httpServer systemd-networkd[850]: enp0s3: Configured
+Jun  4 15:05:02 httpServer systemd-timesyncd[759]: Synchronized to time server 91.189.89.198:123 (ntp.ubuntu.com).
+Jun  4 15:05:47 httpServer Backup[2591]: Inicio do Backup!
+Jun  4 15:05:50 httpServer Backup[2596]: Backup executado com sucesso!

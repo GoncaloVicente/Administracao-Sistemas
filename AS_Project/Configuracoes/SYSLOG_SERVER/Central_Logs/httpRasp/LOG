@@ -1,0 +1,242 @@
+Apr 17 19:15:31 httpRasp systemd[1]: Stopping System Logging Service...
+Apr 17 19:15:31 httpRasp rsyslogd:  [origin software="rsyslogd" swVersion="8.1901.0" x-pid="310" x-info="https://www.rsyslog.com"] exiting on signal 15.
+Apr 17 19:15:31 httpRasp systemd[1]: rsyslog.service: Succeeded.
+Apr 17 19:15:31 httpRasp systemd[1]: Stopped System Logging Service.
+Apr 17 19:15:31 httpRasp systemd[1]: Starting System Logging Service...
+Apr 17 19:15:31 httpRasp rsyslogd: imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' (fd 3) from systemd.  [v8.1901.0]
+Apr 17 19:15:31 httpRasp rsyslogd:  [origin software="rsyslogd" swVersion="8.1901.0" x-pid="1283" x-info="https://www.rsyslog.com"] start
+Apr 17 19:15:31 httpRasp systemd[1]: Started System Logging Service.
+Apr 17 19:17:01 httpRasp CRON[1305]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr 17 19:17:12 httpRasp systemd[1]: Starting Cleanup of Temporary Directories...
+Apr 17 19:17:12 httpRasp systemd[1]: systemd-tmpfiles-clean.service: Succeeded.
+Apr 17 19:17:12 httpRasp systemd[1]: Started Cleanup of Temporary Directories.
+May  6 11:09:00 httpRasp systemd-timesyncd[258]: Synchronized to time server for the first time 88.157.128.22:123 (2.debian.pool.ntp.org).
+May  6 11:09:00 httpRasp systemd[1]: Starting Daily man-db regeneration...
+May  6 11:09:00 httpRasp systemd[1]: Starting Daily apt download activities...
+May  6 11:09:01 httpRasp systemd[1]: Starting Rotate log files...
+May  6 11:09:01 httpRasp systemd[1]: Reloading The Apache HTTP Server.
+May  6 11:09:01 httpRasp apachectl[1612]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+May  6 11:09:01 httpRasp systemd[1]: Reloaded The Apache HTTP Server.
+May  6 11:09:02 httpRasp systemd[1]: Stopping Make remote CUPS printers available locally...
+May  6 11:09:02 httpRasp systemd[1]: cups-browsed.service: Succeeded.
+May  6 11:09:02 httpRasp systemd[1]: Stopped Make remote CUPS printers available locally.
+May  6 11:09:02 httpRasp systemd[1]: Stopping CUPS Scheduler...
+May  6 11:09:02 httpRasp systemd[1]: cups.service: Succeeded.
+May  6 11:09:02 httpRasp systemd[1]: Stopped CUPS Scheduler.
+May  6 11:09:02 httpRasp systemd[1]: cups.socket: Succeeded.
+May  6 11:09:02 httpRasp systemd[1]: Closed CUPS Scheduler.
+May  6 11:09:02 httpRasp systemd[1]: Stopping CUPS Scheduler.
+May  6 11:09:02 httpRasp systemd[1]: Listening on CUPS Scheduler.
+May  6 11:09:02 httpRasp systemd[1]: cups.path: Succeeded.
+May  6 11:09:02 httpRasp systemd[1]: Stopped CUPS Scheduler.
+May  6 11:09:02 httpRasp systemd[1]: Stopping CUPS Scheduler.
+May  6 11:09:02 httpRasp systemd[1]: Started CUPS Scheduler.
+May  6 11:09:02 httpRasp systemd[1]: Started CUPS Scheduler.
+May  6 11:09:02 httpRasp systemd[1]: Started Make remote CUPS printers available locally.
+May  6 11:09:02 httpRasp rsyslogd:  [origin software="rsyslogd" swVersion="8.1901.0" x-pid="1283" x-info="https://www.rsyslog.com"] rsyslogd was HUPed
+May  6 11:09:02 httpRasp rsyslogd:  [origin software="rsyslogd" swVersion="8.1901.0" x-pid="1283" x-info="https://www.rsyslog.com"] rsyslogd was HUPed
+May  6 11:09:02 httpRasp systemd[1]: logrotate.service: Succeeded.
+May  6 11:09:02 httpRasp systemd[1]: Started Rotate log files.
+May  6 11:09:03 httpRasp systemd[1]: man-db.service: Succeeded.
+May  6 11:09:03 httpRasp systemd[1]: Started Daily man-db regeneration.
+May  6 11:09:04 httpRasp systemd[1]: apt-daily.service: Succeeded.
+May  6 11:09:04 httpRasp systemd[1]: Started Daily apt download activities.
+May  6 11:09:04 httpRasp systemd[1]: Starting Daily apt upgrade and clean activities...
+May  6 11:09:06 httpRasp systemd[1]: apt-daily-upgrade.service: Succeeded.
+May  6 11:09:06 httpRasp systemd[1]: Started Daily apt upgrade and clean activities.
+May  6 11:17:01 httpRasp CRON[1807]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May  6 11:18:11 httpRasp systemd[1]: session-c3.scope: Succeeded.
+May  6 11:25:28 httpRasp systemd[1]: Started Session c4 of user pi.
+May  6 11:26:30 httpRasp dbus-daemon[299]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.39' (uid=0 pid=2039 comm="/usr/bin/gdbus call --system --dest org.freedeskto")
+May  6 11:26:30 httpRasp systemd[1]: Starting PackageKit Daemon...
+May  6 11:26:30 httpRasp PackageKit: daemon start
+May  6 11:26:30 httpRasp dbus-daemon[299]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+May  6 11:26:30 httpRasp systemd[1]: Started PackageKit Daemon.
+May  6 11:26:54 httpRasp systemd[1]: Reloading.
+May  6 11:26:55 httpRasp systemd[1]: Reloading.
+May  6 11:26:55 httpRasp systemd[1]: Stopping The Apache HTTP Server...
+May  6 11:26:55 httpRasp apachectl[2145]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+May  6 11:26:56 httpRasp systemd[1]: apache2.service: Succeeded.
+May  6 11:26:56 httpRasp systemd[1]: Stopped The Apache HTTP Server.
+May  6 11:26:56 httpRasp systemd[1]: Reloading.
+May  6 11:27:06 httpRasp systemd[1]: message repeated 7 times: [ Reloading.]
+May  6 11:28:27 httpRasp systemd[1]: Reloading.
+May  6 11:28:31 httpRasp systemd[1]: message repeated 2 times: [ Reloading.]
+May  6 11:28:32 httpRasp systemd[1]: Starting A high performance web server and a reverse proxy server...
+May  6 11:28:32 httpRasp systemd[1]: Started A high performance web server and a reverse proxy server.
+May  6 11:28:33 httpRasp systemd[1]: Reloading.
+May  6 11:29:50 httpRasp systemd[1]: Started Session c5 of user pi.
+May  6 11:29:51 httpRasp systemd[1]: session-c5.scope: Succeeded.
+May  6 11:35:40 httpRasp PackageKit: daemon quit
+May  6 11:35:40 httpRasp systemd[1]: packagekit.service: Main process exited, code=killed, status=15/TERM
+May  6 11:35:40 httpRasp systemd[1]: packagekit.service: Succeeded.
+May  6 11:41:02 httpRasp systemd[1]: Stopping A high performance web server and a reverse proxy server...
+May  6 11:41:02 httpRasp systemd[1]: nginx.service: Succeeded.
+May  6 11:41:02 httpRasp systemd[1]: Stopped A high performance web server and a reverse proxy server.
+May  6 11:41:02 httpRasp systemd[1]: Starting A high performance web server and a reverse proxy server...
+May  6 11:41:02 httpRasp systemd[1]: Started A high performance web server and a reverse proxy server.
+May  6 11:46:24 httpRasp rngd[301]: stats: bits received from HRNG source: 80064
+May  6 11:46:24 httpRasp rngd[301]: stats: bits sent to kernel pool: 34848
+May  6 11:46:24 httpRasp rngd[301]: stats: entropy added to kernel pool: 34848
+May  6 11:46:24 httpRasp rngd[301]: stats: FIPS 140-2 successes: 4
+May  6 11:46:24 httpRasp rngd[301]: stats: FIPS 140-2 failures: 0
+May  6 11:46:24 httpRasp rngd[301]: stats: FIPS 140-2(2001-10-10) Monobit: 0
+May  6 11:46:24 httpRasp rngd[301]: stats: FIPS 140-2(2001-10-10) Poker: 0
+May  6 11:46:24 httpRasp rngd[301]: stats: FIPS 140-2(2001-10-10) Runs: 0
+May  6 11:46:24 httpRasp rngd[301]: stats: FIPS 140-2(2001-10-10) Long run: 0
+May  6 11:46:24 httpRasp rngd[301]: stats: FIPS 140-2(2001-10-10) Continuous run: 0
+May  6 11:46:24 httpRasp rngd[301]: stats: HRNG source speed: (min=423.405; avg=608.341; max=845.692)Kibits/s
+May  6 11:46:24 httpRasp rngd[301]: stats: FIPS tests speed: (min=6.285; avg=6.727; max=6.954)Mibits/s
+May  6 11:46:24 httpRasp rngd[301]: stats: Lowest ready-buffers level: 2
+May  6 11:46:24 httpRasp rngd[301]: stats: Entropy starvations: 0
+May  6 11:46:24 httpRasp rngd[301]: stats: Time spent starving for entropy: (min=0; avg=0.000; max=0)us
+May  6 11:49:06 httpRasp systemd[1]: Stopping A high performance web server and a reverse proxy server...
+May  6 11:49:06 httpRasp systemd[1]: nginx.service: Succeeded.
+May  6 11:49:06 httpRasp systemd[1]: Stopped A high performance web server and a reverse proxy server.
+May  6 11:49:06 httpRasp systemd[1]: Starting A high performance web server and a reverse proxy server...
+May  6 11:49:06 httpRasp nginx[10131]: nginx: [emerg] open() "/etc/nginx/sites-enabled/dhr.prj.pt" failed (2: No such file or directory) in /etc/nginx/nginx.conf:62
+May  6 11:49:06 httpRasp nginx[10131]: nginx: configuration file /etc/nginx/nginx.conf test failed
+May  6 11:49:06 httpRasp systemd[1]: nginx.service: Control process exited, code=exited, status=1/FAILURE
+May  6 11:49:06 httpRasp systemd[1]: nginx.service: Failed with result 'exit-code'.
+May  6 11:49:06 httpRasp systemd[1]: Failed to start A high performance web server and a reverse proxy server.
+May  6 11:53:55 httpRasp dbus-daemon[299]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.54' (uid=0 pid=11038 comm="/usr/bin/gdbus call --system --dest org.freedeskto")
+May  6 11:53:55 httpRasp systemd[1]: Starting PackageKit Daemon...
+May  6 11:53:55 httpRasp PackageKit: daemon start
+May  6 11:53:55 httpRasp dbus-daemon[299]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+May  6 11:53:55 httpRasp systemd[1]: Started PackageKit Daemon.
+May  6 12:00:25 httpRasp PackageKit: daemon quit
+May  6 12:00:25 httpRasp systemd[1]: packagekit.service: Main process exited, code=killed, status=15/TERM
+May  6 12:00:25 httpRasp systemd[1]: packagekit.service: Succeeded.
+May  6 12:00:26 httpRasp systemd[1]: Starting A high performance web server and a reverse proxy server...
+May  6 12:00:26 httpRasp nginx[11695]: nginx: [emerg] open() "/etc/nginx/sites-enabled/dhr.prj.pt" failed (2: No such file or directory) in /etc/nginx/nginx.conf:62
+May  6 12:00:26 httpRasp nginx[11695]: nginx: configuration file /etc/nginx/nginx.conf test failed
+May  6 12:00:26 httpRasp systemd[1]: nginx.service: Control process exited, code=exited, status=1/FAILURE
+May  6 12:00:26 httpRasp systemd[1]: nginx.service: Failed with result 'exit-code'.
+May  6 12:00:26 httpRasp systemd[1]: Failed to start A high performance web server and a reverse proxy server.
+May  6 12:10:58 httpRasp systemd[1]: Starting A high performance web server and a reverse proxy server...
+May  6 12:10:58 httpRasp nginx[14060]: nginx: [emerg] unexpected end of file, expecting "}" in /etc/nginx/sites-enabled/dhr:19
+May  6 12:10:58 httpRasp nginx[14060]: nginx: configuration file /etc/nginx/nginx.conf test failed
+May  6 12:10:58 httpRasp systemd[1]: nginx.service: Control process exited, code=exited, status=1/FAILURE
+May  6 12:10:58 httpRasp systemd[1]: nginx.service: Failed with result 'exit-code'.
+May  6 12:10:58 httpRasp systemd[1]: Failed to start A high performance web server and a reverse proxy server.
+May  6 12:17:01 httpRasp CRON[15528]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May  6 12:23:45 httpRasp systemd[1]: session-c4.scope: Succeeded.
+May  6 12:46:24 httpRasp rngd[301]: stats: bits received from HRNG source: 120064
+May  6 12:46:24 httpRasp rngd[301]: stats: bits sent to kernel pool: 64608
+May  6 12:46:24 httpRasp rngd[301]: stats: entropy added to kernel pool: 64608
+May  6 12:46:24 httpRasp rngd[301]: stats: FIPS 140-2 successes: 6
+May  6 12:46:24 httpRasp rngd[301]: stats: FIPS 140-2 failures: 0
+May  6 12:46:24 httpRasp rngd[301]: stats: FIPS 140-2(2001-10-10) Monobit: 0
+May  6 12:46:24 httpRasp rngd[301]: stats: FIPS 140-2(2001-10-10) Poker: 0
+May  6 12:46:24 httpRasp rngd[301]: stats: FIPS 140-2(2001-10-10) Runs: 0
+May  6 12:46:24 httpRasp rngd[301]: stats: FIPS 140-2(2001-10-10) Long run: 0
+May  6 12:46:24 httpRasp rngd[301]: stats: FIPS 140-2(2001-10-10) Continuous run: 0
+May  6 12:46:24 httpRasp rngd[301]: stats: HRNG source speed: (min=423.405; avg=665.959; max=845.692)Kibits/s
+May  6 12:46:24 httpRasp rngd[301]: stats: FIPS tests speed: (min=6.285; avg=6.859; max=7.154)Mibits/s
+May  6 12:46:24 httpRasp rngd[301]: stats: Lowest ready-buffers level: 2
+May  6 12:46:24 httpRasp rngd[301]: stats: Entropy starvations: 0
+May  6 12:46:24 httpRasp rngd[301]: stats: Time spent starving for entropy: (min=0; avg=0.000; max=0)us
+May  6 12:50:05 httpRasp systemd[1]: Started Session c6 of user pi.
+May  6 12:52:20 httpRasp systemd[1]: Starting A high performance web server and a reverse proxy server...
+May  6 12:52:20 httpRasp nginx[21594]: nginx: [emerg] unexpected end of file, expecting "}" in /etc/nginx/sites-enabled/dhr:19
+May  6 12:52:20 httpRasp nginx[21594]: nginx: configuration file /etc/nginx/nginx.conf test failed
+May  6 12:52:20 httpRasp systemd[1]: nginx.service: Control process exited, code=exited, status=1/FAILURE
+May  6 12:52:20 httpRasp systemd[1]: nginx.service: Failed with result 'exit-code'.
+May  6 12:52:20 httpRasp systemd[1]: Failed to start A high performance web server and a reverse proxy server.
+May  6 12:52:38 httpRasp systemd[1]: session-c6.scope: Succeeded.
+May  6 13:17:01 httpRasp CRON[21702]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May  6 13:55:31 httpRasp systemd-timesyncd[262]: Synchronized to time server for the first time 80.172.224.24:123 (2.debian.pool.ntp.org).
+May  6 13:55:31 httpRasp rsyslogd: action 'action-2-builtin:omfwd' resumed (module 'builtin:omfwd') [v8.1901.0 try https://www.rsyslog.com/e/2359 ]
+May  6 13:55:37 httpRasp systemd[1]: systemd-hostnamed.service: Succeeded.
+May  6 14:10:41 httpRasp systemd[1]: Starting Cleanup of Temporary Directories...
+May  6 14:10:41 httpRasp systemd[1]: systemd-tmpfiles-clean.service: Succeeded.
+May  6 14:10:41 httpRasp systemd[1]: Started Cleanup of Temporary Directories.
+May  6 14:17:01 httpRasp CRON[914]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May  6 14:55:01 httpRasp rngd[321]: stats: bits received from HRNG source: 80064
+May  6 14:55:01 httpRasp rngd[321]: stats: bits sent to kernel pool: 34848
+May  6 14:55:01 httpRasp rngd[321]: stats: entropy added to kernel pool: 34848
+May  6 14:55:01 httpRasp rngd[321]: stats: FIPS 140-2 successes: 4
+May  6 14:55:01 httpRasp rngd[321]: stats: FIPS 140-2 failures: 0
+May  6 14:55:01 httpRasp rngd[321]: stats: FIPS 140-2(2001-10-10) Monobit: 0
+May  6 14:55:01 httpRasp rngd[321]: stats: FIPS 140-2(2001-10-10) Poker: 0
+May  6 14:55:01 httpRasp rngd[321]: stats: FIPS 140-2(2001-10-10) Runs: 0
+May  6 14:55:01 httpRasp rngd[321]: stats: FIPS 140-2(2001-10-10) Long run: 0
+May  6 14:55:01 httpRasp rngd[321]: stats: FIPS 140-2(2001-10-10) Continuous run: 0
+May  6 14:55:01 httpRasp rngd[321]: stats: HRNG source speed: (min=226.920; avg=445.838; max=823.964)Kibits/s
+May  6 14:55:01 httpRasp rngd[321]: stats: FIPS tests speed: (min=1.299; avg=3.172; max=7.064)Mibits/s
+May  6 14:55:01 httpRasp rngd[321]: stats: Lowest ready-buffers level: 2
+May  6 14:55:01 httpRasp rngd[321]: stats: Entropy starvations: 0
+May  6 14:55:01 httpRasp rngd[321]: stats: Time spent starving for entropy: (min=0; avg=0.000; max=0)us
+May  6 15:02:35 httpRasp systemd[1]: Started Session c3 of user pi.
+May  6 15:04:03 httpRasp dbus-daemon[349]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.27' (uid=0 pid=1261 comm="/usr/bin/gdbus call --system --dest org.freedeskto")
+May  6 15:04:03 httpRasp systemd[1]: Starting PackageKit Daemon...
+May  6 15:04:03 httpRasp PackageKit: daemon start
+May  6 15:04:03 httpRasp dbus-daemon[349]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+May  6 15:04:03 httpRasp systemd[1]: Started PackageKit Daemon.
+May  6 15:04:49 httpRasp systemd[1]: Reloading.
+May  6 15:04:50 httpRasp systemd[1]: Reloading.
+May  6 15:05:37 httpRasp systemd[1]: Reloading.
+May  6 15:05:38 httpRasp systemd[1]: Started VNC Server in Service Mode daemon.
+May  6 15:05:38 httpRasp vncserver-x11[1765,root]: ServerManager: Server started
+May  6 15:05:38 httpRasp vncserver-x11[1765,root]: ConsoleDisplay: Found running X server (pid=443, binary=/usr/lib/xorg/Xorg)
+May  6 15:06:11 httpRasp vncserver-x11[1765,root]: Connections: connected: 10.10.10.1::51528 (TCP)
+May  6 15:06:25 httpRasp vncserver-x11[1765,root]: Connections: authenticated: 10.10.10.1::51528 (TCP), as pi (f permissions)
+May  6 15:06:26 httpRasp dbus-daemon[349]: [system] Activating via systemd: service name='org.freedesktop.ColorManager' unit='colord.service' requested by ':1.7' (uid=0 pid=328 comm="/usr/sbin/cupsd -l ")
+May  6 15:06:26 httpRasp systemd[1]: Starting Manage, Install and Generate Color Profiles...
+May  6 15:06:26 httpRasp dbus-daemon[349]: [system] Successfully activated service 'org.freedesktop.ColorManager'
+May  6 15:06:26 httpRasp systemd[1]: Started Manage, Install and Generate Color Profiles.
+May  6 15:06:27 httpRasp colord[1811]: failed to get session [pid 328]: No data available
+May  6 15:06:27 httpRasp kernel: [ 4294.109193] warning: process `colord-sane' used the deprecated sysctl system call with 8.1.2.
+May  6 15:06:46 httpRasp dbus-daemon[509]: [session uid=1000 pid=509] Activating via systemd: service name='org.gtk.vfs.Metadata' unit='gvfs-metadata.service' requested by ':1.7' (uid=1000 pid=587 comm="pcmanfm --desktop --profile LXDE-pi ")
+May  6 15:06:46 httpRasp systemd[486]: Starting Virtual filesystem metadata service...
+May  6 15:06:46 httpRasp dbus-daemon[509]: [session uid=1000 pid=509] Successfully activated service 'org.gtk.vfs.Metadata'
+May  6 15:06:46 httpRasp systemd[486]: Started Virtual filesystem metadata service.
+May  6 15:08:23 httpRasp vncserver-x11[1765,root]: Connections: disconnected: 10.10.10.1::51528 (TCP) ([System-104] read: Connection reset by peer (104))
+May  6 15:08:37 httpRasp vncserver-x11[1765,root]: Connections: connected: 10.10.10.1::51529 (TCP)
+May  6 15:08:38 httpRasp vncserver-x11[1765,root]: Connections: authenticated: 10.10.10.1::51529 (TCP), as pi (f permissions)
+May  6 15:08:38 httpRasp colord[1811]: failed to get session [pid 328]: No data available
+May  6 15:08:53 httpRasp vncserver-x11[1765,root]: Connections: disconnected: 10.10.10.1::51529 (TCP) ([EndOfStream] Disconnection by client)
+May  6 15:08:56 httpRasp vncserver-x11[1765,root]: Connections: connected: 10.10.10.1::51530 (TCP)
+May  6 15:08:57 httpRasp vncserver-x11[1765,root]: Connections: authenticated: 10.10.10.1::51530 (TCP), as pi (f permissions)
+May  6 15:08:57 httpRasp colord[1811]: failed to get session [pid 328]: No data available
+May  6 15:09:43 httpRasp vncserver-x11[1765,root]: Connections: disconnected: 10.10.10.1::51530 (TCP) ([ViewerClosed] VNC Viewer closed)
+May  6 15:10:00 httpRasp vncserver-x11[1765,root]: Connections: connected: 10.10.10.1::51531 (TCP)
+May  6 15:10:01 httpRasp vncserver-x11[1765,root]: Connections: authenticated: 10.10.10.1::51531 (TCP), as pi (f permissions)
+May  6 15:10:01 httpRasp colord[1811]: failed to get session [pid 328]: No data available
+May  6 15:10:18 httpRasp PackageKit: daemon quit
+May  6 15:10:18 httpRasp systemd[1]: packagekit.service: Main process exited, code=killed, status=15/TERM
+May  6 15:10:18 httpRasp systemd[1]: packagekit.service: Succeeded.
+May  6 15:11:38 httpRasp vncserver-x11[1765,root]: Connections: disconnected: 10.10.10.1::51531 (TCP) ([ViewerClosed] VNC Viewer closed)
+May  6 15:17:01 httpRasp CRON[2093]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May  6 15:18:39 httpRasp systemd[1]: session-c3.scope: Succeeded.
+May  6 15:55:01 httpRasp rngd[321]: stats: bits received from HRNG source: 120064
+May  6 15:55:01 httpRasp rngd[321]: stats: bits sent to kernel pool: 64608
+May  6 15:55:01 httpRasp rngd[321]: stats: entropy added to kernel pool: 64608
+May  6 15:55:01 httpRasp rngd[321]: stats: FIPS 140-2 successes: 6
+May  6 15:55:01 httpRasp rngd[321]: stats: FIPS 140-2 failures: 0
+May  6 15:55:01 httpRasp rngd[321]: stats: FIPS 140-2(2001-10-10) Monobit: 0
+May  6 15:55:01 httpRasp rngd[321]: stats: FIPS 140-2(2001-10-10) Poker: 0
+May  6 15:55:01 httpRasp rngd[321]: stats: FIPS 140-2(2001-10-10) Runs: 0
+May  6 15:55:01 httpRasp rngd[321]: stats: FIPS 140-2(2001-10-10) Long run: 0
+May  6 15:55:01 httpRasp rngd[321]: stats: FIPS 140-2(2001-10-10) Continuous run: 0
+May  6 15:55:01 httpRasp rngd[321]: stats: HRNG source speed: (min=226.920; avg=526.137; max=823.964)Kibits/s
+May  6 15:55:01 httpRasp rngd[321]: stats: FIPS tests speed: (min=1.299; avg=3.888; max=7.088)Mibits/s
+May  6 15:55:01 httpRasp rngd[321]: stats: Lowest ready-buffers level: 2
+May  6 15:55:01 httpRasp rngd[321]: stats: Entropy starvations: 0
+May  6 15:55:01 httpRasp rngd[321]: stats: Time spent starving for entropy: (min=0; avg=0.000; max=0)us
+May  6 16:17:01 httpRasp CRON[2304]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May  6 16:55:01 httpRasp rngd[321]: stats: bits received from HRNG source: 140064
+May  6 16:55:01 httpRasp rngd[321]: stats: bits sent to kernel pool: 94848
+May  6 16:55:01 httpRasp rngd[321]: stats: entropy added to kernel pool: 94848
+May  6 16:55:01 httpRasp rngd[321]: stats: FIPS 140-2 successes: 7
+May  6 16:55:01 httpRasp rngd[321]: stats: FIPS 140-2 failures: 0
+May  6 16:55:01 httpRasp rngd[321]: stats: FIPS 140-2(2001-10-10) Monobit: 0
+May  6 16:55:01 httpRasp rngd[321]: stats: FIPS 140-2(2001-10-10) Poker: 0
+May  6 16:55:01 httpRasp rngd[321]: stats: FIPS 140-2(2001-10-10) Runs: 0
+May  6 16:55:01 httpRasp rngd[321]: stats: FIPS 140-2(2001-10-10) Long run: 0
+May  6 16:55:01 httpRasp rngd[321]: stats: FIPS 140-2(2001-10-10) Continuous run: 0
+May  6 16:55:01 httpRasp rngd[321]: stats: HRNG source speed: (min=226.920; avg=554.710; max=823.964)Kibits/s
+May  6 16:55:01 httpRasp rngd[321]: stats: FIPS tests speed: (min=1.299; avg=4.153; max=7.088)Mibits/s
+May  6 16:55:01 httpRasp rngd[321]: stats: Lowest ready-buffers level: 2
+May  6 16:55:01 httpRasp rngd[321]: stats: Entropy starvations: 0
+May  6 16:55:01 httpRasp rngd[321]: stats: Time spent starving for entropy: (min=0; avg=0.000; max=0)us

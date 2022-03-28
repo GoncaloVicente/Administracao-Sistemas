@@ -1,0 +1,1 @@
+No Script backup.sh, existe uma linha que muda em cada servidor -> sendo o nome da diretoria no servidor de BACKUPS.

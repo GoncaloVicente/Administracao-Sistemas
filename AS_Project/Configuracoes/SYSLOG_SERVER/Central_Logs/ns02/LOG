@@ -1,0 +1,1765 @@
+May 31 18:06:17 ns02 rsyslogd:  [origin software="rsyslogd" swVersion="8.32.0" x-pid="1114" x-info="http://www.rsyslog.com"] exiting on signal 15.
+May 31 18:06:17 ns02 systemd[1]: Stopping System Logging Service...
+May 31 18:06:17 ns02 systemd[1]: Stopped System Logging Service.
+May 31 18:06:17 ns02 systemd[1]: Starting System Logging Service...
+May 31 18:06:17 ns02 systemd[1]: Started System Logging Service.
+May 31 18:06:17 ns02 rsyslogd: imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' (fd 3) from systemd.  [v8.32.0]
+May 31 18:06:17 ns02 rsyslogd: rsyslogd's groupid changed to 106
+May 31 18:06:17 ns02 rsyslogd: rsyslogd's userid changed to 102
+May 31 18:06:17 ns02 rsyslogd:  [origin software="rsyslogd" swVersion="8.32.0" x-pid="2143" x-info="http://www.rsyslog.com"] start
+May 31 18:09:12 ns02 systemd-networkd[844]: enp0s3: Configured
+May 31 18:09:12 ns02 systemd[1]: Starting Cleanup of Temporary Directories...
+May 31 18:09:12 ns02 systemd-timesyncd[729]: Network configuration changed, trying to establish connection.
+May 31 18:09:12 ns02 systemd-timesyncd[729]: Synchronized to time server 91.189.91.157:123 (ntp.ubuntu.com).
+May 31 18:09:12 ns02 systemd[1]: Started Cleanup of Temporary Directories.
+May 31 18:14:11 ns02 systemd-networkd[844]: enp0s3: Configured
+May 31 18:14:11 ns02 systemd-timesyncd[729]: Network configuration changed, trying to establish connection.
+May 31 18:14:12 ns02 systemd-timesyncd[729]: Synchronized to time server 91.189.91.157:123 (ntp.ubuntu.com).
+May 31 18:17:02 ns02 CRON[2190]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May 31 18:19:11 ns02 systemd-networkd[844]: enp0s3: Configured
+May 31 18:19:11 ns02 systemd-timesyncd[729]: Network configuration changed, trying to establish connection.
+May 31 18:19:11 ns02 systemd-timesyncd[729]: Synchronized to time server 91.189.91.157:123 (ntp.ubuntu.com).
+May 31 18:24:10 ns02 systemd-timesyncd[729]: Network configuration changed, trying to establish connection.
+May 31 18:24:11 ns02 systemd-networkd[844]: enp0s3: Configured
+May 31 18:24:11 ns02 systemd-timesyncd[729]: Synchronized to time server 91.189.91.157:123 (ntp.ubuntu.com).
+May 31 18:29:09 ns02 systemd-timesyncd[729]: Network configuration changed, trying to establish connection.
+May 31 18:29:09 ns02 systemd-networkd[844]: enp0s3: Configured
+May 31 18:29:09 ns02 systemd-timesyncd[729]: Synchronized to time server 91.189.91.157:123 (ntp.ubuntu.com).
+May 31 18:34:08 ns02 systemd-networkd[844]: enp0s3: Configured
+May 31 18:34:09 ns02 systemd-timesyncd[729]: Network configuration changed, trying to establish connection.
+May 31 18:34:09 ns02 systemd-timesyncd[729]: Synchronized to time server 91.189.91.157:123 (ntp.ubuntu.com).
+May 31 18:39:07 ns02 systemd-timesyncd[729]: Network configuration changed, trying to establish connection.
+May 31 18:39:07 ns02 systemd-networkd[844]: enp0s3: Configured
+May 31 18:39:08 ns02 systemd-timesyncd[729]: Synchronized to time server 91.189.91.157:123 (ntp.ubuntu.com).
+May 31 18:44:07 ns02 systemd-networkd[844]: enp0s3: Configured
+May 31 18:44:07 ns02 systemd-timesyncd[729]: Network configuration changed, trying to establish connection.
+May 31 18:44:07 ns02 systemd-timesyncd[729]: Synchronized to time server 91.189.91.157:123 (ntp.ubuntu.com).
+May 31 18:49:06 ns02 systemd-timesyncd[729]: Network configuration changed, trying to establish connection.
+May 31 18:49:06 ns02 systemd-networkd[844]: enp0s3: Configured
+May 31 18:49:07 ns02 systemd-timesyncd[729]: Synchronized to time server 91.189.91.157:123 (ntp.ubuntu.com).
+May 31 18:54:05 ns02 systemd-timesyncd[729]: Network configuration changed, trying to establish connection.
+May 31 18:54:05 ns02 systemd-networkd[844]: enp0s3: Configured
+May 31 18:54:06 ns02 systemd-timesyncd[729]: Synchronized to time server 91.189.91.157:123 (ntp.ubuntu.com).
+May 31 18:59:05 ns02 systemd-networkd[844]: enp0s3: Configured
+May 31 18:59:05 ns02 systemd-timesyncd[729]: Network configuration changed, trying to establish connection.
+May 31 18:59:05 ns02 systemd-timesyncd[729]: Synchronized to time server 91.189.91.157:123 (ntp.ubuntu.com).
+May 31 19:04:04 ns02 systemd-networkd[844]: enp0s3: Configured
+May 31 19:04:06 ns02 systemd-timesyncd[729]: Network configuration changed, trying to establish connection.
+May 31 19:04:06 ns02 systemd-timesyncd[729]: Synchronized to time server 91.189.91.157:123 (ntp.ubuntu.com).
+May 31 19:09:03 ns02 systemd-timesyncd[729]: Network configuration changed, trying to establish connection.
+May 31 19:09:03 ns02 systemd-networkd[844]: enp0s3: Configured
+May 31 19:09:03 ns02 systemd-timesyncd[729]: Synchronized to time server 91.189.91.157:123 (ntp.ubuntu.com).
+May 31 19:13:20 ns02 named[974]: client @0x7fec780c71e0 10.10.20.10#57680: received notify for zone 'prj.pt': not authoritative
+May 31 19:14:03 ns02 systemd-timesyncd[729]: Network configuration changed, trying to establish connection.
+May 31 19:14:03 ns02 systemd-networkd[844]: enp0s3: Configured
+May 31 19:14:04 ns02 systemd-timesyncd[729]: Synchronized to time server 91.189.91.157:123 (ntp.ubuntu.com).
+May 31 19:17:01 ns02 CRON[2219]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May 31 19:19:03 ns02 systemd-timesyncd[729]: Network configuration changed, trying to establish connection.
+May 31 19:19:03 ns02 systemd-networkd[844]: enp0s3: Configured
+May 31 19:19:03 ns02 systemd-timesyncd[729]: Synchronized to time server 91.189.91.157:123 (ntp.ubuntu.com).
+May 31 19:20:09 ns02 named[974]: client @0x7fec780c71e0 10.10.20.10#45073: received notify for zone '20.10.10.in-addr.arpa': not authoritative
+May 31 19:20:10 ns02 named[974]: client @0x7fec780c71e0 10.10.20.10#42291: received notify for zone 'prj.pt': not authoritative
+May 31 19:23:55 ns02 systemd[1]: Stopping BIND Domain Name Server...
+May 31 19:23:55 ns02 named[974]: received control channel command 'stop'
+May 31 19:23:55 ns02 named[974]: shutting down: flushing changes
+May 31 19:23:55 ns02 named[974]: stopping command channel on 127.0.0.1#953
+May 31 19:23:55 ns02 named[974]: stopping command channel on ::1#953
+May 31 19:23:55 ns02 named[974]: no longer listening on ::#53
+May 31 19:23:55 ns02 named[974]: no longer listening on 127.0.0.1#53
+May 31 19:23:55 ns02 named[974]: no longer listening on 10.10.20.60#53
+May 31 19:23:55 ns02 named[974]: exiting
+May 31 19:23:55 ns02 systemd[1]: Stopped BIND Domain Name Server.
+May 31 19:23:55 ns02 systemd[1]: Started BIND Domain Name Server.
+May 31 19:23:55 ns02 named[2303]: starting BIND 9.11.3-1ubuntu1.12-Ubuntu (Extended Support Version) <id:a375815>
+May 31 19:23:55 ns02 named[2303]: running on Linux x86_64 4.15.0-101-generic #102-Ubuntu SMP Mon May 11 10:07:26 UTC 2020
+May 31 19:23:55 ns02 named[2303]: built with '--build=x86_64-linux-gnu' '--prefix=/usr' '--includedir=/usr/include' '--mandir=/usr/share/man' '--infodir=/usr/share/info' '--sysconfdir=/etc' '--localstatedir=/var' '--disable-silent-rules' '--libdir=/usr/lib/x86_64-linux-gnu' '--libexecdir=/usr/lib/x86_64-linux-gnu' '--disable-maintainer-mode' '--disable-dependency-tracking' '--libdir=/usr/lib/x86_64-linux-gnu' '--sysconfdir=/etc/bind' '--with-python=python3' '--localstatedir=/' '--enable-threads' '--enable-largefile' '--with-libtool' '--enable-shared' '--enable-static' '--with-gost=no' '--with-openssl=/usr' '--with-gssapi=/usr' '--with-libjson=/usr' '--without-lmdb' '--with-gnu-ld' '--with-geoip=/usr' '--with-atf=no' '--enable-ipv6' '--enable-rrl' '--enable-filter-aaaa' '--enable-native-pkcs11' '--with-pkcs11=/usr/lib/softhsm/libsofthsm2.so' '--with-randomdev=/dev/urandom' '--with-eddsa=no' 'build_alias=x86_64-linux-gnu' 'CFLAGS=-g -O2 -fdebug-prefix-map=/build/bind9-y59g4h/bind9-9.11.3+dfsg=. -fstack-protector-strong -Wformat -Werror=format-security -fno-strict-aliasing -fno-delete-null-pointer-checks -DNO_VERSION_DATE -DDIG_SIGCHASE' 'LDFLAGS=-Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,now' 'CPPFLAGS=-Wdate-time -D_FORTIFY_SOURCE=2'
+May 31 19:23:55 ns02 named[2303]: running as: named -f -u bind
+May 31 19:23:55 ns02 named[2303]: ----------------------------------------------------
+May 31 19:23:55 ns02 named[2303]: BIND 9 is maintained by Internet Systems Consortium,
+May 31 19:23:55 ns02 named[2303]: Inc. (ISC), a non-profit 501(c)(3) public-benefit
+May 31 19:23:55 ns02 named[2303]: corporation.  Support and training for BIND 9 are
+May 31 19:23:55 ns02 named[2303]: available at https://www.isc.org/support
+May 31 19:23:55 ns02 named[2303]: ----------------------------------------------------
+May 31 19:23:55 ns02 named[2303]: adjusted limit on open files from 4096 to 1048576
+May 31 19:23:55 ns02 named[2303]: found 1 CPU, using 1 worker thread
+May 31 19:23:55 ns02 named[2303]: using 1 UDP listener per interface
+May 31 19:23:55 ns02 named[2303]: using up to 4096 sockets
+May 31 19:23:55 ns02 named[2303]: loading configuration from '/etc/bind/named.conf'
+May 31 19:23:55 ns02 named[2303]: /etc/bind/named.conf.options:8: missing ';' before 'options'
+May 31 19:23:55 ns02 named[2303]: loading configuration: failure
+May 31 19:23:55 ns02 named[2303]: exiting (due to fatal error)
+May 31 19:23:55 ns02 systemd[1]: bind9.service: Main process exited, code=exited, status=1/FAILURE
+May 31 19:23:55 ns02 systemd[1]: bind9.service: Failed with result 'exit-code'.
+May 31 19:24:02 ns02 systemd-timesyncd[729]: Network configuration changed, trying to establish connection.
+May 31 19:24:02 ns02 systemd-networkd[844]: enp0s3: Configured
+May 31 19:24:02 ns02 systemd-timesyncd[729]: Synchronized to time server 91.189.91.157:123 (ntp.ubuntu.com).
+May 31 19:24:34 ns02 systemd[1]: Started BIND Domain Name Server.
+May 31 19:24:34 ns02 named[2329]: starting BIND 9.11.3-1ubuntu1.12-Ubuntu (Extended Support Version) <id:a375815>
+May 31 19:24:34 ns02 named[2329]: running on Linux x86_64 4.15.0-101-generic #102-Ubuntu SMP Mon May 11 10:07:26 UTC 2020
+May 31 19:24:34 ns02 named[2329]: built with '--build=x86_64-linux-gnu' '--prefix=/usr' '--includedir=/usr/include' '--mandir=/usr/share/man' '--infodir=/usr/share/info' '--sysconfdir=/etc' '--localstatedir=/var' '--disable-silent-rules' '--libdir=/usr/lib/x86_64-linux-gnu' '--libexecdir=/usr/lib/x86_64-linux-gnu' '--disable-maintainer-mode' '--disable-dependency-tracking' '--libdir=/usr/lib/x86_64-linux-gnu' '--sysconfdir=/etc/bind' '--with-python=python3' '--localstatedir=/' '--enable-threads' '--enable-largefile' '--with-libtool' '--enable-shared' '--enable-static' '--with-gost=no' '--with-openssl=/usr' '--with-gssapi=/usr' '--with-libjson=/usr' '--without-lmdb' '--with-gnu-ld' '--with-geoip=/usr' '--with-atf=no' '--enable-ipv6' '--enable-rrl' '--enable-filter-aaaa' '--enable-native-pkcs11' '--with-pkcs11=/usr/lib/softhsm/libsofthsm2.so' '--with-randomdev=/dev/urandom' '--with-eddsa=no' 'build_alias=x86_64-linux-gnu' 'CFLAGS=-g -O2 -fdebug-prefix-map=/build/bind9-y59g4h/bind9-9.11.3+dfsg=. -fstack-protector-strong -Wformat -Werror=format-security -fno-strict-aliasing -fno-delete-null-pointer-checks -DNO_VERSION_DATE -DDIG_SIGCHASE' 'LDFLAGS=-Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,now' 'CPPFLAGS=-Wdate-time -D_FORTIFY_SOURCE=2'
+May 31 19:24:34 ns02 named[2329]: running as: named -f -u bind
+May 31 19:24:34 ns02 named[2329]: ----------------------------------------------------
+May 31 19:24:34 ns02 named[2329]: BIND 9 is maintained by Internet Systems Consortium,
+May 31 19:24:34 ns02 named[2329]: Inc. (ISC), a non-profit 501(c)(3) public-benefit
+May 31 19:24:34 ns02 named[2329]: corporation.  Support and training for BIND 9 are
+May 31 19:24:34 ns02 named[2329]: available at https://www.isc.org/support
+May 31 19:24:34 ns02 named[2329]: ----------------------------------------------------
+May 31 19:24:34 ns02 named[2329]: adjusted limit on open files from 4096 to 1048576
+May 31 19:24:34 ns02 named[2329]: found 1 CPU, using 1 worker thread
+May 31 19:24:34 ns02 named[2329]: using 1 UDP listener per interface
+May 31 19:24:34 ns02 named[2329]: using up to 4096 sockets
+May 31 19:24:34 ns02 named[2329]: loading configuration from '/etc/bind/named.conf'
+May 31 19:24:34 ns02 named[2329]: reading built-in trust anchors from file '/etc/bind/bind.keys'
+May 31 19:24:34 ns02 named[2329]: initializing GeoIP Country (IPv4) (type 1) DB
+May 31 19:24:34 ns02 named[2329]: GEO-106FREE 20180315 Build
+May 31 19:24:34 ns02 named[2329]: initializing GeoIP Country (IPv6) (type 12) DB
+May 31 19:24:34 ns02 named[2329]: GEO-106FREE 20180315 Build
+May 31 19:24:34 ns02 named[2329]: GeoIP City (IPv4) (type 2) DB not available
+May 31 19:24:34 ns02 named[2329]: GeoIP City (IPv4) (type 6) DB not available
+May 31 19:24:34 ns02 named[2329]: GeoIP City (IPv6) (type 30) DB not available
+May 31 19:24:34 ns02 named[2329]: GeoIP City (IPv6) (type 31) DB not available
+May 31 19:24:34 ns02 named[2329]: GeoIP Region (type 3) DB not available
+May 31 19:24:34 ns02 named[2329]: GeoIP Region (type 7) DB not available
+May 31 19:24:34 ns02 named[2329]: GeoIP ISP (type 4) DB not available
+May 31 19:24:34 ns02 named[2329]: GeoIP Org (type 5) DB not available
+May 31 19:24:34 ns02 named[2329]: GeoIP AS (type 9) DB not available
+May 31 19:24:34 ns02 named[2329]: GeoIP Domain (type 11) DB not available
+May 31 19:24:34 ns02 named[2329]: GeoIP NetSpeed (type 10) DB not available
+May 31 19:24:34 ns02 named[2329]: using default UDP/IPv4 port range: [32768, 60999]
+May 31 19:24:34 ns02 named[2329]: using default UDP/IPv6 port range: [32768, 60999]
+May 31 19:24:34 ns02 named[2329]: listening on IPv6 interfaces, port 53
+May 31 19:24:34 ns02 named[2329]: listening on IPv4 interface lo, 127.0.0.1#53
+May 31 19:24:34 ns02 named[2329]: listening on IPv4 interface enp0s3, 10.10.20.60#53
+May 31 19:24:34 ns02 named[2329]: generating session key for dynamic DNS
+May 31 19:24:34 ns02 named[2329]: sizing zone task pool based on 5 zones
+May 31 19:24:34 ns02 named[2329]: none:103: 'max-cache-size 90%' - setting to 886MB (out of 985MB)
+May 31 19:24:34 ns02 named[2329]: obtaining root key for view _default from '/etc/bind/bind.keys'
+May 31 19:24:34 ns02 named[2329]: set up managed keys zone for view _default, file 'managed-keys.bind'
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 10.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 16.172.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 17.172.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 18.172.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 19.172.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 20.172.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 21.172.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 22.172.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 23.172.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 24.172.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 25.172.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 26.172.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 27.172.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 28.172.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 29.172.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 30.172.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 31.172.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 168.192.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 64.100.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 65.100.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 66.100.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 67.100.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 68.100.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 69.100.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 70.100.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 71.100.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 72.100.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 73.100.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 74.100.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 75.100.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 76.100.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 77.100.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 78.100.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 79.100.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 80.100.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 81.100.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 82.100.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 83.100.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 84.100.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 85.100.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 86.100.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 87.100.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 88.100.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 89.100.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 90.100.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 91.100.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 92.100.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 93.100.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 94.100.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 95.100.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 96.100.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 97.100.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 98.100.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 99.100.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 100.100.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 101.100.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 102.100.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 103.100.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 104.100.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 105.100.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 106.100.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 107.100.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 108.100.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 109.100.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 110.100.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 111.100.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 112.100.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 113.100.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 114.100.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 115.100.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 116.100.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 117.100.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 118.100.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 119.100.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 120.100.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 121.100.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 122.100.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 123.100.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 124.100.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 125.100.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 126.100.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 127.100.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 254.169.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 2.0.192.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 100.51.198.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 113.0.203.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 255.255.255.255.IN-ADDR.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: D.F.IP6.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 8.E.F.IP6.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 9.E.F.IP6.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: A.E.F.IP6.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: B.E.F.IP6.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: 8.B.D.0.1.0.0.2.IP6.ARPA
+May 31 19:24:34 ns02 named[2329]: automatic empty zone: EMPTY.AS112.ARPA
+May 31 19:24:34 ns02 named[2329]: none:103: 'max-cache-size 90%' - setting to 886MB (out of 985MB)
+May 31 19:24:34 ns02 named[2329]: configuring command channel from '/etc/bind/rndc.key'
+May 31 19:24:34 ns02 named[2329]: command channel listening on 127.0.0.1#953
+May 31 19:24:34 ns02 named[2329]: configuring command channel from '/etc/bind/rndc.key'
+May 31 19:24:34 ns02 named[2329]: command channel listening on ::1#953
+May 31 19:24:34 ns02 named[2329]: managed-keys-zone: journal file is out of date: removing journal file
+May 31 19:24:34 ns02 named[2329]: managed-keys-zone: loaded serial 4
+May 31 19:24:34 ns02 named[2329]: zone 0.in-addr.arpa/IN: loaded serial 1
+May 31 19:24:34 ns02 named[2329]: zone 127.in-addr.arpa/IN: loaded serial 1
+May 31 19:24:34 ns02 named[2329]: zone 255.in-addr.arpa/IN: loaded serial 1
+May 31 19:24:34 ns02 named[2329]: zone localhost/IN: loaded serial 2
+May 31 19:24:34 ns02 named[2329]: all zones loaded
+May 31 19:24:34 ns02 named[2329]: running
+May 31 19:24:34 ns02 named[2329]: managed-keys-zone: Key 20326 for zone . acceptance timer complete: key now trusted
+May 31 19:24:35 ns02 named[2329]: resolver priming query complete
+May 31 19:25:01 ns02 named[2329]: resolver priming query complete
+May 31 19:29:01 ns02 systemd-networkd[844]: enp0s3: Configured
+May 31 19:29:01 ns02 systemd-timesyncd[729]: Network configuration changed, trying to establish connection.
+May 31 19:29:02 ns02 systemd-timesyncd[729]: Synchronized to time server 91.189.91.157:123 (ntp.ubuntu.com).
+May 31 19:30:50 ns02 named[2329]: client @0x7f31044f3160 10.10.20.10#33194: received notify for zone '20.10.10.in-addr.arpa': not authoritative
+May 31 19:30:51 ns02 named[2329]: client @0x7f31044f3160 10.10.20.10#33260: received notify for zone 'prj.pt': not authoritative
+May 31 19:31:05 ns02 systemd[1]: Stopping BIND Domain Name Server...
+May 31 19:31:05 ns02 named[2329]: received control channel command 'stop'
+May 31 19:31:05 ns02 named[2329]: shutting down: flushing changes
+May 31 19:31:05 ns02 named[2329]: stopping command channel on 127.0.0.1#953
+May 31 19:31:05 ns02 named[2329]: stopping command channel on ::1#953
+May 31 19:31:05 ns02 named[2329]: no longer listening on ::#53
+May 31 19:31:05 ns02 named[2329]: no longer listening on 127.0.0.1#53
+May 31 19:31:05 ns02 named[2329]: no longer listening on 10.10.20.60#53
+May 31 19:31:05 ns02 named[2329]: exiting
+May 31 19:31:05 ns02 systemd[1]: Stopped BIND Domain Name Server.
+May 31 19:31:05 ns02 systemd[1]: Started BIND Domain Name Server.
+May 31 19:31:05 ns02 named[2417]: starting BIND 9.11.3-1ubuntu1.12-Ubuntu (Extended Support Version) <id:a375815>
+May 31 19:31:05 ns02 named[2417]: running on Linux x86_64 4.15.0-101-generic #102-Ubuntu SMP Mon May 11 10:07:26 UTC 2020
+May 31 19:31:05 ns02 named[2417]: built with '--build=x86_64-linux-gnu' '--prefix=/usr' '--includedir=/usr/include' '--mandir=/usr/share/man' '--infodir=/usr/share/info' '--sysconfdir=/etc' '--localstatedir=/var' '--disable-silent-rules' '--libdir=/usr/lib/x86_64-linux-gnu' '--libexecdir=/usr/lib/x86_64-linux-gnu' '--disable-maintainer-mode' '--disable-dependency-tracking' '--libdir=/usr/lib/x86_64-linux-gnu' '--sysconfdir=/etc/bind' '--with-python=python3' '--localstatedir=/' '--enable-threads' '--enable-largefile' '--with-libtool' '--enable-shared' '--enable-static' '--with-gost=no' '--with-openssl=/usr' '--with-gssapi=/usr' '--with-libjson=/usr' '--without-lmdb' '--with-gnu-ld' '--with-geoip=/usr' '--with-atf=no' '--enable-ipv6' '--enable-rrl' '--enable-filter-aaaa' '--enable-native-pkcs11' '--with-pkcs11=/usr/lib/softhsm/libsofthsm2.so' '--with-randomdev=/dev/urandom' '--with-eddsa=no' 'build_alias=x86_64-linux-gnu' 'CFLAGS=-g -O2 -fdebug-prefix-map=/build/bind9-y59g4h/bind9-9.11.3+dfsg=. -fstack-protector-strong -Wformat -Werror=format-security -fno-strict-aliasing -fno-delete-null-pointer-checks -DNO_VERSION_DATE -DDIG_SIGCHASE' 'LDFLAGS=-Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,now' 'CPPFLAGS=-Wdate-time -D_FORTIFY_SOURCE=2'
+May 31 19:31:05 ns02 named[2417]: running as: named -f -u bind
+May 31 19:31:05 ns02 named[2417]: ----------------------------------------------------
+May 31 19:31:05 ns02 named[2417]: BIND 9 is maintained by Internet Systems Consortium,
+May 31 19:31:05 ns02 named[2417]: Inc. (ISC), a non-profit 501(c)(3) public-benefit
+May 31 19:31:05 ns02 named[2417]: corporation.  Support and training for BIND 9 are
+May 31 19:31:05 ns02 named[2417]: available at https://www.isc.org/support
+May 31 19:31:05 ns02 named[2417]: ----------------------------------------------------
+May 31 19:31:05 ns02 named[2417]: adjusted limit on open files from 4096 to 1048576
+May 31 19:31:05 ns02 named[2417]: found 1 CPU, using 1 worker thread
+May 31 19:31:05 ns02 named[2417]: using 1 UDP listener per interface
+May 31 19:31:05 ns02 named[2417]: using up to 4096 sockets
+May 31 19:31:06 ns02 named[2417]: loading configuration from '/etc/bind/named.conf'
+May 31 19:31:06 ns02 named[2417]: reading built-in trust anchors from file '/etc/bind/bind.keys'
+May 31 19:31:06 ns02 named[2417]: initializing GeoIP Country (IPv4) (type 1) DB
+May 31 19:31:06 ns02 named[2417]: GEO-106FREE 20180315 Build
+May 31 19:31:06 ns02 named[2417]: initializing GeoIP Country (IPv6) (type 12) DB
+May 31 19:31:06 ns02 named[2417]: GEO-106FREE 20180315 Build
+May 31 19:31:06 ns02 named[2417]: GeoIP City (IPv4) (type 2) DB not available
+May 31 19:31:06 ns02 named[2417]: GeoIP City (IPv4) (type 6) DB not available
+May 31 19:31:06 ns02 named[2417]: GeoIP City (IPv6) (type 30) DB not available
+May 31 19:31:06 ns02 named[2417]: GeoIP City (IPv6) (type 31) DB not available
+May 31 19:31:06 ns02 named[2417]: GeoIP Region (type 3) DB not available
+May 31 19:31:06 ns02 named[2417]: GeoIP Region (type 7) DB not available
+May 31 19:31:06 ns02 named[2417]: GeoIP ISP (type 4) DB not available
+May 31 19:31:06 ns02 named[2417]: GeoIP Org (type 5) DB not available
+May 31 19:31:06 ns02 named[2417]: GeoIP AS (type 9) DB not available
+May 31 19:31:06 ns02 named[2417]: GeoIP Domain (type 11) DB not available
+May 31 19:31:06 ns02 named[2417]: GeoIP NetSpeed (type 10) DB not available
+May 31 19:31:06 ns02 named[2417]: using default UDP/IPv4 port range: [32768, 60999]
+May 31 19:31:06 ns02 named[2417]: using default UDP/IPv6 port range: [32768, 60999]
+May 31 19:31:06 ns02 named[2417]: listening on IPv6 interfaces, port 53
+May 31 19:31:06 ns02 named[2417]: listening on IPv4 interface lo, 127.0.0.1#53
+May 31 19:31:06 ns02 named[2417]: listening on IPv4 interface enp0s3, 10.10.20.60#53
+May 31 19:31:06 ns02 named[2417]: generating session key for dynamic DNS
+May 31 19:31:06 ns02 named[2417]: sizing zone task pool based on 7 zones
+May 31 19:31:06 ns02 named[2417]: none:103: 'max-cache-size 90%' - setting to 886MB (out of 985MB)
+May 31 19:31:06 ns02 named[2417]: obtaining root key for view _default from '/etc/bind/bind.keys'
+May 31 19:31:06 ns02 named[2417]: set up managed keys zone for view _default, file 'managed-keys.bind'
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 10.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 16.172.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 17.172.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 18.172.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 19.172.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 20.172.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 21.172.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 22.172.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 23.172.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 24.172.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 25.172.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 26.172.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 27.172.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 28.172.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 29.172.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 30.172.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 31.172.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 168.192.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 64.100.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 65.100.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 66.100.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 67.100.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 68.100.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 69.100.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 70.100.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 71.100.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 72.100.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 73.100.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 74.100.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 75.100.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 76.100.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 77.100.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 78.100.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 79.100.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 80.100.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 81.100.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 82.100.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 83.100.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 84.100.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 85.100.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 86.100.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 87.100.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 88.100.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 89.100.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 90.100.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 91.100.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 92.100.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 93.100.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 94.100.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 95.100.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 96.100.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 97.100.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 98.100.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 99.100.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 100.100.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 101.100.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 102.100.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 103.100.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 104.100.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 105.100.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 106.100.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 107.100.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 108.100.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 109.100.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 110.100.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 111.100.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 112.100.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 113.100.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 114.100.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 115.100.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 116.100.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 117.100.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 118.100.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 119.100.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 120.100.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 121.100.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 122.100.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 123.100.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 124.100.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 125.100.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 126.100.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 127.100.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 254.169.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 2.0.192.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 100.51.198.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 113.0.203.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 255.255.255.255.IN-ADDR.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: D.F.IP6.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 8.E.F.IP6.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 9.E.F.IP6.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: A.E.F.IP6.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: B.E.F.IP6.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: 8.B.D.0.1.0.0.2.IP6.ARPA
+May 31 19:31:06 ns02 named[2417]: automatic empty zone: EMPTY.AS112.ARPA
+May 31 19:31:06 ns02 named[2417]: none:103: 'max-cache-size 90%' - setting to 886MB (out of 985MB)
+May 31 19:31:06 ns02 named[2417]: configuring command channel from '/etc/bind/rndc.key'
+May 31 19:31:06 ns02 named[2417]: command channel listening on 127.0.0.1#953
+May 31 19:31:06 ns02 named[2417]: configuring command channel from '/etc/bind/rndc.key'
+May 31 19:31:06 ns02 named[2417]: command channel listening on ::1#953
+May 31 19:31:06 ns02 named[2417]: managed-keys-zone: journal file is out of date: removing journal file
+May 31 19:31:06 ns02 named[2417]: managed-keys-zone: loaded serial 5
+May 31 19:31:06 ns02 named[2417]: zone 0.in-addr.arpa/IN: loaded serial 1
+May 31 19:31:06 ns02 named[2417]: zone 255.in-addr.arpa/IN: loaded serial 1
+May 31 19:31:06 ns02 named[2417]: zone 127.in-addr.arpa/IN: loaded serial 1
+May 31 19:31:06 ns02 named[2417]: zone localhost/IN: loaded serial 2
+May 31 19:31:06 ns02 named[2417]: all zones loaded
+May 31 19:31:06 ns02 named[2417]: running
+May 31 19:31:06 ns02 named[2417]: zone prj.pt/IN: Transfer started.
+May 31 19:31:06 ns02 named[2417]: transfer of 'prj.pt/IN' from 10.10.20.10#53: connected using 10.10.20.60#53227
+May 31 19:31:06 ns02 named[2417]: zone prj.pt/IN: transferred serial 2
+May 31 19:31:06 ns02 named[2417]: transfer of 'prj.pt/IN' from 10.10.20.10#53: Transfer status: success
+May 31 19:31:06 ns02 named[2417]: transfer of 'prj.pt/IN' from 10.10.20.10#53: Transfer completed: 1 messages, 10 records, 254 bytes, 0.002 secs (127000 bytes/sec)
+May 31 19:31:06 ns02 named[2417]: zone prj.pt/IN: sending notifies (serial 2)
+May 31 19:31:06 ns02 named[2417]: dumping master file: /var/lib/tmp-2UGrb1sNd2: open: permission denied
+May 31 19:31:06 ns02 kernel: [ 5847.855058] audit: type=1400 audit(1590953466.221:30): apparmor="DENIED" operation="mknod" profile="/usr/sbin/named" name="/var/lib/tmp-2UGrb1sNd2" pid=2417 comm="isc-worker0000" requested_mask="c" denied_mask="c" fsuid=111 ouid=111
+May 31 19:31:06 ns02 named[2417]: managed-keys-zone: Key 20326 for zone . acceptance timer complete: key now trusted
+May 31 19:31:06 ns02 named[2417]: resolver priming query complete
+May 31 19:31:06 ns02 named[2417]: zone 20.10.10.in-addr.arpa/IN: Transfer started.
+May 31 19:31:06 ns02 named[2417]: transfer of '20.10.10.in-addr.arpa/IN' from 10.10.20.10#53: connected using 10.10.20.60#41703
+May 31 19:31:06 ns02 named[2417]: zone 20.10.10.in-addr.arpa/IN: transferred serial 3
+May 31 19:31:06 ns02 named[2417]: transfer of '20.10.10.in-addr.arpa/IN' from 10.10.20.10#53: Transfer status: success
+May 31 19:31:06 ns02 named[2417]: transfer of '20.10.10.in-addr.arpa/IN' from 10.10.20.10#53: Transfer completed: 1 messages, 9 records, 265 bytes, 0.002 secs (132500 bytes/sec)
+May 31 19:31:06 ns02 named[2417]: zone 20.10.10.in-addr.arpa/IN: sending notifies (serial 3)
+May 31 19:31:06 ns02 named[2417]: dumping master file: /var/lib/tmp-O7KCmGk2Gn: open: permission denied
+May 31 19:31:06 ns02 kernel: [ 5848.254900] audit: type=1400 audit(1590953466.621:31): apparmor="DENIED" operation="mknod" profile="/usr/sbin/named" name="/var/lib/tmp-O7KCmGk2Gn" pid=2417 comm="isc-worker0000" requested_mask="c" denied_mask="c" fsuid=111 ouid=111
+May 31 19:34:01 ns02 systemd-networkd[844]: enp0s3: Configured
+May 31 19:34:01 ns02 systemd-timesyncd[729]: Network configuration changed, trying to establish connection.
+May 31 19:34:01 ns02 systemd-timesyncd[729]: Synchronized to time server 91.189.91.157:123 (ntp.ubuntu.com).
+May 31 19:34:20 ns02 systemd[1]: Stopping BIND Domain Name Server...
+May 31 19:34:20 ns02 named[2417]: received control channel command 'stop'
+May 31 19:34:20 ns02 named[2417]: shutting down: flushing changes
+May 31 19:34:20 ns02 named[2417]: stopping command channel on 127.0.0.1#953
+May 31 19:34:20 ns02 named[2417]: stopping command channel on ::1#953
+May 31 19:34:20 ns02 named[2417]: dumping master file: /var/lib/tmp-P2FVYJeYPh: open: permission denied
+May 31 19:34:20 ns02 named[2417]: dumping master file: /var/lib/tmp-2r1ab6oE33: open: permission denied
+May 31 19:34:20 ns02 named[2417]: no longer listening on ::#53
+May 31 19:34:20 ns02 kernel: [ 6041.884789] audit: type=1400 audit(1590953660.259:32): apparmor="DENIED" operation="mknod" profile="/usr/sbin/named" name="/var/lib/tmp-P2FVYJeYPh" pid=2417 comm="isc-worker0000" requested_mask="c" denied_mask="c" fsuid=111 ouid=111
+May 31 19:34:20 ns02 kernel: [ 6041.885637] audit: type=1400 audit(1590953660.259:33): apparmor="DENIED" operation="mknod" profile="/usr/sbin/named" name="/var/lib/tmp-2r1ab6oE33" pid=2417 comm="isc-worker0000" requested_mask="c" denied_mask="c" fsuid=111 ouid=111
+May 31 19:34:20 ns02 named[2417]: no longer listening on 127.0.0.1#53
+May 31 19:34:20 ns02 named[2417]: no longer listening on 10.10.20.60#53
+May 31 19:34:20 ns02 named[2417]: exiting
+May 31 19:34:20 ns02 systemd[1]: Stopped BIND Domain Name Server.
+May 31 19:34:20 ns02 systemd[1]: Started BIND Domain Name Server.
+May 31 19:34:20 ns02 named[2529]: starting BIND 9.11.3-1ubuntu1.12-Ubuntu (Extended Support Version) <id:a375815>
+May 31 19:34:20 ns02 named[2529]: running on Linux x86_64 4.15.0-101-generic #102-Ubuntu SMP Mon May 11 10:07:26 UTC 2020
+May 31 19:34:20 ns02 named[2529]: built with '--build=x86_64-linux-gnu' '--prefix=/usr' '--includedir=/usr/include' '--mandir=/usr/share/man' '--infodir=/usr/share/info' '--sysconfdir=/etc' '--localstatedir=/var' '--disable-silent-rules' '--libdir=/usr/lib/x86_64-linux-gnu' '--libexecdir=/usr/lib/x86_64-linux-gnu' '--disable-maintainer-mode' '--disable-dependency-tracking' '--libdir=/usr/lib/x86_64-linux-gnu' '--sysconfdir=/etc/bind' '--with-python=python3' '--localstatedir=/' '--enable-threads' '--enable-largefile' '--with-libtool' '--enable-shared' '--enable-static' '--with-gost=no' '--with-openssl=/usr' '--with-gssapi=/usr' '--with-libjson=/usr' '--without-lmdb' '--with-gnu-ld' '--with-geoip=/usr' '--with-atf=no' '--enable-ipv6' '--enable-rrl' '--enable-filter-aaaa' '--enable-native-pkcs11' '--with-pkcs11=/usr/lib/softhsm/libsofthsm2.so' '--with-randomdev=/dev/urandom' '--with-eddsa=no' 'build_alias=x86_64-linux-gnu' 'CFLAGS=-g -O2 -fdebug-prefix-map=/build/bind9-y59g4h/bind9-9.11.3+dfsg=. -fstack-protector-strong -Wformat -Werror=format-security -fno-strict-aliasing -fno-delete-null-pointer-checks -DNO_VERSION_DATE -DDIG_SIGCHASE' 'LDFLAGS=-Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,now' 'CPPFLAGS=-Wdate-time -D_FORTIFY_SOURCE=2'
+May 31 19:34:20 ns02 named[2529]: running as: named -f -u bind
+May 31 19:34:20 ns02 named[2529]: ----------------------------------------------------
+May 31 19:34:20 ns02 named[2529]: BIND 9 is maintained by Internet Systems Consortium,
+May 31 19:34:20 ns02 named[2529]: Inc. (ISC), a non-profit 501(c)(3) public-benefit
+May 31 19:34:20 ns02 named[2529]: corporation.  Support and training for BIND 9 are
+May 31 19:34:20 ns02 named[2529]: available at https://www.isc.org/support
+May 31 19:34:20 ns02 named[2529]: ----------------------------------------------------
+May 31 19:34:20 ns02 named[2529]: adjusted limit on open files from 4096 to 1048576
+May 31 19:34:20 ns02 named[2529]: found 1 CPU, using 1 worker thread
+May 31 19:34:20 ns02 named[2529]: using 1 UDP listener per interface
+May 31 19:34:20 ns02 named[2529]: using up to 4096 sockets
+May 31 19:34:20 ns02 named[2529]: loading configuration from '/etc/bind/named.conf'
+May 31 19:34:20 ns02 named[2529]: reading built-in trust anchors from file '/etc/bind/bind.keys'
+May 31 19:34:20 ns02 named[2529]: initializing GeoIP Country (IPv4) (type 1) DB
+May 31 19:34:20 ns02 named[2529]: GEO-106FREE 20180315 Build
+May 31 19:34:20 ns02 named[2529]: initializing GeoIP Country (IPv6) (type 12) DB
+May 31 19:34:20 ns02 named[2529]: GEO-106FREE 20180315 Build
+May 31 19:34:20 ns02 named[2529]: GeoIP City (IPv4) (type 2) DB not available
+May 31 19:34:20 ns02 named[2529]: GeoIP City (IPv4) (type 6) DB not available
+May 31 19:34:20 ns02 named[2529]: GeoIP City (IPv6) (type 30) DB not available
+May 31 19:34:20 ns02 named[2529]: GeoIP City (IPv6) (type 31) DB not available
+May 31 19:34:20 ns02 named[2529]: GeoIP Region (type 3) DB not available
+May 31 19:34:20 ns02 named[2529]: GeoIP Region (type 7) DB not available
+May 31 19:34:20 ns02 named[2529]: GeoIP ISP (type 4) DB not available
+May 31 19:34:20 ns02 named[2529]: GeoIP Org (type 5) DB not available
+May 31 19:34:20 ns02 named[2529]: GeoIP AS (type 9) DB not available
+May 31 19:34:20 ns02 named[2529]: GeoIP Domain (type 11) DB not available
+May 31 19:34:20 ns02 named[2529]: GeoIP NetSpeed (type 10) DB not available
+May 31 19:34:20 ns02 named[2529]: using default UDP/IPv4 port range: [32768, 60999]
+May 31 19:34:20 ns02 named[2529]: using default UDP/IPv6 port range: [32768, 60999]
+May 31 19:34:20 ns02 named[2529]: listening on IPv6 interfaces, port 53
+May 31 19:34:20 ns02 named[2529]: listening on IPv4 interface lo, 127.0.0.1#53
+May 31 19:34:20 ns02 named[2529]: listening on IPv4 interface enp0s3, 10.10.20.60#53
+May 31 19:34:20 ns02 named[2529]: generating session key for dynamic DNS
+May 31 19:34:20 ns02 named[2529]: sizing zone task pool based on 7 zones
+May 31 19:34:20 ns02 named[2529]: none:103: 'max-cache-size 90%' - setting to 886MB (out of 985MB)
+May 31 19:34:20 ns02 named[2529]: obtaining root key for view _default from '/etc/bind/bind.keys'
+May 31 19:34:20 ns02 named[2529]: set up managed keys zone for view _default, file 'managed-keys.bind'
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 10.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 16.172.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 17.172.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 18.172.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 19.172.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 20.172.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 21.172.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 22.172.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 23.172.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 24.172.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 25.172.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 26.172.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 27.172.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 28.172.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 29.172.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 30.172.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 31.172.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 168.192.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 64.100.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 65.100.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 66.100.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 67.100.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 68.100.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 69.100.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 70.100.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 71.100.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 72.100.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 73.100.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 74.100.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 75.100.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 76.100.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 77.100.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 78.100.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 79.100.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 80.100.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 81.100.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 82.100.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 83.100.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 84.100.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 85.100.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 86.100.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 87.100.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 88.100.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 89.100.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 90.100.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 91.100.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 92.100.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 93.100.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 94.100.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 95.100.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 96.100.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 97.100.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 98.100.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 99.100.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 100.100.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 101.100.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 102.100.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 103.100.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 104.100.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 105.100.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 106.100.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 107.100.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 108.100.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 109.100.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 110.100.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 111.100.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 112.100.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 113.100.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 114.100.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 115.100.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 116.100.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 117.100.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 118.100.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 119.100.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 120.100.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 121.100.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 122.100.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 123.100.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 124.100.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 125.100.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 126.100.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 127.100.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 254.169.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 2.0.192.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 100.51.198.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 113.0.203.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 255.255.255.255.IN-ADDR.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: D.F.IP6.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 8.E.F.IP6.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 9.E.F.IP6.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: A.E.F.IP6.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: B.E.F.IP6.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: 8.B.D.0.1.0.0.2.IP6.ARPA
+May 31 19:34:20 ns02 named[2529]: automatic empty zone: EMPTY.AS112.ARPA
+May 31 19:34:20 ns02 named[2529]: none:103: 'max-cache-size 90%' - setting to 886MB (out of 985MB)
+May 31 19:34:20 ns02 named[2529]: configuring command channel from '/etc/bind/rndc.key'
+May 31 19:34:20 ns02 named[2529]: command channel listening on 127.0.0.1#953
+May 31 19:34:20 ns02 named[2529]: configuring command channel from '/etc/bind/rndc.key'
+May 31 19:34:20 ns02 named[2529]: command channel listening on ::1#953
+May 31 19:34:20 ns02 named[2529]: managed-keys-zone: journal file is out of date: removing journal file
+May 31 19:34:20 ns02 named[2529]: managed-keys-zone: loaded serial 6
+May 31 19:34:20 ns02 named[2529]: zone 0.in-addr.arpa/IN: loaded serial 1
+May 31 19:34:20 ns02 named[2529]: zone 255.in-addr.arpa/IN: loaded serial 1
+May 31 19:34:20 ns02 named[2529]: zone localhost/IN: loaded serial 2
+May 31 19:34:20 ns02 named[2529]: zone 127.in-addr.arpa/IN: loaded serial 1
+May 31 19:34:20 ns02 named[2529]: all zones loaded
+May 31 19:34:20 ns02 named[2529]: running
+May 31 19:34:20 ns02 named[2529]: zone prj.pt/IN: Transfer started.
+May 31 19:34:20 ns02 named[2529]: transfer of 'prj.pt/IN' from 10.10.20.10#53: connected using 10.10.20.60#55301
+May 31 19:34:20 ns02 named[2529]: zone prj.pt/IN: transferred serial 2
+May 31 19:34:20 ns02 named[2529]: transfer of 'prj.pt/IN' from 10.10.20.10#53: Transfer status: success
+May 31 19:34:20 ns02 named[2529]: transfer of 'prj.pt/IN' from 10.10.20.10#53: Transfer completed: 1 messages, 10 records, 254 bytes, 0.002 secs (127000 bytes/sec)
+May 31 19:34:20 ns02 named[2529]: zone prj.pt/IN: sending notifies (serial 2)
+May 31 19:34:20 ns02 named[2529]: managed-keys-zone: Key 20326 for zone . acceptance timer complete: key now trusted
+May 31 19:34:20 ns02 named[2529]: resolver priming query complete
+May 31 19:34:20 ns02 named[2529]: zone 20.10.10.in-addr.arpa/IN: Transfer started.
+May 31 19:34:20 ns02 named[2529]: transfer of '20.10.10.in-addr.arpa/IN' from 10.10.20.10#53: connected using 10.10.20.60#47181
+May 31 19:34:20 ns02 named[2529]: zone 20.10.10.in-addr.arpa/IN: transferred serial 3
+May 31 19:34:20 ns02 named[2529]: transfer of '20.10.10.in-addr.arpa/IN' from 10.10.20.10#53: Transfer status: success
+May 31 19:34:20 ns02 named[2529]: transfer of '20.10.10.in-addr.arpa/IN' from 10.10.20.10#53: Transfer completed: 1 messages, 9 records, 265 bytes, 0.002 secs (132500 bytes/sec)
+May 31 19:34:20 ns02 named[2529]: zone 20.10.10.in-addr.arpa/IN: sending notifies (serial 3)
+May 31 19:35:10 ns02 named[2529]: client @0x7f24500c71e0 10.10.20.10#47287: received notify for zone '20.10.10.in-addr.arpa'
+May 31 19:35:10 ns02 named[2529]: zone 20.10.10.in-addr.arpa/IN: notify from 10.10.20.10#47287: zone is up to date
+May 31 19:35:11 ns02 named[2529]: client @0x7f24500c71e0 10.10.20.10#38114: received notify for zone 'prj.pt'
+May 31 19:35:11 ns02 named[2529]: zone prj.pt/IN: notify from 10.10.20.10#38114: zone is up to date
+May 31 19:35:15 ns02 systemd[1]: Stopping BIND Domain Name Server...
+May 31 19:35:15 ns02 named[2529]: received control channel command 'stop'
+May 31 19:35:15 ns02 named[2529]: shutting down: flushing changes
+May 31 19:35:15 ns02 named[2529]: stopping command channel on 127.0.0.1#953
+May 31 19:35:15 ns02 named[2529]: stopping command channel on ::1#953
+May 31 19:35:15 ns02 named[2529]: no longer listening on ::#53
+May 31 19:35:15 ns02 named[2529]: no longer listening on 127.0.0.1#53
+May 31 19:35:15 ns02 named[2529]: no longer listening on 10.10.20.60#53
+May 31 19:35:15 ns02 named[2529]: exiting
+May 31 19:35:15 ns02 systemd[1]: Stopped BIND Domain Name Server.
+May 31 19:35:15 ns02 systemd[1]: Started BIND Domain Name Server.
+May 31 19:35:15 ns02 named[2568]: starting BIND 9.11.3-1ubuntu1.12-Ubuntu (Extended Support Version) <id:a375815>
+May 31 19:35:15 ns02 named[2568]: running on Linux x86_64 4.15.0-101-generic #102-Ubuntu SMP Mon May 11 10:07:26 UTC 2020
+May 31 19:35:15 ns02 named[2568]: built with '--build=x86_64-linux-gnu' '--prefix=/usr' '--includedir=/usr/include' '--mandir=/usr/share/man' '--infodir=/usr/share/info' '--sysconfdir=/etc' '--localstatedir=/var' '--disable-silent-rules' '--libdir=/usr/lib/x86_64-linux-gnu' '--libexecdir=/usr/lib/x86_64-linux-gnu' '--disable-maintainer-mode' '--disable-dependency-tracking' '--libdir=/usr/lib/x86_64-linux-gnu' '--sysconfdir=/etc/bind' '--with-python=python3' '--localstatedir=/' '--enable-threads' '--enable-largefile' '--with-libtool' '--enable-shared' '--enable-static' '--with-gost=no' '--with-openssl=/usr' '--with-gssapi=/usr' '--with-libjson=/usr' '--without-lmdb' '--with-gnu-ld' '--with-geoip=/usr' '--with-atf=no' '--enable-ipv6' '--enable-rrl' '--enable-filter-aaaa' '--enable-native-pkcs11' '--with-pkcs11=/usr/lib/softhsm/libsofthsm2.so' '--with-randomdev=/dev/urandom' '--with-eddsa=no' 'build_alias=x86_64-linux-gnu' 'CFLAGS=-g -O2 -fdebug-prefix-map=/build/bind9-y59g4h/bind9-9.11.3+dfsg=. -fstack-protector-strong -Wformat -Werror=format-security -fno-strict-aliasing -fno-delete-null-pointer-checks -DNO_VERSION_DATE -DDIG_SIGCHASE' 'LDFLAGS=-Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,now' 'CPPFLAGS=-Wdate-time -D_FORTIFY_SOURCE=2'
+May 31 19:35:15 ns02 named[2568]: running as: named -f -u bind
+May 31 19:35:15 ns02 named[2568]: ----------------------------------------------------
+May 31 19:35:15 ns02 named[2568]: BIND 9 is maintained by Internet Systems Consortium,
+May 31 19:35:15 ns02 named[2568]: Inc. (ISC), a non-profit 501(c)(3) public-benefit
+May 31 19:35:15 ns02 named[2568]: corporation.  Support and training for BIND 9 are
+May 31 19:35:15 ns02 named[2568]: available at https://www.isc.org/support
+May 31 19:35:15 ns02 named[2568]: ----------------------------------------------------
+May 31 19:35:15 ns02 named[2568]: adjusted limit on open files from 4096 to 1048576
+May 31 19:35:15 ns02 named[2568]: found 1 CPU, using 1 worker thread
+May 31 19:35:15 ns02 named[2568]: using 1 UDP listener per interface
+May 31 19:35:15 ns02 named[2568]: using up to 4096 sockets
+May 31 19:35:15 ns02 named[2568]: loading configuration from '/etc/bind/named.conf'
+May 31 19:35:15 ns02 named[2568]: reading built-in trust anchors from file '/etc/bind/bind.keys'
+May 31 19:35:15 ns02 named[2568]: initializing GeoIP Country (IPv4) (type 1) DB
+May 31 19:35:15 ns02 named[2568]: GEO-106FREE 20180315 Build
+May 31 19:35:15 ns02 named[2568]: initializing GeoIP Country (IPv6) (type 12) DB
+May 31 19:35:15 ns02 named[2568]: GEO-106FREE 20180315 Build
+May 31 19:35:15 ns02 named[2568]: GeoIP City (IPv4) (type 2) DB not available
+May 31 19:35:15 ns02 named[2568]: GeoIP City (IPv4) (type 6) DB not available
+May 31 19:35:15 ns02 named[2568]: GeoIP City (IPv6) (type 30) DB not available
+May 31 19:35:15 ns02 named[2568]: GeoIP City (IPv6) (type 31) DB not available
+May 31 19:35:15 ns02 named[2568]: GeoIP Region (type 3) DB not available
+May 31 19:35:15 ns02 named[2568]: GeoIP Region (type 7) DB not available
+May 31 19:35:15 ns02 named[2568]: GeoIP ISP (type 4) DB not available
+May 31 19:35:15 ns02 named[2568]: GeoIP Org (type 5) DB not available
+May 31 19:35:15 ns02 named[2568]: GeoIP AS (type 9) DB not available
+May 31 19:35:15 ns02 named[2568]: GeoIP Domain (type 11) DB not available
+May 31 19:35:15 ns02 named[2568]: GeoIP NetSpeed (type 10) DB not available
+May 31 19:35:15 ns02 named[2568]: using default UDP/IPv4 port range: [32768, 60999]
+May 31 19:35:15 ns02 named[2568]: using default UDP/IPv6 port range: [32768, 60999]
+May 31 19:35:15 ns02 named[2568]: listening on IPv6 interfaces, port 53
+May 31 19:35:15 ns02 named[2568]: listening on IPv4 interface lo, 127.0.0.1#53
+May 31 19:35:15 ns02 named[2568]: listening on IPv4 interface enp0s3, 10.10.20.60#53
+May 31 19:35:15 ns02 named[2568]: generating session key for dynamic DNS
+May 31 19:35:15 ns02 named[2568]: sizing zone task pool based on 7 zones
+May 31 19:35:15 ns02 named[2568]: none:103: 'max-cache-size 90%' - setting to 886MB (out of 985MB)
+May 31 19:35:15 ns02 named[2568]: obtaining root key for view _default from '/etc/bind/bind.keys'
+May 31 19:35:15 ns02 named[2568]: set up managed keys zone for view _default, file 'managed-keys.bind'
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 10.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 16.172.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 17.172.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 18.172.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 19.172.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 20.172.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 21.172.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 22.172.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 23.172.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 24.172.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 25.172.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 26.172.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 27.172.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 28.172.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 29.172.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 30.172.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 31.172.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 168.192.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 64.100.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 65.100.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 66.100.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 67.100.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 68.100.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 69.100.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 70.100.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 71.100.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 72.100.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 73.100.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 74.100.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 75.100.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 76.100.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 77.100.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 78.100.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 79.100.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 80.100.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 81.100.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 82.100.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 83.100.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 84.100.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 85.100.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 86.100.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 87.100.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 88.100.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 89.100.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 90.100.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 91.100.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 92.100.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 93.100.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 94.100.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 95.100.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 96.100.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 97.100.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 98.100.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 99.100.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 100.100.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 101.100.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 102.100.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 103.100.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 104.100.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 105.100.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 106.100.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 107.100.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 108.100.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 109.100.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 110.100.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 111.100.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 112.100.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 113.100.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 114.100.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 115.100.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 116.100.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 117.100.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 118.100.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 119.100.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 120.100.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 121.100.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 122.100.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 123.100.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 124.100.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 125.100.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 126.100.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 127.100.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 254.169.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 2.0.192.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 100.51.198.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 113.0.203.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 255.255.255.255.IN-ADDR.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: D.F.IP6.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 8.E.F.IP6.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 9.E.F.IP6.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: A.E.F.IP6.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: B.E.F.IP6.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: 8.B.D.0.1.0.0.2.IP6.ARPA
+May 31 19:35:15 ns02 named[2568]: automatic empty zone: EMPTY.AS112.ARPA
+May 31 19:35:15 ns02 named[2568]: none:103: 'max-cache-size 90%' - setting to 886MB (out of 985MB)
+May 31 19:35:15 ns02 named[2568]: configuring command channel from '/etc/bind/rndc.key'
+May 31 19:35:15 ns02 named[2568]: command channel listening on 127.0.0.1#953
+May 31 19:35:15 ns02 named[2568]: configuring command channel from '/etc/bind/rndc.key'
+May 31 19:35:15 ns02 named[2568]: command channel listening on ::1#953
+May 31 19:35:15 ns02 named[2568]: managed-keys-zone: journal file is out of date: removing journal file
+May 31 19:35:15 ns02 named[2568]: managed-keys-zone: loaded serial 7
+May 31 19:35:15 ns02 named[2568]: zone 0.in-addr.arpa/IN: loaded serial 1
+May 31 19:35:15 ns02 named[2568]: zone 20.10.10.in-addr.arpa/IN: loaded serial 3
+May 31 19:35:15 ns02 named[2568]: zone 127.in-addr.arpa/IN: loaded serial 1
+May 31 19:35:15 ns02 named[2568]: zone localhost/IN: loaded serial 2
+May 31 19:35:15 ns02 named[2568]: zone prj.pt/IN: loaded serial 2
+May 31 19:35:15 ns02 named[2568]: zone 255.in-addr.arpa/IN: loaded serial 1
+May 31 19:35:15 ns02 named[2568]: all zones loaded
+May 31 19:35:15 ns02 named[2568]: running
+May 31 19:35:15 ns02 named[2568]: zone 20.10.10.in-addr.arpa/IN: sending notifies (serial 3)
+May 31 19:35:15 ns02 named[2568]: zone prj.pt/IN: sending notifies (serial 2)
+May 31 19:35:16 ns02 named[2568]: managed-keys-zone: Key 20326 for zone . acceptance timer complete: key now trusted
+May 31 19:35:16 ns02 named[2568]: resolver priming query complete
+May 31 19:35:29 ns02 systemd[1]: Stopping BIND Domain Name Server...
+May 31 19:35:29 ns02 named[2568]: received control channel command 'stop'
+May 31 19:35:29 ns02 named[2568]: shutting down: flushing changes
+May 31 19:35:29 ns02 named[2568]: stopping command channel on 127.0.0.1#953
+May 31 19:35:29 ns02 named[2568]: stopping command channel on ::1#953
+May 31 19:35:29 ns02 named[2568]: no longer listening on ::#53
+May 31 19:35:29 ns02 named[2568]: no longer listening on 127.0.0.1#53
+May 31 19:35:29 ns02 named[2568]: no longer listening on 10.10.20.60#53
+May 31 19:35:29 ns02 named[2568]: exiting
+May 31 19:35:29 ns02 systemd[1]: Stopped BIND Domain Name Server.
+May 31 19:35:29 ns02 systemd[1]: Started BIND Domain Name Server.
+May 31 19:35:29 ns02 named[2598]: starting BIND 9.11.3-1ubuntu1.12-Ubuntu (Extended Support Version) <id:a375815>
+May 31 19:35:29 ns02 named[2598]: running on Linux x86_64 4.15.0-101-generic #102-Ubuntu SMP Mon May 11 10:07:26 UTC 2020
+May 31 19:35:29 ns02 named[2598]: built with '--build=x86_64-linux-gnu' '--prefix=/usr' '--includedir=/usr/include' '--mandir=/usr/share/man' '--infodir=/usr/share/info' '--sysconfdir=/etc' '--localstatedir=/var' '--disable-silent-rules' '--libdir=/usr/lib/x86_64-linux-gnu' '--libexecdir=/usr/lib/x86_64-linux-gnu' '--disable-maintainer-mode' '--disable-dependency-tracking' '--libdir=/usr/lib/x86_64-linux-gnu' '--sysconfdir=/etc/bind' '--with-python=python3' '--localstatedir=/' '--enable-threads' '--enable-largefile' '--with-libtool' '--enable-shared' '--enable-static' '--with-gost=no' '--with-openssl=/usr' '--with-gssapi=/usr' '--with-libjson=/usr' '--without-lmdb' '--with-gnu-ld' '--with-geoip=/usr' '--with-atf=no' '--enable-ipv6' '--enable-rrl' '--enable-filter-aaaa' '--enable-native-pkcs11' '--with-pkcs11=/usr/lib/softhsm/libsofthsm2.so' '--with-randomdev=/dev/urandom' '--with-eddsa=no' 'build_alias=x86_64-linux-gnu' 'CFLAGS=-g -O2 -fdebug-prefix-map=/build/bind9-y59g4h/bind9-9.11.3+dfsg=. -fstack-protector-strong -Wformat -Werror=format-security -fno-strict-aliasing -fno-delete-null-pointer-checks -DNO_VERSION_DATE -DDIG_SIGCHASE' 'LDFLAGS=-Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,now' 'CPPFLAGS=-Wdate-time -D_FORTIFY_SOURCE=2'
+May 31 19:35:29 ns02 named[2598]: running as: named -f -u bind
+May 31 19:35:29 ns02 named[2598]: ----------------------------------------------------
+May 31 19:35:29 ns02 named[2598]: BIND 9 is maintained by Internet Systems Consortium,
+May 31 19:35:29 ns02 named[2598]: Inc. (ISC), a non-profit 501(c)(3) public-benefit
+May 31 19:35:29 ns02 named[2598]: corporation.  Support and training for BIND 9 are
+May 31 19:35:29 ns02 named[2598]: available at https://www.isc.org/support
+May 31 19:35:29 ns02 named[2598]: ----------------------------------------------------
+May 31 19:35:29 ns02 named[2598]: adjusted limit on open files from 4096 to 1048576
+May 31 19:35:29 ns02 named[2598]: found 1 CPU, using 1 worker thread
+May 31 19:35:29 ns02 named[2598]: using 1 UDP listener per interface
+May 31 19:35:29 ns02 named[2598]: using up to 4096 sockets
+May 31 19:35:29 ns02 named[2598]: loading configuration from '/etc/bind/named.conf'
+May 31 19:35:29 ns02 named[2598]: reading built-in trust anchors from file '/etc/bind/bind.keys'
+May 31 19:35:29 ns02 named[2598]: initializing GeoIP Country (IPv4) (type 1) DB
+May 31 19:35:29 ns02 named[2598]: GEO-106FREE 20180315 Build
+May 31 19:35:29 ns02 named[2598]: initializing GeoIP Country (IPv6) (type 12) DB
+May 31 19:35:29 ns02 named[2598]: GEO-106FREE 20180315 Build
+May 31 19:35:29 ns02 named[2598]: GeoIP City (IPv4) (type 2) DB not available
+May 31 19:35:29 ns02 named[2598]: GeoIP City (IPv4) (type 6) DB not available
+May 31 19:35:29 ns02 named[2598]: GeoIP City (IPv6) (type 30) DB not available
+May 31 19:35:29 ns02 named[2598]: GeoIP City (IPv6) (type 31) DB not available
+May 31 19:35:29 ns02 named[2598]: GeoIP Region (type 3) DB not available
+May 31 19:35:29 ns02 named[2598]: GeoIP Region (type 7) DB not available
+May 31 19:35:29 ns02 named[2598]: GeoIP ISP (type 4) DB not available
+May 31 19:35:29 ns02 named[2598]: GeoIP Org (type 5) DB not available
+May 31 19:35:29 ns02 named[2598]: GeoIP AS (type 9) DB not available
+May 31 19:35:29 ns02 named[2598]: GeoIP Domain (type 11) DB not available
+May 31 19:35:29 ns02 named[2598]: GeoIP NetSpeed (type 10) DB not available
+May 31 19:35:29 ns02 named[2598]: using default UDP/IPv4 port range: [32768, 60999]
+May 31 19:35:29 ns02 named[2598]: using default UDP/IPv6 port range: [32768, 60999]
+May 31 19:35:29 ns02 named[2598]: listening on IPv6 interfaces, port 53
+May 31 19:35:29 ns02 named[2598]: listening on IPv4 interface lo, 127.0.0.1#53
+May 31 19:35:29 ns02 named[2598]: listening on IPv4 interface enp0s3, 10.10.20.60#53
+May 31 19:35:29 ns02 named[2598]: generating session key for dynamic DNS
+May 31 19:35:29 ns02 named[2598]: sizing zone task pool based on 7 zones
+May 31 19:35:29 ns02 named[2598]: none:103: 'max-cache-size 90%' - setting to 886MB (out of 985MB)
+May 31 19:35:29 ns02 named[2598]: obtaining root key for view _default from '/etc/bind/bind.keys'
+May 31 19:35:29 ns02 named[2598]: set up managed keys zone for view _default, file 'managed-keys.bind'
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 10.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 16.172.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 17.172.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 18.172.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 19.172.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 20.172.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 21.172.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 22.172.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 23.172.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 24.172.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 25.172.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 26.172.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 27.172.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 28.172.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 29.172.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 30.172.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 31.172.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 168.192.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 64.100.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 65.100.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 66.100.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 67.100.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 68.100.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 69.100.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 70.100.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 71.100.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 72.100.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 73.100.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 74.100.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 75.100.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 76.100.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 77.100.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 78.100.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 79.100.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 80.100.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 81.100.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 82.100.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 83.100.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 84.100.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 85.100.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 86.100.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 87.100.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 88.100.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 89.100.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 90.100.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 91.100.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 92.100.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 93.100.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 94.100.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 95.100.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 96.100.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 97.100.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 98.100.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 99.100.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 100.100.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 101.100.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 102.100.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 103.100.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 104.100.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 105.100.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 106.100.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 107.100.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 108.100.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 109.100.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 110.100.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 111.100.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 112.100.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 113.100.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 114.100.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 115.100.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 116.100.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 117.100.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 118.100.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 119.100.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 120.100.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 121.100.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 122.100.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 123.100.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 124.100.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 125.100.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 126.100.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 127.100.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 254.169.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 2.0.192.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 100.51.198.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 113.0.203.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 255.255.255.255.IN-ADDR.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: D.F.IP6.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 8.E.F.IP6.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 9.E.F.IP6.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: A.E.F.IP6.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: B.E.F.IP6.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: 8.B.D.0.1.0.0.2.IP6.ARPA
+May 31 19:35:29 ns02 named[2598]: automatic empty zone: EMPTY.AS112.ARPA
+May 31 19:35:29 ns02 named[2598]: none:103: 'max-cache-size 90%' - setting to 886MB (out of 985MB)
+May 31 19:35:29 ns02 named[2598]: configuring command channel from '/etc/bind/rndc.key'
+May 31 19:35:29 ns02 named[2598]: command channel listening on 127.0.0.1#953
+May 31 19:35:29 ns02 named[2598]: configuring command channel from '/etc/bind/rndc.key'
+May 31 19:35:29 ns02 named[2598]: command channel listening on ::1#953
+May 31 19:35:29 ns02 named[2598]: managed-keys-zone: loaded serial 8
+May 31 19:35:29 ns02 named[2598]: zone 0.in-addr.arpa/IN: loaded serial 1
+May 31 19:35:29 ns02 named[2598]: zone 20.10.10.in-addr.arpa/IN: loaded serial 3
+May 31 19:35:29 ns02 named[2598]: zone 127.in-addr.arpa/IN: loaded serial 1
+May 31 19:35:29 ns02 named[2598]: zone prj.pt/IN: loaded serial 2
+May 31 19:35:29 ns02 named[2598]: zone localhost/IN: loaded serial 2
+May 31 19:35:29 ns02 named[2598]: zone 255.in-addr.arpa/IN: loaded serial 1
+May 31 19:35:29 ns02 named[2598]: all zones loaded
+May 31 19:35:29 ns02 named[2598]: running
+May 31 19:35:29 ns02 named[2598]: zone prj.pt/IN: sending notifies (serial 2)
+May 31 19:35:29 ns02 named[2598]: zone 20.10.10.in-addr.arpa/IN: sending notifies (serial 3)
+May 31 19:35:29 ns02 named[2598]: managed-keys-zone: Key 20326 for zone . acceptance timer complete: key now trusted
+May 31 19:35:29 ns02 named[2598]: resolver priming query complete
+May 31 19:36:05 ns02 named[2598]: message repeated 2 times: [ resolver priming query complete]
+May 31 19:36:12 ns02 systemd[1]: Stopping BIND Domain Name Server...
+May 31 19:36:12 ns02 named[2598]: received control channel command 'stop'
+May 31 19:36:12 ns02 named[2598]: shutting down: flushing changes
+May 31 19:36:12 ns02 named[2598]: stopping command channel on 127.0.0.1#953
+May 31 19:36:12 ns02 named[2598]: stopping command channel on ::1#953
+May 31 19:36:12 ns02 named[2598]: no longer listening on ::#53
+May 31 19:36:12 ns02 named[2598]: no longer listening on 127.0.0.1#53
+May 31 19:36:12 ns02 named[2598]: no longer listening on 10.10.20.60#53
+May 31 19:36:12 ns02 named[2598]: exiting
+May 31 19:36:12 ns02 systemd[1]: Stopped BIND Domain Name Server.
+May 31 19:36:12 ns02 systemd[1]: Started BIND Domain Name Server.
+May 31 19:36:12 ns02 named[2633]: starting BIND 9.11.3-1ubuntu1.12-Ubuntu (Extended Support Version) <id:a375815>
+May 31 19:36:12 ns02 named[2633]: running on Linux x86_64 4.15.0-101-generic #102-Ubuntu SMP Mon May 11 10:07:26 UTC 2020
+May 31 19:36:12 ns02 named[2633]: built with '--build=x86_64-linux-gnu' '--prefix=/usr' '--includedir=/usr/include' '--mandir=/usr/share/man' '--infodir=/usr/share/info' '--sysconfdir=/etc' '--localstatedir=/var' '--disable-silent-rules' '--libdir=/usr/lib/x86_64-linux-gnu' '--libexecdir=/usr/lib/x86_64-linux-gnu' '--disable-maintainer-mode' '--disable-dependency-tracking' '--libdir=/usr/lib/x86_64-linux-gnu' '--sysconfdir=/etc/bind' '--with-python=python3' '--localstatedir=/' '--enable-threads' '--enable-largefile' '--with-libtool' '--enable-shared' '--enable-static' '--with-gost=no' '--with-openssl=/usr' '--with-gssapi=/usr' '--with-libjson=/usr' '--without-lmdb' '--with-gnu-ld' '--with-geoip=/usr' '--with-atf=no' '--enable-ipv6' '--enable-rrl' '--enable-filter-aaaa' '--enable-native-pkcs11' '--with-pkcs11=/usr/lib/softhsm/libsofthsm2.so' '--with-randomdev=/dev/urandom' '--with-eddsa=no' 'build_alias=x86_64-linux-gnu' 'CFLAGS=-g -O2 -fdebug-prefix-map=/build/bind9-y59g4h/bind9-9.11.3+dfsg=. -fstack-protector-strong -Wformat -Werror=format-security -fno-strict-aliasing -fno-delete-null-pointer-checks -DNO_VERSION_DATE -DDIG_SIGCHASE' 'LDFLAGS=-Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,now' 'CPPFLAGS=-Wdate-time -D_FORTIFY_SOURCE=2'
+May 31 19:36:12 ns02 named[2633]: running as: named -f -u bind
+May 31 19:36:12 ns02 named[2633]: ----------------------------------------------------
+May 31 19:36:12 ns02 named[2633]: BIND 9 is maintained by Internet Systems Consortium,
+May 31 19:36:12 ns02 named[2633]: Inc. (ISC), a non-profit 501(c)(3) public-benefit
+May 31 19:36:12 ns02 named[2633]: corporation.  Support and training for BIND 9 are
+May 31 19:36:12 ns02 named[2633]: available at https://www.isc.org/support
+May 31 19:36:12 ns02 named[2633]: ----------------------------------------------------
+May 31 19:36:12 ns02 named[2633]: adjusted limit on open files from 4096 to 1048576
+May 31 19:36:12 ns02 named[2633]: found 1 CPU, using 1 worker thread
+May 31 19:36:12 ns02 named[2633]: using 1 UDP listener per interface
+May 31 19:36:12 ns02 named[2633]: using up to 4096 sockets
+May 31 19:36:12 ns02 named[2633]: loading configuration from '/etc/bind/named.conf'
+May 31 19:36:12 ns02 named[2633]: reading built-in trust anchors from file '/etc/bind/bind.keys'
+May 31 19:36:12 ns02 named[2633]: initializing GeoIP Country (IPv4) (type 1) DB
+May 31 19:36:12 ns02 named[2633]: GEO-106FREE 20180315 Build
+May 31 19:36:12 ns02 named[2633]: initializing GeoIP Country (IPv6) (type 12) DB
+May 31 19:36:12 ns02 named[2633]: GEO-106FREE 20180315 Build
+May 31 19:36:12 ns02 named[2633]: GeoIP City (IPv4) (type 2) DB not available
+May 31 19:36:12 ns02 named[2633]: GeoIP City (IPv4) (type 6) DB not available
+May 31 19:36:12 ns02 named[2633]: GeoIP City (IPv6) (type 30) DB not available
+May 31 19:36:12 ns02 named[2633]: GeoIP City (IPv6) (type 31) DB not available
+May 31 19:36:12 ns02 named[2633]: GeoIP Region (type 3) DB not available
+May 31 19:36:12 ns02 named[2633]: GeoIP Region (type 7) DB not available
+May 31 19:36:12 ns02 named[2633]: GeoIP ISP (type 4) DB not available
+May 31 19:36:12 ns02 named[2633]: GeoIP Org (type 5) DB not available
+May 31 19:36:12 ns02 named[2633]: GeoIP AS (type 9) DB not available
+May 31 19:36:12 ns02 named[2633]: GeoIP Domain (type 11) DB not available
+May 31 19:36:12 ns02 named[2633]: GeoIP NetSpeed (type 10) DB not available
+May 31 19:36:12 ns02 named[2633]: using default UDP/IPv4 port range: [32768, 60999]
+May 31 19:36:12 ns02 named[2633]: using default UDP/IPv6 port range: [32768, 60999]
+May 31 19:36:12 ns02 named[2633]: listening on IPv6 interfaces, port 53
+May 31 19:36:12 ns02 named[2633]: listening on IPv4 interface lo, 127.0.0.1#53
+May 31 19:36:12 ns02 named[2633]: listening on IPv4 interface enp0s3, 10.10.20.60#53
+May 31 19:36:12 ns02 named[2633]: generating session key for dynamic DNS
+May 31 19:36:12 ns02 named[2633]: sizing zone task pool based on 7 zones
+May 31 19:36:12 ns02 named[2633]: none:103: 'max-cache-size 90%' - setting to 886MB (out of 985MB)
+May 31 19:36:12 ns02 named[2633]: obtaining root key for view _default from '/etc/bind/bind.keys'
+May 31 19:36:12 ns02 named[2633]: set up managed keys zone for view _default, file 'managed-keys.bind'
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 10.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 16.172.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 17.172.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 18.172.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 19.172.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 20.172.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 21.172.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 22.172.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 23.172.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 24.172.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 25.172.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 26.172.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 27.172.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 28.172.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 29.172.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 30.172.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 31.172.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 168.192.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 64.100.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 65.100.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 66.100.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 67.100.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 68.100.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 69.100.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 70.100.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 71.100.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 72.100.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 73.100.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 74.100.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 75.100.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 76.100.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 77.100.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 78.100.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 79.100.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 80.100.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 81.100.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 82.100.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 83.100.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 84.100.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 85.100.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 86.100.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 87.100.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 88.100.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 89.100.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 90.100.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 91.100.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 92.100.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 93.100.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 94.100.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 95.100.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 96.100.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 97.100.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 98.100.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 99.100.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 100.100.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 101.100.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 102.100.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 103.100.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 104.100.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 105.100.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 106.100.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 107.100.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 108.100.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 109.100.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 110.100.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 111.100.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 112.100.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 113.100.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 114.100.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 115.100.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 116.100.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 117.100.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 118.100.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 119.100.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 120.100.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 121.100.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 122.100.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 123.100.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 124.100.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 125.100.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 126.100.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 127.100.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 254.169.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 2.0.192.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 100.51.198.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 113.0.203.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 255.255.255.255.IN-ADDR.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: D.F.IP6.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 8.E.F.IP6.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 9.E.F.IP6.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: A.E.F.IP6.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: B.E.F.IP6.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: 8.B.D.0.1.0.0.2.IP6.ARPA
+May 31 19:36:12 ns02 named[2633]: automatic empty zone: EMPTY.AS112.ARPA
+May 31 19:36:12 ns02 named[2633]: none:103: 'max-cache-size 90%' - setting to 886MB (out of 985MB)
+May 31 19:36:12 ns02 named[2633]: configuring command channel from '/etc/bind/rndc.key'
+May 31 19:36:12 ns02 named[2633]: command channel listening on 127.0.0.1#953
+May 31 19:36:12 ns02 named[2633]: configuring command channel from '/etc/bind/rndc.key'
+May 31 19:36:12 ns02 named[2633]: command channel listening on ::1#953
+May 31 19:36:12 ns02 named[2633]: managed-keys-zone: journal file is out of date: removing journal file
+May 31 19:36:12 ns02 named[2633]: managed-keys-zone: loaded serial 9
+May 31 19:36:12 ns02 named[2633]: zone 0.in-addr.arpa/IN: loaded serial 1
+May 31 19:36:12 ns02 named[2633]: zone 20.10.10.in-addr.arpa/IN: loaded serial 3
+May 31 19:36:12 ns02 named[2633]: zone 255.in-addr.arpa/IN: loaded serial 1
+May 31 19:36:12 ns02 named[2633]: zone 127.in-addr.arpa/IN: loaded serial 1
+May 31 19:36:12 ns02 named[2633]: zone localhost/IN: loaded serial 2
+May 31 19:36:12 ns02 named[2633]: zone prj.pt/IN: loaded serial 2
+May 31 19:36:12 ns02 named[2633]: all zones loaded
+May 31 19:36:12 ns02 named[2633]: running
+May 31 19:36:12 ns02 named[2633]: zone 20.10.10.in-addr.arpa/IN: sending notifies (serial 3)
+May 31 19:36:12 ns02 named[2633]: zone prj.pt/IN: sending notifies (serial 2)
+May 31 19:36:12 ns02 named[2633]: managed-keys-zone: Key 20326 for zone . acceptance timer complete: key now trusted
+May 31 19:36:13 ns02 named[2633]: resolver priming query complete
+May 31 19:37:44 ns02 named[2633]: client @0x7f2a740c71e0 10.10.20.10#50558: received notify for zone '20.10.10.in-addr.arpa'
+May 31 19:37:44 ns02 named[2633]: zone 20.10.10.in-addr.arpa/IN: notify from 10.10.20.10#50558: serial 1000000
+May 31 19:37:44 ns02 named[2633]: zone 20.10.10.in-addr.arpa/IN: Transfer started.
+May 31 19:37:44 ns02 named[2633]: transfer of '20.10.10.in-addr.arpa/IN' from 10.10.20.10#53: connected using 10.10.20.60#36275
+May 31 19:37:44 ns02 named[2633]: zone 20.10.10.in-addr.arpa/IN: transferred serial 1000000
+May 31 19:37:44 ns02 named[2633]: transfer of '20.10.10.in-addr.arpa/IN' from 10.10.20.10#53: Transfer status: success
+May 31 19:37:44 ns02 named[2633]: transfer of '20.10.10.in-addr.arpa/IN' from 10.10.20.10#53: Transfer completed: 1 messages, 9 records, 265 bytes, 0.005 secs (53000 bytes/sec)
+May 31 19:37:44 ns02 named[2633]: zone 20.10.10.in-addr.arpa/IN: sending notifies (serial 1000000)
+May 31 19:37:44 ns02 named[2633]: client @0x7f2a740c71e0 10.10.20.10#51376: received notify for zone 'prj.pt'
+May 31 19:37:44 ns02 named[2633]: zone prj.pt/IN: notify from 10.10.20.10#51376: serial 1000000
+May 31 19:37:44 ns02 named[2633]: zone prj.pt/IN: Transfer started.
+May 31 19:37:44 ns02 named[2633]: transfer of 'prj.pt/IN' from 10.10.20.10#53: connected using 10.10.20.60#57817
+May 31 19:37:44 ns02 named[2633]: zone prj.pt/IN: transferred serial 1000000
+May 31 19:37:44 ns02 named[2633]: transfer of 'prj.pt/IN' from 10.10.20.10#53: Transfer status: success
+May 31 19:37:44 ns02 named[2633]: transfer of 'prj.pt/IN' from 10.10.20.10#53: Transfer completed: 1 messages, 11 records, 274 bytes, 0.003 secs (91333 bytes/sec)
+May 31 19:37:44 ns02 named[2633]: zone prj.pt/IN: sending notifies (serial 1000000)
+May 31 19:38:06 ns02 systemd[1]: Stopping BIND Domain Name Server...
+May 31 19:38:06 ns02 named[2633]: received control channel command 'stop'
+May 31 19:38:06 ns02 named[2633]: shutting down: flushing changes
+May 31 19:38:06 ns02 named[2633]: stopping command channel on 127.0.0.1#953
+May 31 19:38:06 ns02 named[2633]: stopping command channel on ::1#953
+May 31 19:38:06 ns02 named[2633]: no longer listening on ::#53
+May 31 19:38:06 ns02 named[2633]: no longer listening on 127.0.0.1#53
+May 31 19:38:06 ns02 named[2633]: no longer listening on 10.10.20.60#53
+May 31 19:38:06 ns02 named[2633]: exiting
+May 31 19:38:06 ns02 systemd[1]: Stopped BIND Domain Name Server.
+May 31 19:38:06 ns02 systemd[1]: Started BIND Domain Name Server.
+May 31 19:38:06 ns02 named[2680]: starting BIND 9.11.3-1ubuntu1.12-Ubuntu (Extended Support Version) <id:a375815>
+May 31 19:38:06 ns02 named[2680]: running on Linux x86_64 4.15.0-101-generic #102-Ubuntu SMP Mon May 11 10:07:26 UTC 2020
+May 31 19:38:06 ns02 named[2680]: built with '--build=x86_64-linux-gnu' '--prefix=/usr' '--includedir=/usr/include' '--mandir=/usr/share/man' '--infodir=/usr/share/info' '--sysconfdir=/etc' '--localstatedir=/var' '--disable-silent-rules' '--libdir=/usr/lib/x86_64-linux-gnu' '--libexecdir=/usr/lib/x86_64-linux-gnu' '--disable-maintainer-mode' '--disable-dependency-tracking' '--libdir=/usr/lib/x86_64-linux-gnu' '--sysconfdir=/etc/bind' '--with-python=python3' '--localstatedir=/' '--enable-threads' '--enable-largefile' '--with-libtool' '--enable-shared' '--enable-static' '--with-gost=no' '--with-openssl=/usr' '--with-gssapi=/usr' '--with-libjson=/usr' '--without-lmdb' '--with-gnu-ld' '--with-geoip=/usr' '--with-atf=no' '--enable-ipv6' '--enable-rrl' '--enable-filter-aaaa' '--enable-native-pkcs11' '--with-pkcs11=/usr/lib/softhsm/libsofthsm2.so' '--with-randomdev=/dev/urandom' '--with-eddsa=no' 'build_alias=x86_64-linux-gnu' 'CFLAGS=-g -O2 -fdebug-prefix-map=/build/bind9-y59g4h/bind9-9.11.3+dfsg=. -fstack-protector-strong -Wformat -Werror=format-security -fno-strict-aliasing -fno-delete-null-pointer-checks -DNO_VERSION_DATE -DDIG_SIGCHASE' 'LDFLAGS=-Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,now' 'CPPFLAGS=-Wdate-time -D_FORTIFY_SOURCE=2'
+May 31 19:38:06 ns02 named[2680]: running as: named -f -u bind
+May 31 19:38:06 ns02 named[2680]: ----------------------------------------------------
+May 31 19:38:06 ns02 named[2680]: BIND 9 is maintained by Internet Systems Consortium,
+May 31 19:38:06 ns02 named[2680]: Inc. (ISC), a non-profit 501(c)(3) public-benefit
+May 31 19:38:06 ns02 named[2680]: corporation.  Support and training for BIND 9 are
+May 31 19:38:06 ns02 named[2680]: available at https://www.isc.org/support
+May 31 19:38:06 ns02 named[2680]: ----------------------------------------------------
+May 31 19:38:06 ns02 named[2680]: adjusted limit on open files from 4096 to 1048576
+May 31 19:38:06 ns02 named[2680]: found 1 CPU, using 1 worker thread
+May 31 19:38:06 ns02 named[2680]: using 1 UDP listener per interface
+May 31 19:38:06 ns02 named[2680]: using up to 4096 sockets
+May 31 19:38:06 ns02 named[2680]: loading configuration from '/etc/bind/named.conf'
+May 31 19:38:06 ns02 named[2680]: reading built-in trust anchors from file '/etc/bind/bind.keys'
+May 31 19:38:06 ns02 named[2680]: initializing GeoIP Country (IPv4) (type 1) DB
+May 31 19:38:06 ns02 named[2680]: GEO-106FREE 20180315 Build
+May 31 19:38:06 ns02 named[2680]: initializing GeoIP Country (IPv6) (type 12) DB
+May 31 19:38:06 ns02 named[2680]: GEO-106FREE 20180315 Build
+May 31 19:38:06 ns02 named[2680]: GeoIP City (IPv4) (type 2) DB not available
+May 31 19:38:06 ns02 named[2680]: GeoIP City (IPv4) (type 6) DB not available
+May 31 19:38:06 ns02 named[2680]: GeoIP City (IPv6) (type 30) DB not available
+May 31 19:38:06 ns02 named[2680]: GeoIP City (IPv6) (type 31) DB not available
+May 31 19:38:06 ns02 named[2680]: GeoIP Region (type 3) DB not available
+May 31 19:38:06 ns02 named[2680]: GeoIP Region (type 7) DB not available
+May 31 19:38:06 ns02 named[2680]: GeoIP ISP (type 4) DB not available
+May 31 19:38:06 ns02 named[2680]: GeoIP Org (type 5) DB not available
+May 31 19:38:06 ns02 named[2680]: GeoIP AS (type 9) DB not available
+May 31 19:38:06 ns02 named[2680]: GeoIP Domain (type 11) DB not available
+May 31 19:38:06 ns02 named[2680]: GeoIP NetSpeed (type 10) DB not available
+May 31 19:38:06 ns02 named[2680]: using default UDP/IPv4 port range: [32768, 60999]
+May 31 19:38:06 ns02 named[2680]: using default UDP/IPv6 port range: [32768, 60999]
+May 31 19:38:06 ns02 named[2680]: listening on IPv6 interfaces, port 53
+May 31 19:38:06 ns02 named[2680]: listening on IPv4 interface lo, 127.0.0.1#53
+May 31 19:38:06 ns02 named[2680]: listening on IPv4 interface enp0s3, 10.10.20.60#53
+May 31 19:38:06 ns02 named[2680]: generating session key for dynamic DNS
+May 31 19:38:06 ns02 named[2680]: sizing zone task pool based on 7 zones
+May 31 19:38:06 ns02 named[2680]: none:103: 'max-cache-size 90%' - setting to 886MB (out of 985MB)
+May 31 19:38:06 ns02 named[2680]: obtaining root key for view _default from '/etc/bind/bind.keys'
+May 31 19:38:06 ns02 named[2680]: set up managed keys zone for view _default, file 'managed-keys.bind'
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 10.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 16.172.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 17.172.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 18.172.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 19.172.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 20.172.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 21.172.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 22.172.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 23.172.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 24.172.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 25.172.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 26.172.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 27.172.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 28.172.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 29.172.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 30.172.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 31.172.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 168.192.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 64.100.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 65.100.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 66.100.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 67.100.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 68.100.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 69.100.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 70.100.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 71.100.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 72.100.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 73.100.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 74.100.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 75.100.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 76.100.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 77.100.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 78.100.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 79.100.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 80.100.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 81.100.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 82.100.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 83.100.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 84.100.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 85.100.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 86.100.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 87.100.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 88.100.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 89.100.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 90.100.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 91.100.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 92.100.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 93.100.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 94.100.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 95.100.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 96.100.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 97.100.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 98.100.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 99.100.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 100.100.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 101.100.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 102.100.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 103.100.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 104.100.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 105.100.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 106.100.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 107.100.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 108.100.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 109.100.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 110.100.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 111.100.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 112.100.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 113.100.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 114.100.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 115.100.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 116.100.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 117.100.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 118.100.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 119.100.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 120.100.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 121.100.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 122.100.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 123.100.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 124.100.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 125.100.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 126.100.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 127.100.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 254.169.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 2.0.192.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 100.51.198.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 113.0.203.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 255.255.255.255.IN-ADDR.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: D.F.IP6.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 8.E.F.IP6.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 9.E.F.IP6.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: A.E.F.IP6.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: B.E.F.IP6.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: 8.B.D.0.1.0.0.2.IP6.ARPA
+May 31 19:38:06 ns02 named[2680]: automatic empty zone: EMPTY.AS112.ARPA
+May 31 19:38:06 ns02 named[2680]: none:103: 'max-cache-size 90%' - setting to 886MB (out of 985MB)
+May 31 19:38:06 ns02 named[2680]: configuring command channel from '/etc/bind/rndc.key'
+May 31 19:38:06 ns02 named[2680]: command channel listening on 127.0.0.1#953
+May 31 19:38:06 ns02 named[2680]: configuring command channel from '/etc/bind/rndc.key'
+May 31 19:38:06 ns02 named[2680]: command channel listening on ::1#953
+May 31 19:38:06 ns02 named[2680]: managed-keys-zone: journal file is out of date: removing journal file
+May 31 19:38:06 ns02 named[2680]: managed-keys-zone: loaded serial 10
+May 31 19:38:06 ns02 named[2680]: zone 0.in-addr.arpa/IN: loaded serial 1
+May 31 19:38:06 ns02 named[2680]: zone 20.10.10.in-addr.arpa/IN: loaded serial 1000000
+May 31 19:38:06 ns02 named[2680]: zone 127.in-addr.arpa/IN: loaded serial 1
+May 31 19:38:06 ns02 named[2680]: zone 255.in-addr.arpa/IN: loaded serial 1
+May 31 19:38:06 ns02 named[2680]: zone localhost/IN: loaded serial 2
+May 31 19:38:06 ns02 named[2680]: zone prj.pt/IN: loaded serial 1000000
+May 31 19:38:06 ns02 named[2680]: all zones loaded
+May 31 19:38:06 ns02 named[2680]: running
+May 31 19:38:06 ns02 named[2680]: zone 20.10.10.in-addr.arpa/IN: sending notifies (serial 1000000)
+May 31 19:38:06 ns02 named[2680]: zone prj.pt/IN: sending notifies (serial 1000000)
+May 31 19:38:07 ns02 named[2680]: managed-keys-zone: Key 20326 for zone . acceptance timer complete: key now trusted
+May 31 19:38:07 ns02 named[2680]: resolver priming query complete
+May 31 19:38:48 ns02 named[2680]: client @0x7f1f480c71e0 10.10.20.10#45630: received notify for zone 'prj.pt'
+May 31 19:38:48 ns02 named[2680]: zone prj.pt/IN: notify from 10.10.20.10#45630: zone is up to date
+May 31 19:38:48 ns02 named[2680]: client @0x7f1f480c71e0 10.10.20.10#58760: received notify for zone '20.10.10.in-addr.arpa'
+May 31 19:38:48 ns02 named[2680]: zone 20.10.10.in-addr.arpa/IN: notify from 10.10.20.10#58760: zone is up to date
+May 31 19:38:56 ns02 named[2680]: resolver priming query complete
+May 31 19:38:59 ns02 named[2680]: resolver priming query complete
+May 31 19:39:01 ns02 systemd-networkd[844]: enp0s3: Configured
+May 31 19:39:01 ns02 systemd-timesyncd[729]: Network configuration changed, trying to establish connection.
+May 31 19:39:01 ns02 systemd-timesyncd[729]: Synchronized to time server 91.189.91.157:123 (ntp.ubuntu.com).
+May 31 19:39:03 ns02 systemd[1]: Stopping BIND Domain Name Server...
+May 31 19:39:03 ns02 named[2680]: received control channel command 'stop'
+May 31 19:39:03 ns02 named[2680]: shutting down: flushing changes
+May 31 19:39:03 ns02 named[2680]: stopping command channel on 127.0.0.1#953
+May 31 19:39:03 ns02 named[2680]: stopping command channel on ::1#953
+May 31 19:39:03 ns02 named[2680]: no longer listening on ::#53
+May 31 19:39:03 ns02 named[2680]: no longer listening on 127.0.0.1#53
+May 31 19:39:03 ns02 named[2680]: no longer listening on 10.10.20.60#53
+May 31 19:39:03 ns02 named[2680]: exiting
+May 31 19:39:03 ns02 systemd[1]: Stopped BIND Domain Name Server.
+May 31 19:39:03 ns02 systemd[1]: Started BIND Domain Name Server.
+May 31 19:39:03 ns02 named[2718]: starting BIND 9.11.3-1ubuntu1.12-Ubuntu (Extended Support Version) <id:a375815>
+May 31 19:39:03 ns02 named[2718]: running on Linux x86_64 4.15.0-101-generic #102-Ubuntu SMP Mon May 11 10:07:26 UTC 2020
+May 31 19:39:03 ns02 named[2718]: built with '--build=x86_64-linux-gnu' '--prefix=/usr' '--includedir=/usr/include' '--mandir=/usr/share/man' '--infodir=/usr/share/info' '--sysconfdir=/etc' '--localstatedir=/var' '--disable-silent-rules' '--libdir=/usr/lib/x86_64-linux-gnu' '--libexecdir=/usr/lib/x86_64-linux-gnu' '--disable-maintainer-mode' '--disable-dependency-tracking' '--libdir=/usr/lib/x86_64-linux-gnu' '--sysconfdir=/etc/bind' '--with-python=python3' '--localstatedir=/' '--enable-threads' '--enable-largefile' '--with-libtool' '--enable-shared' '--enable-static' '--with-gost=no' '--with-openssl=/usr' '--with-gssapi=/usr' '--with-libjson=/usr' '--without-lmdb' '--with-gnu-ld' '--with-geoip=/usr' '--with-atf=no' '--enable-ipv6' '--enable-rrl' '--enable-filter-aaaa' '--enable-native-pkcs11' '--with-pkcs11=/usr/lib/softhsm/libsofthsm2.so' '--with-randomdev=/dev/urandom' '--with-eddsa=no' 'build_alias=x86_64-linux-gnu' 'CFLAGS=-g -O2 -fdebug-prefix-map=/build/bind9-y59g4h/bind9-9.11.3+dfsg=. -fstack-protector-strong -Wformat -Werror=format-security -fno-strict-aliasing -fno-delete-null-pointer-checks -DNO_VERSION_DATE -DDIG_SIGCHASE' 'LDFLAGS=-Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,now' 'CPPFLAGS=-Wdate-time -D_FORTIFY_SOURCE=2'
+May 31 19:39:03 ns02 named[2718]: running as: named -f -u bind
+May 31 19:39:03 ns02 named[2718]: ----------------------------------------------------
+May 31 19:39:03 ns02 named[2718]: BIND 9 is maintained by Internet Systems Consortium,
+May 31 19:39:03 ns02 named[2718]: Inc. (ISC), a non-profit 501(c)(3) public-benefit
+May 31 19:39:03 ns02 named[2718]: corporation.  Support and training for BIND 9 are
+May 31 19:39:03 ns02 named[2718]: available at https://www.isc.org/support
+May 31 19:39:03 ns02 named[2718]: ----------------------------------------------------
+May 31 19:39:03 ns02 named[2718]: adjusted limit on open files from 4096 to 1048576
+May 31 19:39:03 ns02 named[2718]: found 1 CPU, using 1 worker thread
+May 31 19:39:03 ns02 named[2718]: using 1 UDP listener per interface
+May 31 19:39:03 ns02 named[2718]: using up to 4096 sockets
+May 31 19:39:03 ns02 named[2718]: loading configuration from '/etc/bind/named.conf'
+May 31 19:39:03 ns02 named[2718]: reading built-in trust anchors from file '/etc/bind/bind.keys'
+May 31 19:39:03 ns02 named[2718]: initializing GeoIP Country (IPv4) (type 1) DB
+May 31 19:39:03 ns02 named[2718]: GEO-106FREE 20180315 Build
+May 31 19:39:03 ns02 named[2718]: initializing GeoIP Country (IPv6) (type 12) DB
+May 31 19:39:03 ns02 named[2718]: GEO-106FREE 20180315 Build
+May 31 19:39:03 ns02 named[2718]: GeoIP City (IPv4) (type 2) DB not available
+May 31 19:39:03 ns02 named[2718]: GeoIP City (IPv4) (type 6) DB not available
+May 31 19:39:03 ns02 named[2718]: GeoIP City (IPv6) (type 30) DB not available
+May 31 19:39:03 ns02 named[2718]: GeoIP City (IPv6) (type 31) DB not available
+May 31 19:39:03 ns02 named[2718]: GeoIP Region (type 3) DB not available
+May 31 19:39:03 ns02 named[2718]: GeoIP Region (type 7) DB not available
+May 31 19:39:03 ns02 named[2718]: GeoIP ISP (type 4) DB not available
+May 31 19:39:03 ns02 named[2718]: GeoIP Org (type 5) DB not available
+May 31 19:39:03 ns02 named[2718]: GeoIP AS (type 9) DB not available
+May 31 19:39:03 ns02 named[2718]: GeoIP Domain (type 11) DB not available
+May 31 19:39:03 ns02 named[2718]: GeoIP NetSpeed (type 10) DB not available
+May 31 19:39:03 ns02 named[2718]: using default UDP/IPv4 port range: [32768, 60999]
+May 31 19:39:03 ns02 named[2718]: using default UDP/IPv6 port range: [32768, 60999]
+May 31 19:39:03 ns02 named[2718]: listening on IPv6 interfaces, port 53
+May 31 19:39:03 ns02 named[2718]: listening on IPv4 interface lo, 127.0.0.1#53
+May 31 19:39:03 ns02 named[2718]: listening on IPv4 interface enp0s3, 10.10.20.60#53
+May 31 19:39:03 ns02 named[2718]: generating session key for dynamic DNS
+May 31 19:39:03 ns02 named[2718]: sizing zone task pool based on 7 zones
+May 31 19:39:03 ns02 named[2718]: none:103: 'max-cache-size 90%' - setting to 886MB (out of 985MB)
+May 31 19:39:03 ns02 named[2718]: obtaining root key for view _default from '/etc/bind/bind.keys'
+May 31 19:39:03 ns02 named[2718]: set up managed keys zone for view _default, file 'managed-keys.bind'
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 10.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 16.172.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 17.172.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 18.172.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 19.172.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 20.172.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 21.172.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 22.172.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 23.172.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 24.172.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 25.172.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 26.172.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 27.172.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 28.172.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 29.172.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 30.172.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 31.172.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 168.192.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 64.100.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 65.100.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 66.100.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 67.100.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 68.100.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 69.100.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 70.100.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 71.100.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 72.100.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 73.100.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 74.100.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 75.100.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 76.100.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 77.100.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 78.100.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 79.100.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 80.100.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 81.100.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 82.100.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 83.100.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 84.100.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 85.100.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 86.100.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 87.100.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 88.100.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 89.100.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 90.100.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 91.100.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 92.100.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 93.100.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 94.100.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 95.100.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 96.100.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 97.100.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 98.100.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 99.100.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 100.100.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 101.100.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 102.100.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 103.100.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 104.100.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 105.100.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 106.100.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 107.100.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 108.100.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 109.100.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 110.100.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 111.100.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 112.100.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 113.100.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 114.100.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 115.100.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 116.100.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 117.100.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 118.100.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 119.100.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 120.100.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 121.100.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 122.100.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 123.100.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 124.100.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 125.100.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 126.100.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 127.100.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 254.169.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 2.0.192.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 100.51.198.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 113.0.203.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 255.255.255.255.IN-ADDR.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: D.F.IP6.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 8.E.F.IP6.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 9.E.F.IP6.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: A.E.F.IP6.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: B.E.F.IP6.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: 8.B.D.0.1.0.0.2.IP6.ARPA
+May 31 19:39:03 ns02 named[2718]: automatic empty zone: EMPTY.AS112.ARPA
+May 31 19:39:03 ns02 named[2718]: none:103: 'max-cache-size 90%' - setting to 886MB (out of 985MB)
+May 31 19:39:03 ns02 named[2718]: configuring command channel from '/etc/bind/rndc.key'
+May 31 19:39:03 ns02 named[2718]: command channel listening on 127.0.0.1#953
+May 31 19:39:03 ns02 named[2718]: configuring command channel from '/etc/bind/rndc.key'
+May 31 19:39:03 ns02 named[2718]: command channel listening on ::1#953
+May 31 19:39:03 ns02 named[2718]: managed-keys-zone: journal file is out of date: removing journal file
+May 31 19:39:03 ns02 named[2718]: managed-keys-zone: loaded serial 11
+May 31 19:39:03 ns02 named[2718]: zone 0.in-addr.arpa/IN: loaded serial 1
+May 31 19:39:03 ns02 named[2718]: zone 20.10.10.in-addr.arpa/IN: loaded serial 1000000
+May 31 19:39:03 ns02 named[2718]: zone 255.in-addr.arpa/IN: loaded serial 1
+May 31 19:39:03 ns02 named[2718]: zone 127.in-addr.arpa/IN: loaded serial 1
+May 31 19:39:03 ns02 named[2718]: zone localhost/IN: loaded serial 2
+May 31 19:39:03 ns02 named[2718]: zone prj.pt/IN: loaded serial 1000000
+May 31 19:39:03 ns02 named[2718]: all zones loaded
+May 31 19:39:03 ns02 named[2718]: running
+May 31 19:39:03 ns02 named[2718]: zone prj.pt/IN: sending notifies (serial 1000000)
+May 31 19:39:03 ns02 named[2718]: zone 20.10.10.in-addr.arpa/IN: sending notifies (serial 1000000)
+May 31 19:39:03 ns02 named[2718]: managed-keys-zone: Key 20326 for zone . acceptance timer complete: key now trusted
+May 31 19:39:03 ns02 named[2718]: resolver priming query complete
+May 31 19:44:01 ns02 systemd-networkd[844]: enp0s3: Configured
+May 31 19:44:01 ns02 systemd-timesyncd[729]: Network configuration changed, trying to establish connection.
+May 31 19:44:01 ns02 systemd-timesyncd[729]: Synchronized to time server 91.189.91.157:123 (ntp.ubuntu.com).
+May 31 19:49:00 ns02 systemd-networkd[844]: enp0s3: Configured
+May 31 19:49:00 ns02 systemd-timesyncd[729]: Network configuration changed, trying to establish connection.
+May 31 19:49:01 ns02 systemd-timesyncd[729]: Synchronized to time server 91.189.91.157:123 (ntp.ubuntu.com).
+May 31 19:54:00 ns02 systemd-networkd[844]: enp0s3: Configured
+May 31 19:54:00 ns02 systemd-timesyncd[729]: Network configuration changed, trying to establish connection.
+May 31 19:54:10 ns02 systemd-timesyncd[729]: Timed out waiting for reply from 91.189.91.157:123 (ntp.ubuntu.com).
+May 31 19:54:11 ns02 systemd-timesyncd[729]: Synchronized to time server 91.189.94.4:123 (ntp.ubuntu.com).
+May 31 19:59:01 ns02 systemd-networkd[844]: enp0s3: Configured
+May 31 19:59:01 ns02 systemd-timesyncd[729]: Network configuration changed, trying to establish connection.
+May 31 19:59:01 ns02 systemd-timesyncd[729]: Synchronized to time server 91.189.94.4:123 (ntp.ubuntu.com).
+May 31 20:04:00 ns02 systemd-timesyncd[729]: Network configuration changed, trying to establish connection.
+May 31 20:04:00 ns02 systemd-networkd[844]: enp0s3: Configured
+May 31 20:04:00 ns02 systemd-timesyncd[729]: Synchronized to time server 91.189.94.4:123 (ntp.ubuntu.com).
+May 31 20:08:59 ns02 systemd-networkd[844]: enp0s3: Configured
+May 31 20:08:59 ns02 systemd-timesyncd[729]: Network configuration changed, trying to establish connection.
+May 31 20:09:09 ns02 systemd-timesyncd[729]: Timed out waiting for reply from 91.189.94.4:123 (ntp.ubuntu.com).
+May 31 20:09:09 ns02 systemd-timesyncd[729]: Synchronized to time server 91.189.89.198:123 (ntp.ubuntu.com).
+May 31 20:13:59 ns02 systemd-networkd[844]: enp0s3: Configured
+May 31 20:14:01 ns02 systemd-timesyncd[729]: Network configuration changed, trying to establish connection.
+May 31 20:14:01 ns02 systemd-timesyncd[729]: Synchronized to time server 91.189.89.198:123 (ntp.ubuntu.com).
+May 31 20:17:01 ns02 CRON[2757]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May 31 20:18:58 ns02 systemd-networkd[844]: enp0s3: Configured
+May 31 20:18:58 ns02 systemd-timesyncd[729]: Network configuration changed, trying to establish connection.
+May 31 20:18:59 ns02 systemd-timesyncd[729]: Synchronized to time server 91.189.89.198:123 (ntp.ubuntu.com).
+May 31 20:23:58 ns02 systemd-networkd[844]: enp0s3: Configured
+May 31 20:23:58 ns02 systemd-timesyncd[729]: Network configuration changed, trying to establish connection.
+May 31 20:23:58 ns02 systemd-timesyncd[729]: Synchronized to time server 91.189.89.198:123 (ntp.ubuntu.com).
+May 31 20:28:58 ns02 systemd-timesyncd[729]: Network configuration changed, trying to establish connection.
+May 31 20:28:58 ns02 systemd-networkd[844]: enp0s3: Configured
+May 31 20:28:58 ns02 systemd-timesyncd[729]: Synchronized to time server 91.189.89.198:123 (ntp.ubuntu.com).
+May 31 20:33:58 ns02 systemd-timesyncd[729]: Network configuration changed, trying to establish connection.
+May 31 20:33:58 ns02 systemd-networkd[844]: enp0s3: Configured
+May 31 20:33:58 ns02 systemd-timesyncd[729]: Synchronized to time server 91.189.89.198:123 (ntp.ubuntu.com).
+May 31 20:38:56 ns02 systemd-timesyncd[729]: Network configuration changed, trying to establish connection.
+May 31 20:38:56 ns02 systemd-networkd[844]: enp0s3: Configured
+May 31 20:38:57 ns02 systemd-timesyncd[729]: Synchronized to time server 91.189.89.198:123 (ntp.ubuntu.com).
+May 31 20:43:56 ns02 systemd-timesyncd[729]: Network configuration changed, trying to establish connection.
+May 31 20:43:57 ns02 systemd-networkd[844]: enp0s3: Configured
+May 31 20:43:57 ns02 systemd-timesyncd[729]: Synchronized to time server 91.189.89.198:123 (ntp.ubuntu.com).
+May 31 20:48:56 ns02 systemd-timesyncd[729]: Network configuration changed, trying to establish connection.
+May 31 20:48:56 ns02 systemd-networkd[844]: enp0s3: Configured
+May 31 20:48:56 ns02 systemd-timesyncd[729]: Synchronized to time server 91.189.89.198:123 (ntp.ubuntu.com).
+May 31 20:50:28 ns02 named[2718]: client @0x7f99e00c71e0 10.10.20.10#33353: received notify for zone '20.10.10.in-addr.arpa'
+May 31 20:50:28 ns02 named[2718]: zone 20.10.10.in-addr.arpa/IN: notify from 10.10.20.10#33353: zone is up to date
+May 31 20:50:28 ns02 named[2718]: client @0x7f99e00c71e0 10.10.20.10#48216: received notify for zone 'prj.pt'
+May 31 20:50:28 ns02 named[2718]: zone prj.pt/IN: notify from 10.10.20.10#48216: zone is up to date
+May 31 20:50:47 ns02 systemd[1]: Stopping BIND Domain Name Server...
+May 31 20:50:47 ns02 named[2718]: received control channel command 'stop'
+May 31 20:50:47 ns02 named[2718]: shutting down: flushing changes
+May 31 20:50:47 ns02 named[2718]: stopping command channel on 127.0.0.1#953
+May 31 20:50:47 ns02 named[2718]: stopping command channel on ::1#953
+May 31 20:50:47 ns02 named[2718]: no longer listening on ::#53
+May 31 20:50:47 ns02 named[2718]: no longer listening on 127.0.0.1#53
+May 31 20:50:47 ns02 named[2718]: no longer listening on 10.10.20.60#53
+May 31 20:50:47 ns02 named[2718]: exiting
+May 31 20:50:47 ns02 systemd[1]: Stopped BIND Domain Name Server.
+May 31 20:50:47 ns02 systemd[1]: Started BIND Domain Name Server.
+May 31 20:50:47 ns02 named[2787]: starting BIND 9.11.3-1ubuntu1.12-Ubuntu (Extended Support Version) <id:a375815>
+May 31 20:50:47 ns02 named[2787]: running on Linux x86_64 4.15.0-101-generic #102-Ubuntu SMP Mon May 11 10:07:26 UTC 2020
+May 31 20:50:47 ns02 named[2787]: built with '--build=x86_64-linux-gnu' '--prefix=/usr' '--includedir=/usr/include' '--mandir=/usr/share/man' '--infodir=/usr/share/info' '--sysconfdir=/etc' '--localstatedir=/var' '--disable-silent-rules' '--libdir=/usr/lib/x86_64-linux-gnu' '--libexecdir=/usr/lib/x86_64-linux-gnu' '--disable-maintainer-mode' '--disable-dependency-tracking' '--libdir=/usr/lib/x86_64-linux-gnu' '--sysconfdir=/etc/bind' '--with-python=python3' '--localstatedir=/' '--enable-threads' '--enable-largefile' '--with-libtool' '--enable-shared' '--enable-static' '--with-gost=no' '--with-openssl=/usr' '--with-gssapi=/usr' '--with-libjson=/usr' '--without-lmdb' '--with-gnu-ld' '--with-geoip=/usr' '--with-atf=no' '--enable-ipv6' '--enable-rrl' '--enable-filter-aaaa' '--enable-native-pkcs11' '--with-pkcs11=/usr/lib/softhsm/libsofthsm2.so' '--with-randomdev=/dev/urandom' '--with-eddsa=no' 'build_alias=x86_64-linux-gnu' 'CFLAGS=-g -O2 -fdebug-prefix-map=/build/bind9-y59g4h/bind9-9.11.3+dfsg=. -fstack-protector-strong -Wformat -Werror=format-security -fno-strict-aliasing -fno-delete-null-pointer-checks -DNO_VERSION_DATE -DDIG_SIGCHASE' 'LDFLAGS=-Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,now' 'CPPFLAGS=-Wdate-time -D_FORTIFY_SOURCE=2'
+May 31 20:50:47 ns02 named[2787]: running as: named -f -u bind
+May 31 20:50:47 ns02 named[2787]: ----------------------------------------------------
+May 31 20:50:47 ns02 named[2787]: BIND 9 is maintained by Internet Systems Consortium,
+May 31 20:50:47 ns02 named[2787]: Inc. (ISC), a non-profit 501(c)(3) public-benefit
+May 31 20:50:47 ns02 named[2787]: corporation.  Support and training for BIND 9 are
+May 31 20:50:47 ns02 named[2787]: available at https://www.isc.org/support
+May 31 20:50:47 ns02 named[2787]: ----------------------------------------------------
+May 31 20:50:47 ns02 named[2787]: adjusted limit on open files from 4096 to 1048576
+May 31 20:50:47 ns02 named[2787]: found 1 CPU, using 1 worker thread
+May 31 20:50:47 ns02 named[2787]: using 1 UDP listener per interface
+May 31 20:50:47 ns02 named[2787]: using up to 4096 sockets
+May 31 20:50:47 ns02 named[2787]: loading configuration from '/etc/bind/named.conf'
+May 31 20:50:47 ns02 named[2787]: reading built-in trust anchors from file '/etc/bind/bind.keys'
+May 31 20:50:47 ns02 named[2787]: initializing GeoIP Country (IPv4) (type 1) DB
+May 31 20:50:47 ns02 named[2787]: GEO-106FREE 20180315 Build
+May 31 20:50:47 ns02 named[2787]: initializing GeoIP Country (IPv6) (type 12) DB
+May 31 20:50:47 ns02 named[2787]: GEO-106FREE 20180315 Build
+May 31 20:50:47 ns02 named[2787]: GeoIP City (IPv4) (type 2) DB not available
+May 31 20:50:47 ns02 named[2787]: GeoIP City (IPv4) (type 6) DB not available
+May 31 20:50:47 ns02 named[2787]: GeoIP City (IPv6) (type 30) DB not available
+May 31 20:50:47 ns02 named[2787]: GeoIP City (IPv6) (type 31) DB not available
+May 31 20:50:47 ns02 named[2787]: GeoIP Region (type 3) DB not available
+May 31 20:50:47 ns02 named[2787]: GeoIP Region (type 7) DB not available
+May 31 20:50:47 ns02 named[2787]: GeoIP ISP (type 4) DB not available
+May 31 20:50:47 ns02 named[2787]: GeoIP Org (type 5) DB not available
+May 31 20:50:47 ns02 named[2787]: GeoIP AS (type 9) DB not available
+May 31 20:50:47 ns02 named[2787]: GeoIP Domain (type 11) DB not available
+May 31 20:50:47 ns02 named[2787]: GeoIP NetSpeed (type 10) DB not available
+May 31 20:50:47 ns02 named[2787]: using default UDP/IPv4 port range: [32768, 60999]
+May 31 20:50:47 ns02 named[2787]: using default UDP/IPv6 port range: [32768, 60999]
+May 31 20:50:47 ns02 named[2787]: listening on IPv6 interfaces, port 53
+May 31 20:50:47 ns02 named[2787]: listening on IPv4 interface lo, 127.0.0.1#53
+May 31 20:50:47 ns02 named[2787]: listening on IPv4 interface enp0s3, 10.10.20.60#53
+May 31 20:50:47 ns02 named[2787]: generating session key for dynamic DNS
+May 31 20:50:47 ns02 named[2787]: sizing zone task pool based on 7 zones
+May 31 20:50:47 ns02 named[2787]: none:103: 'max-cache-size 90%' - setting to 886MB (out of 985MB)
+May 31 20:50:47 ns02 named[2787]: obtaining root key for view _default from '/etc/bind/bind.keys'
+May 31 20:50:47 ns02 named[2787]: set up managed keys zone for view _default, file 'managed-keys.bind'
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 10.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 16.172.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 17.172.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 18.172.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 19.172.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 20.172.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 21.172.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 22.172.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 23.172.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 24.172.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 25.172.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 26.172.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 27.172.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 28.172.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 29.172.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 30.172.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 31.172.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 168.192.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 64.100.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 65.100.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 66.100.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 67.100.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 68.100.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 69.100.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 70.100.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 71.100.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 72.100.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 73.100.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 74.100.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 75.100.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 76.100.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 77.100.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 78.100.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 79.100.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 80.100.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 81.100.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 82.100.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 83.100.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 84.100.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 85.100.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 86.100.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 87.100.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 88.100.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 89.100.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 90.100.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 91.100.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 92.100.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 93.100.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 94.100.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 95.100.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 96.100.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 97.100.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 98.100.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 99.100.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 100.100.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 101.100.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 102.100.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 103.100.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 104.100.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 105.100.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 106.100.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 107.100.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 108.100.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 109.100.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 110.100.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 111.100.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 112.100.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 113.100.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 114.100.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 115.100.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 116.100.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 117.100.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 118.100.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 119.100.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 120.100.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 121.100.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 122.100.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 123.100.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 124.100.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 125.100.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 126.100.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 127.100.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 254.169.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 2.0.192.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 100.51.198.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 113.0.203.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 255.255.255.255.IN-ADDR.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: D.F.IP6.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 8.E.F.IP6.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 9.E.F.IP6.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: A.E.F.IP6.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: B.E.F.IP6.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: 8.B.D.0.1.0.0.2.IP6.ARPA
+May 31 20:50:47 ns02 named[2787]: automatic empty zone: EMPTY.AS112.ARPA
+May 31 20:50:47 ns02 named[2787]: none:103: 'max-cache-size 90%' - setting to 886MB (out of 985MB)
+May 31 20:50:47 ns02 named[2787]: configuring command channel from '/etc/bind/rndc.key'
+May 31 20:50:47 ns02 named[2787]: command channel listening on 127.0.0.1#953
+May 31 20:50:47 ns02 named[2787]: configuring command channel from '/etc/bind/rndc.key'
+May 31 20:50:47 ns02 named[2787]: command channel listening on ::1#953
+May 31 20:50:47 ns02 named[2787]: managed-keys-zone: journal file is out of date: removing journal file
+May 31 20:50:47 ns02 named[2787]: managed-keys-zone: loaded serial 12
+May 31 20:50:47 ns02 named[2787]: zone 0.in-addr.arpa/IN: loaded serial 1
+May 31 20:50:47 ns02 named[2787]: zone 20.10.10.in-addr.arpa/IN: loaded serial 1000000
+May 31 20:50:47 ns02 named[2787]: zone localhost/IN: loaded serial 2
+May 31 20:50:47 ns02 named[2787]: zone 127.in-addr.arpa/IN: loaded serial 1
+May 31 20:50:47 ns02 named[2787]: zone 255.in-addr.arpa/IN: loaded serial 1
+May 31 20:50:47 ns02 named[2787]: zone prj.pt/IN: loaded serial 1000000
+May 31 20:50:47 ns02 named[2787]: all zones loaded
+May 31 20:50:47 ns02 named[2787]: running
+May 31 20:50:47 ns02 named[2787]: zone prj.pt/IN: sending notifies (serial 1000000)
+May 31 20:50:47 ns02 named[2787]: zone 20.10.10.in-addr.arpa/IN: sending notifies (serial 1000000)
+May 31 20:50:47 ns02 named[2787]: managed-keys-zone: Key 20326 for zone . acceptance timer complete: key now trusted
+May 31 20:50:47 ns02 named[2787]: resolver priming query complete
+May 31 20:51:27 ns02 named[2787]: client @0x7fa7080c71e0 10.10.20.10#50941: received notify for zone 'prj.pt'
+May 31 20:51:27 ns02 named[2787]: zone prj.pt/IN: notify from 10.10.20.10#50941: serial 1000001
+May 31 20:51:27 ns02 named[2787]: zone prj.pt/IN: Transfer started.
+May 31 20:51:27 ns02 named[2787]: transfer of 'prj.pt/IN' from 10.10.20.10#53: connected using 10.10.20.60#45047
+May 31 20:51:27 ns02 named[2787]: zone prj.pt/IN: transferred serial 1000001
+May 31 20:51:27 ns02 named[2787]: transfer of 'prj.pt/IN' from 10.10.20.10#53: Transfer status: success
+May 31 20:51:27 ns02 named[2787]: transfer of 'prj.pt/IN' from 10.10.20.10#53: Transfer completed: 1 messages, 12 records, 295 bytes, 0.006 secs (49166 bytes/sec)
+May 31 20:51:27 ns02 named[2787]: zone prj.pt/IN: sending notifies (serial 1000001)
+May 31 20:51:27 ns02 named[2787]: client @0x7fa7080c71e0 10.10.20.10#33664: received notify for zone '20.10.10.in-addr.arpa'
+May 31 20:51:27 ns02 named[2787]: zone 20.10.10.in-addr.arpa/IN: notify from 10.10.20.10#33664: serial 1000002
+May 31 20:51:27 ns02 named[2787]: zone 20.10.10.in-addr.arpa/IN: Transfer started.
+May 31 20:51:27 ns02 named[2787]: transfer of '20.10.10.in-addr.arpa/IN' from 10.10.20.10#53: connected using 10.10.20.60#41947
+May 31 20:51:27 ns02 named[2787]: zone 20.10.10.in-addr.arpa/IN: transferred serial 1000002
+May 31 20:51:27 ns02 named[2787]: transfer of '20.10.10.in-addr.arpa/IN' from 10.10.20.10#53: Transfer status: success
+May 31 20:51:27 ns02 named[2787]: transfer of '20.10.10.in-addr.arpa/IN' from 10.10.20.10#53: Transfer completed: 1 messages, 9 records, 265 bytes, 0.003 secs (88333 bytes/sec)
+May 31 20:51:27 ns02 named[2787]: zone 20.10.10.in-addr.arpa/IN: sending notifies (serial 1000002)
+May 31 20:51:42 ns02 named[2787]: resolver priming query complete
+May 31 20:51:43 ns02 named[2787]: resolver priming query complete
+May 31 20:52:40 ns02 systemd[1]: Stopping Availability of block devices...
+May 31 20:52:40 ns02 systemd[1]: Stopped target Cloud-init target.
+May 31 20:52:40 ns02 systemd[1]: Stopping Session 1 of user ubuntu.
+May 31 20:52:40 ns02 systemd[1]: Stopped target Host and Network Name Lookups.
+May 31 20:52:40 ns02 systemd[1]: Closed Load/Save RF Kill Switch Status /dev/rfkill Watch.
+May 31 20:52:40 ns02 systemd[1]: Stopped target Timers.
+May 31 20:52:40 ns02 systemd[1]: Stopped Message of the Day.
+May 31 20:52:40 ns02 systemd[1]: Stopped Discard unused blocks once a week.
+Jun  4 15:01:37 ns02 systemd[1]: Started Daily apt upgrade and clean activities.
+Jun  4 15:01:37 ns02 systemd[1]: Startup finished in 7.832s (kernel) + 2min 25.779s (userspace) = 2min 33.612s.
+Jun  4 15:01:37 ns02 systemd[1]: Reloading.
+Jun  4 15:01:39 ns02 snapd[1892]: storehelpers.go:438: cannot refresh snap "core": snap has no updates available
+Jun  4 15:02:54 ns02 systemd[1]: Created slice User Slice of ubuntu.
+Jun  4 15:02:54 ns02 systemd[1]: Starting User Manager for UID 1000...
+Jun  4 15:02:54 ns02 systemd[1]: Started Session 2 of user ubuntu.
+Jun  4 15:02:55 ns02 systemd[2215]: Listening on GnuPG network certificate management daemon.
+Jun  4 15:02:55 ns02 systemd[2215]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Jun  4 15:02:55 ns02 systemd[2215]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Jun  4 15:02:55 ns02 systemd[2215]: Listening on REST API socket for snapd user session agent.
+Jun  4 15:02:55 ns02 systemd[2215]: Listening on GnuPG cryptographic agent and passphrase cache.
+Jun  4 15:02:55 ns02 systemd[2215]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Jun  4 15:02:55 ns02 systemd[2215]: Reached target Paths.
+Jun  4 15:02:55 ns02 systemd[2215]: Reached target Timers.
+Jun  4 15:02:55 ns02 systemd[2215]: Reached target Sockets.
+Jun  4 15:02:55 ns02 systemd[2215]: Reached target Basic System.
+Jun  4 15:02:55 ns02 systemd[1]: Started User Manager for UID 1000.
+Jun  4 15:02:55 ns02 systemd[2215]: Reached target Default.
+Jun  4 15:02:55 ns02 systemd[2215]: Startup finished in 827ms.
+Jun  4 15:04:31 ns02 systemd-timesyncd[690]: Network configuration changed, trying to establish connection.
+Jun  4 15:04:32 ns02 systemd-networkd[786]: enp0s3: Configured
+Jun  4 15:04:32 ns02 systemd-timesyncd[690]: Synchronized to time server 91.189.89.199:123 (ntp.ubuntu.com).
+Jun  5 10:59:01 ns02 systemd[1]: Starting Cleanup of Temporary Directories...
+Jun  5 10:59:01 ns02 CRON[5041]: (root) CMD (rsync -zarvh /etc/bind/named.conf.local /Backups)
+Jun  5 10:59:01 ns02 CRON[5042]: (root) CMD (rsync -zarvh /etc/bind/named.conf.options /Backups)
+Jun  5 10:59:01 ns02 CRON[5043]: (root) CMD (rsync -zarvh /etc/ssh/sshd_config /Backups)
+Jun  5 10:59:01 ns02 CRON[5044]: (root) CMD (rsync -zarvh /etc/bind/named.conf /Backups)
+Jun  5 10:59:01 ns02 CRON[5045]: (root) CMD (rsync -zarvh /etc/ssh/banner /Backups)
+Jun  5 10:59:01 ns02 CRON[5052]: (root) CMD (rsync -zarvh /etc/rsyslog.d/50-default.conf /Backups)
+Jun  5 10:59:01 ns02 CRON[5019]: (CRON) info (No MTA installed, discarding output)
+Jun  5 10:59:01 ns02 CRON[5020]: (CRON) info (No MTA installed, discarding output)
+Jun  5 10:59:01 ns02 CRON[5024]: (CRON) info (No MTA installed, discarding output)
+Jun  5 10:59:01 ns02 CRON[5022]: (CRON) info (No MTA installed, discarding output)
+Jun  5 10:59:01 ns02 CRON[5021]: (CRON) info (No MTA installed, discarding output)
+Jun  5 10:59:01 ns02 CRON[5023]: (CRON) info (No MTA installed, discarding output)
+Jun  5 10:59:01 ns02 systemd[1]: Started Cleanup of Temporary Directories.
+Jun  5 10:59:35 ns02 systemd-networkd[867]: enp0s3: Configured
+Jun  5 10:59:35 ns02 systemd-timesyncd[744]: Network configuration changed, trying to establish connection.
+Jun  5 10:59:35 ns02 systemd-timesyncd[744]: Synchronized to time server 91.189.94.4:123 (ntp.ubuntu.com).
+Jun  5 11:00:01 ns02 CRON[5079]: (ubuntu) CMD (/home/ubuntu/backup.sh)
+Jun  5 11:00:01 ns02 Backup[5088]: Inicio do Backup!
+Jun  5 11:02:12 ns02 Backup[5093]: Backup executado com sucesso!
+Jun  5 11:02:12 ns02 CRON[5078]: (CRON) info (No MTA installed, discarding output)

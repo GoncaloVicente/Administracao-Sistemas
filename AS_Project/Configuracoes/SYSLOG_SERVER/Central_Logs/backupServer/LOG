@@ -1,0 +1,37 @@
+Apr 20 15:10:22 backupServer systemd[1]: Stopping System Logging Service...
+Apr 20 15:10:22 backupServer rsyslogd:  [origin software="rsyslogd" swVersion="8.32.0" x-pid="1014" x-info="http://www.rsyslog.com"] exiting on signal 15.
+Apr 20 15:10:22 backupServer systemd[1]: Stopped System Logging Service.
+Apr 20 15:10:22 backupServer systemd[1]: Starting System Logging Service...
+Apr 20 15:10:22 backupServer systemd[1]: Started System Logging Service.
+Apr 20 15:10:22 backupServer rsyslogd: imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' (fd 3) from systemd.  [v8.32.0]
+Apr 20 15:10:22 backupServer rsyslogd: rsyslogd's groupid changed to 106
+Apr 20 15:10:22 backupServer rsyslogd: rsyslogd's userid changed to 102
+Apr 20 15:10:22 backupServer rsyslogd:  [origin software="rsyslogd" swVersion="8.32.0" x-pid="3530" x-info="http://www.rsyslog.com"] start
+Apr 20 15:12:23 backupServer systemd-timesyncd[762]: Network configuration changed, trying to establish connection.
+Apr 20 15:12:23 backupServer systemd-networkd[842]: enp0s3: Configured
+Apr 20 15:12:23 backupServer systemd-timesyncd[762]: Synchronized to time server 91.189.89.199:123 (ntp.ubuntu.com).
+Apr 20 15:17:01 backupServer CRON[3571]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr 20 15:17:23 backupServer systemd-timesyncd[762]: Network configuration changed, trying to establish connection.
+Apr 20 15:17:23 backupServer systemd-networkd[842]: enp0s3: Configured
+Apr 20 15:17:23 backupServer systemd-timesyncd[762]: Synchronized to time server 91.189.89.199:123 (ntp.ubuntu.com).
+Apr 20 15:21:45 backupServer systemd[1]: Stopped target Timers.
+Apr 20 15:21:45 backupServer systemd[1]: Stopping Session 1 of user ubuntu.
+Apr 20 15:21:45 backupServer systemd[1]: Stopped target Sound Card.
+Apr 20 15:21:45 backupServer systemd[1]: Stopped Daily apt upgrade and clean activities.
+Apr 20 15:21:45 backupServer systemd[1]: Stopped Daily apt download activities.
+Apr 20 15:21:45 backupServer systemd[1]: Stopped target Cloud-init target.
+Apr 20 15:21:45 backupServer systemd[1]: Stopped target Graphical Interface.
+Apr 20 15:21:45 backupServer systemd[1]: Stopping Availability of block devices...
+Apr 20 15:21:45 backupServer systemd[1]: Stopped Execute cloud user/final scripts.
+Apr 20 15:21:45 backupServer systemd[1]: Stopped target Multi-User System.
+Apr 20 15:21:45 backupServer systemd[1]: Stopping FUSE filesystem for LXC...
+Apr 20 15:21:45 backupServer systemd[1]: Stopping LSB: automatic crash report generation...
+Apr 20 15:21:45 backupServer systemd[1]: Stopping D-Bus System Message Bus...
+Jun  4 16:04:36 backupServer systemd[1]: Starting Cleanup of Temporary Directories...
+Jun  4 16:04:36 backupServer rsyslogd: cannot connect to 10.10.10.20:514: Connection timed out [v8.32.0 try http://www.rsyslog.com/e/2027 ]
+Jun  4 16:04:36 backupServer rsyslogd: action 'action 4' resumed (module 'builtin:omfwd') [v8.32.0 try http://www.rsyslog.com/e/2359 ]
+Jun  4 16:04:37 backupServer systemd[1]: Started Cleanup of Temporary Directories.
+Jun  4 16:04:51 backupServer systemd-timesyncd[749]: Network configuration changed, trying to establish connection.
+Jun  4 16:04:51 backupServer systemd-networkd[808]: enp0s3: Configured
+Jun  4 16:04:51 backupServer systemd-timesyncd[749]: Synchronized to time server 91.189.89.199:123 (ntp.ubuntu.com).
+Jun  4 16:05:48 backupServer systemd[1]: Started Session 8 of user ubuntu.
